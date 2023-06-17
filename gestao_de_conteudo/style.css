@@ -133,3 +133,17 @@ aside{
     bottom: 10px;
 }
 
+.titulo_conteudo{
+    font-family: var(--font-2 bold);
+    font-size: 60px;
+    color: #A6A6A6;
+}
+
+.checkbox_conteudos{
+    font-family: var(--font-2);
+    font-size: 40px;
+    color: black; 
+    
+}
+
+
