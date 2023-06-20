@@ -39,6 +39,9 @@ aside{
     height: 100vh;
     width: 20vw;
     background-color: var(--principal-cor-2);
+    left: 0px;
+    position: relative;
+    transition: all 0.5s ease;
     
 }
 
@@ -54,8 +57,12 @@ aside{
     width: 100px;
 }
 
+.menu_barras{
+       display: none; 
+}
+
 .imagemfoto{
-    width: 100px;
+    width: 100%;
 }
 
 .config{
@@ -86,7 +93,22 @@ aside{
     color: white;
     font-family: var(--font-2);
     font-size: 16px;
+    cursor: pointer;
 }
+
+.menu_conteudo li :hover{
+    color: #090C40;
+    transition: 0.6s;
+    transform: scale(1.1);
+
+}
+.icon:hover{
+    fill: #090C40;
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+
+
 
 .menu_conteudo div{
   display: flex;
@@ -120,6 +142,7 @@ aside{
     flex-direction: column;
     justify-content: flex-start;
     margin-bottom: 60px;
+    align-items: center;
     gap: 10px;
 }
 
@@ -127,9 +150,120 @@ aside{
     position: relative;
 }
 
-.config{
+.moldura_config a{
     position: absolute;
     right: -10px;
-    bottom: 10px;
+    bottom: 0;
+}
+
+@media screen and (max-width:768px) {
+    .imagem_volks img{
+        width: 70px;
+    }
+
+    .posicionamento_elementos2{
+        margin-bottom: 100px;
+       
+    }
+
+   
+    .moldura_config{
+        width: 70px;
+       
+        
+    }
+
+    .config{
+        width: 20px;
+    }
+
+
+    .menu_conteudo img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .menu_conteudo span{
+        font-size: 13px;
+
+    }
+
+    .menu_barras{
+        display: flex;
+        background-color:  var(--principal-cor-2);
+        padding: 7px;
+        border-radius: 0 15px 15px 0 ;
+        position: absolute;
+        top: 20px;
+        right: -40px;
+
+    }
+
+    .menu_barras img{
+        width: 30px;
+        height: 30px;
+    }
+
+    aside{
+        position: relative;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .imagem_volks img{
+        width: 50px;
+    }
+
+    .posicionamento_elementos2{
+        margin-bottom: 150px;
+       
+    }
+
+   
+    .moldura_config{
+        width: 45px;
+       
+        
+    }
+
+    .config{
+        width: 13px;
+    }
+
+
+    .menu_conteudo img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .menu_conteudo span{
+        font-size: 10px;
+
+    }
+
+    .menu_conteudo a {
+        gap: 3px;
+
+
+    }
+
+    .div_logofirst img{
+        width: 80px;
+    }
+
+    .div_logofirst a .saida{
+        width: 20px;
+    }
+
+
+
+
+   
+        
+    
+
+
+    
 }
 
