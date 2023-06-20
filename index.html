@@ -7,16 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <main>
-        <aside>
-            <div class="posicionamento_elementos">
+        <aside id="aside">
+            <div class="posicionamento_elementos" id="posicao">
 
                 <div class="imagem_volks">
                     <img src="./assets/icons/logo_vw_aside.svg" alt="logo da volks">
                 </div>
+                <a class="menu_barras" id="menu" href="#" onclick="mostrarMenu()"><img src="assets/icons/icons8-cardápio.svg" alt="menu"></a>
                 <div class="posicionamento_elementos2">
                     <div class="moldura_config">
                         <img class="imagemfoto" src="./assets/icons/fotopadrao_user_aside.svg" alt="foto Perfil">
@@ -28,7 +30,7 @@
                             <li>
                                 <a href="">
                                     <div>
-                                        <img src="./assets/icons/Icone_Caminhão_home.svg" alt="icone avatar">
+                                        <img class="icon" src="./assets/icons/Icone_Caminhão_home.svg" alt="icone avatar">
                                     </div>
                                     <span>
                                         Avatar
@@ -38,7 +40,7 @@
                             <li class="listameio">
                                 <a href="">
                                     <div>
-                                        <img src="./assets/icons/trilha_home.svg" alt="icone trilha">
+                                        <img  class="icon" src="./assets/icons/trilha_home.svg" alt="icone trilha">
                                     </div>
                                     <span>
                                         Trilha
@@ -49,7 +51,7 @@
                             <li>
                                 <a href="">
                                     <div>
-                                        <img src="./assets/icons/calendario_home.svg" alt="icone agenda">
+                                        <img  class="icon" src="./assets/icons/calendario_home.svg" alt="icone agenda">
                                     </div>
                                     <span>
                                         Agenda
@@ -74,30 +76,6 @@
 
 
         </aside>
-
-            <div class="titulo_conteudo">
-                <h1 class="">
-                Conteúdos
-                </h1>
-                    
-            </div>
-            <div class="checkbox_conteudos">
-
-                <input type="checkbox">
-                <label for="">Manual de boas vindas</label>
-
-                <input type="checkbox">
-                <label for="">Configurar o banco de dados</label>
-
-                <input type="checkbox">
-                <label for="">Baixar o VSCode</label>
-
-                <input type="checkbox">
-                <label for="">Configurar o Docker</label>
-
-                <input type="checkbox">
-                <label for="">Conhecer as APIs</label>
-            </div>
 
 
 
