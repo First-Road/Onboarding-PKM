@@ -157,8 +157,11 @@ aside{
 }
 .imagem_botoes{
     background-image: url(../img/painel_volks.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     display: block;
+    
 }
 
 .posicao_icone{
@@ -216,6 +219,11 @@ aside{
     
     
     
+}
+
+.icone_trilha{
+    display: flex;
+    width: 100px;
 }
 
 
