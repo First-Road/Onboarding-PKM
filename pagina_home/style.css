@@ -155,6 +155,69 @@ aside{
     right: -10px;
     bottom: 0;
 }
+.imagem_botoes{
+    background-image: url(../img/painel_volks.png);
+    width: 80%;
+    display: block;
+}
+
+.posicao_icone{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 5%;
+    
+    
+    
+    
+    
+   
+}
+
+.posicao_icone ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+    
+    
+    
+    
+}
+
+.posicao_icone a {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #048ABF;
+    gap: 15px;
+    text-decoration: none;
+    border-radius: 15px;
+    
+}
+.posicao_icone a:hover{
+    background-color: #5ABF4B;
+    transition: 0.8s;
+    transform: scale(1.3);
+    
+}
+
+
+.posicao_icone a span{
+    color: #ffffff;
+    font-family: var(--font-2);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
 
 @media screen and (max-width:768px) {
     .imagem_volks img{
@@ -207,6 +270,9 @@ aside{
     aside{
         position: relative;
     }
+
+
+    
     
 }
 
