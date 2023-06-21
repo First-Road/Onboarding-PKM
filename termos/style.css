@@ -38,9 +38,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./assets/img/camron\ gelisia\ \ fashion\ brand\ art\ design\ logo\ 1.png);
-    background-repeat: no-repeat;
-    background-size: 60%;
 
 }
 
@@ -52,6 +49,9 @@ main {
     align-items: center;
     flex-direction: column;
     padding: 20px;
+    background-image: url(./assets/img/camron\ gelisia\ \ fashion\ brand\ art\ design\ logo\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .termos_termos h1 {
@@ -79,12 +79,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1px ;
-   
+
 }
 
 .termos_comandos {
-    height: 600px;
+    height: 80%;
     max-width: 520px;
     width: 90%;
     background-color: var(--grayscale-cor-3);
@@ -94,11 +93,10 @@ main {
     align-items: center;
     border: 3px solid var(--principal-cor-3);
     text-align: justify;
-    padding-top: 30px;
-    padding-bottom: 40px;
+
 }
 
-.termos_comandos h2 {
+.termos_comandos div h2 {
     font-family: var(--font-2);
     font-size: 21px;
     color: #000000;
@@ -107,17 +105,18 @@ main {
 
 .termos_h2 {
     font-family: var(--font-2);
-    height: 60px;
     max-width: 510px;
-    width: 90%;
-    padding: 0 25px;
+    margin-top: 20px;
 
 }
 
 .termos_span {
-    height: 300px;
+
     width: 370px;
     max-width: 90%;
+    display: flex;
+    flex-direction: column;
+
 
 }
 
@@ -132,9 +131,15 @@ main {
 
 .termos_span p {
     font-family: var(--font-2);
-    font-size: 12px;
+    font-size: 16px;
     color: #000000;
     margin-top: 15px;
+}
+
+.termos_checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .termos_checkbox input {
@@ -163,58 +168,142 @@ main {
     font-size: 16px;
     text-transform: uppercase;
     background-color: var(--principal-cor-3);
+    margin-bottom: 30px;
 
 }
 
 @media screen and (max-width: 1200px) {
 
-    .termos_termos h1{
+    .termos_termos {
+        height: 100%;
+        width: 60%;
+    }
+
+    .termos_termos h1 {
         font-size: 50px;
 
     }
-    .termos_tree{
+
+    .termos_tree {
         font-size: 22px;
     }
+
+    .termos_comandos {
+        max-width: 350px;
+        width: 100%;
+    }
+
+    /* .termos_h2{
+        max-width: 300px;
+        width: 100%;
+    } */
+
+    .termos_comandos div h2 {
+        font-size: 15px;
+    }
+
+    .termos_span span {
+        font-size: 14px;
+    }
+
+    .termos_span p {
+        font-size: 12px;
+    }
+
+    .termos_checkbox label {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .termos_comandos button {
+        height: 25px;
+        width: 180px;
+        color: var(--grayscale-cor-4);
+        border-radius: 25px;
+        border: none;
+        font-family: var(--font-2);
+        font-size: 14px;
+        text-transform: uppercase;
+        background-color: var(--principal-cor-3);
+        margin-bottom: 30px;
+    }
+
 }
 
 @media screen and (max-width: 900px) {
-    .termos_comandos{
-        height: 600px;
-        max-width: 520px;
-        width: 100%;
+    .termos_termos {
+        height: 100%;
+        width: 55%;
     }
-    .termos_comandos h2{
-        font-size: 19px;
+
+    .termos_direcional {
+        width: 45%;
     }
-    .termos_termos h1{
-        font-size: 40px;
+
+
+    .termos_termos h1 {
+        font-size: 45px;
+
     }
-   
-    .termos_span{
-        height: 280%;
-        
-    }
-    .termos_tree{
+
+    .termos_tree {
         font-size: 17px;
     }
+
+    .termos_comandos {
+        max-width: 360px;
+        width: 100%
+    }
+
+    .termos_comandos div h2 {
+        font-size: 16px;
+    }
+
+    .termos_span {
+        width: 290px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .termos_span span {
+        font-size: 12px;
+    }
+
+    .termos_span p {
+        font-size: 10px;
+    }
+
+    .termos_span label {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+
 }
 
 @media screen and (max-width: 768px) {
     main {
         width: 100%;
         background-size: cover;
+        background-image: url(./assets/img/camron\ gelisia\ \ fashion\ brand\ art\ design\ logo\ 1.png);
+        background-repeat: no-repeat;
 
     }
 
     .termos_termos {
-        padding: 2px;
-        width: 50%;
+        /* width: 50%; */
+        /* display: none; */
+        /* padding: 2px; */
         background-image: none;
+
     }
 
     .termos_direcional {
-        width: 50%;
-        background-color: #f3f3f321;
+        width: 45%;
+        background-color: #f3f3f349;
+        backdrop-filter: blur(1px);
 
 
     }
@@ -223,20 +312,22 @@ main {
         height: 500px;
         max-width: 360px;
         width: 100%;
-        padding:20px;
+        padding: 20px;
 
     }
-    .termos_comandos h2{
+
+    .termos_comandos div h2 {
         width: 320px;
         font-size: 14px;
     }
-    .termos_h2{
+
+    .termos_h2 {
         font-family: var(--font-2);
-        height: 60px;
+        height: 30px;
         max-width: 340px;
         width: 100%;
         padding: 0 5px;
-    
+
     }
 
     .termos_one {
@@ -244,7 +335,7 @@ main {
 
     }
 
-    .termos_one{
+    .termos_one {
         justify-content: center;
         display: flex;
         align-items: center;
@@ -252,38 +343,64 @@ main {
     }
 
     img {
-        height: 150px;
+        height: 110px;
+        ;
         width: 150px;
 
     }
-    .termos_termos h1{
+
+    .termos_termos h1 {
         font-size: 35px;
     }
 
-    .termos_tree span {
-        font-size: 13px;
+    .termos_tree{
+        width: 100%;
     }
-    termos_span{
+
+    .termos_tree span {
+        font-size: 12px;
+    }
+
+    .termos_span {
         height: 80%;
         width: 280px;
         max-width: 100%
     }
 
-    .termos_span span{
+    .termos_span span {
         font-size: 14px;
     }
-    .termos_span p{
+
+    .termos_span p {
         font-size: 10px;
     }
 
-    .termos_checkbox label{
-        font-size: 14px;
+    .termos_checkbox label {
+        font-size: 13px;
+        font-weight: 500;
     }
 
-    .termos_checkbox input{
+    .termos_checkbox input {
         height: 15px;
         width: 15px;
     }
+
+    .termos_comandos button {
+        height: 25px;
+        width: 180px;
+        border-radius: 25px;
+        border: none;
+        font-family: var(--font-2);
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
 }
 
+@media screen and (max-width: 767px) {
+    main{
+        flex-direction: column;
+    }
+}
 @media screen and (max-width: 400px) {}
