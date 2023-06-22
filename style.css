@@ -175,10 +175,32 @@ aside{
     margin-top: 60px;
     
 }
+.lista_itens .checkbox{
 
-#check{
+    display: flex;
+    align-items: center;
+    margin-bottom: 38px;
+    gap: 30px;
+}
+
+.lista_itens input[type="checkbox"]{
     width: 52px;
     height: 48px;
+
+    border: 4px solid black;
+    border-radius: 8px;
+    appearance: none;
+
+
+    
+}
+
+.lista_itens input[type="checkbox"]:checked {
+
+    cursor: pointer;
+
+    background: #048ABF;
+    /* appearance: auto; */
 
 }
 
