@@ -41,8 +41,8 @@ main{
 
 .login_login{
     height: 100%;
-    width: 65vw;
-    background-image: url(./img/camron\ gelisia\ \ fashion\ brand\ art\ design\ logo\ 1.png);
+    width: 60%;
+    background-image: url(./assets/img/camron\ gelisia\ \ fashion\ brand\ art\ design\ logo\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -61,7 +61,7 @@ main{
 }
 
 .login_tree{
-    font-size: 27px;
+    font-size: 25px;
     font-family: var(--font-2);
     color: var(--principal-cor-1);
     display: flex;
@@ -72,7 +72,7 @@ main{
 .login_direcional{
     background-color:  var(--grayscale-cor-3);
     height: 100%;
-    width: 35%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +80,8 @@ main{
 
 .login_comandos{
     height: 500px;
-    width: 400px;
+    max-width: 400px;
+    width: 100;
     background-color: var(--grayscale-cor-3);
     display: flex;
     justify-content: space-around;
@@ -105,7 +106,7 @@ main{
 
 .login_comandos input{
     height: 40px;
-    width: 350px;
+    width: 385px;
     border: 3px solid var(--principal-cor-3);
     border-radius: 10px;
     margin-top: 5px;
@@ -119,9 +120,6 @@ main{
     margin: 5px;
 }
 
-.login_ancora{
-    
-}
 
 .login_comandos button{
     height: 40px;
@@ -135,3 +133,246 @@ main{
     background-color: var(--principal-cor-3);
 
 }
+
+@media screen and (max-width: 1200px){
+    .login_login {
+        height: 100%;
+        width: 60%;
+    }
+
+    .login_login h1 {
+        font-size: 50px;
+
+    }
+
+    .login_tree {
+        font-size: 22px;
+    }
+
+    .login_comandos{
+        max-width: 380px;
+        width: 100%;
+    }
+
+    .login_comandos h2{
+        font-size: 36px;
+    }
+
+    .login_comandos label{
+        font-size: 18px;
+    }
+
+    .login_comandos input{
+        height: 40px;
+        width: 370px;
+    }
+
+    .login_comandos a {
+        font-size: 18px;
+    }
+    
+    .login_comandos button{
+        height: 35px;
+        width: 240px;
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 1067px){
+    .login_login {
+        height: 100%;
+        /* width: 60%; */
+    }
+
+    .login_login h1 {
+        font-size: 46px;
+
+    }
+
+    .login_tree {
+        font-size: 18px;
+    }
+
+    .login_comandos{
+        max-width: 340px;
+        width: 100%;
+    }
+
+    .login_comandos h2{
+        font-size: 32px;
+    }
+
+    .login_comandos label{
+        font-size: 16px;
+    }
+
+    .login_comandos input{
+        height: 35px;
+        width: 330px;
+    }
+
+    .login_comandos a {
+        font-size: 16px;
+    }
+    
+    .login_comandos button{
+        height: 35px;
+        width: 220px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 970px){
+   
+    .login_tree {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 900px){
+   
+    .login_login h1 {
+        font-size: 45px;
+
+    }
+
+    .login_tree {
+        font-size: 16px;
+    }
+
+    .login_comandos{
+        max-width: 350px;
+        width: 100%;
+    }
+
+    .login_comandos h2{
+        font-size: 28px;
+    }
+
+    .login_comandos label{
+        font-size: 14px;
+    }
+
+    .login_comandos input{
+        height: 35px;
+        width: 290px;
+    }
+
+    .login_comandos a {
+        font-size: 14px;
+    }
+    
+    .login_comandos input {
+        height: 35px;
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 899px){
+    .login_login h1 {
+        font-size: 40px;
+
+    }
+    .login_tree {
+        font-size: 15px;
+    }
+    .login_comandos{
+        max-width: 340px;
+        width: 100%
+    }
+   
+    .login_comandos input {
+        height: 35px;
+        width: 100%;
+        min-width: 220px;
+        font-size: 12px;
+    }
+    .login_comandos button{
+        height: 30px;
+        width: 200px;
+        font-size: 16px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        width: 100%;
+        background-size: cover;
+        background-image: url(./assets/img/camron\ gelisia\ \ fashion\ brand\ art\ design\ logo\ 1.png);
+        background-repeat: no-repeat;
+
+    }
+
+    .login_login{
+        background-image: none;
+    }
+
+    .login_direcional{
+        width: 40%;
+        background-color: #f3f3f300;
+        backdrop-filter: blur(1px);
+
+    }
+
+    .login_comandos{
+        height: 500px;
+        max-width: 360px;
+        min-width: 300px;
+        width: 100%;
+        margin-right: 30px;
+        border-radius: 5px;
+    }
+
+    .login_comandos div h2{
+        width: 302px;
+        font-size: 14px;
+        text-align: none;
+    }
+    .login_comandos{
+
+    }
+    img {
+        height: 110px;
+        width: 150px;
+
+    }
+
+    .login_login h1{
+        font-size: 35px;
+    }
+
+
+
+}
+@media screen and (max-width: 767px){
+    main {
+        flex-direction: column;
+    }
+
+    .login_login{
+        height: 300px;
+        min-width: 300px;
+        max-width: 320px;
+    }
+
+    .login_tree{
+        display: none;
+    }
+    .login_comandos{
+        height: 420px;
+        max-width: 320px;
+        min-width: 300px;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+
+
+
+}
+
+
+
