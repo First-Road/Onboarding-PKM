@@ -156,6 +156,65 @@ aside{
     bottom: 0;
 }
 
+.secao_perfil{
+    background-color: var(--grayscale-cor-2);
+    padding: 40px 20px;
+    width: calc(100vw - 20vw);
+}
+
+
+.elementos_texto_imagem{
+    display: flex;
+    gap: 30px;
+
+}
+
+.texto_perfil{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+}
+
+.primeira_linha{
+    display: flex;
+    gap: 10px;
+}
+
+.centralizar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+     
+ 
+    
+}
+
+.posicao_linha{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.segunda_linha{
+    display: flex;
+    gap: 10px;
+
+}
+
+.terceira_linha{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.quarta_linha{
+    display: flex;
+    gap: 10px;
+}
+
 @media screen and (max-width:768px) {
     .imagem_volks img{
         width: 70px;
