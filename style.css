@@ -171,6 +171,7 @@ header{
     align-items: center;
     padding: 20px 60px;
     gap: 100px;
+    border-radius: 15px;
     
 }
 
@@ -190,7 +191,7 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    
 
     
 }
@@ -201,14 +202,14 @@ h2{
     text-align: center;
     text-align: center;
     color: var(--grayscale-cor-3);
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 p {  
     
     font-size: 20px;
     font-family: var(--font-2);
-    padding: 30px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -218,7 +219,7 @@ p {
     display: flex;
     width: 900px;
     justify-content: space-evenly;
-    
+    margin-bottom: 30px;
 }
 
 .icones_modulo a{
@@ -226,7 +227,7 @@ p {
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    gap: 20px;
+    gap: 10px;
 
 }
 
@@ -234,20 +235,25 @@ p {
     font-family: var(--font-2);
     color: var(--principal-cor-2);
     font-size: 20px;
+    
 
 
 }
 
-.icone{
-    height: 122px;
-    width: 160px;
+.iconeChamado img{
+    height: 80px;
+    width: 15px;
+    gap: 10px;
 
 }
 
+.iconeChamado a{
+    gap:10px;
+}
 
 
 .icones_modulo img{
-    width: 150px;
+    width: 100px;
 }
 
 .instruções{
@@ -255,7 +261,7 @@ p {
     flex-direction: column;
     background-color: var(--principal-cor-2);
     width: 900px;
-    height: 200px;
+    height: 185px;
     border-radius: 15px;
     
 }
