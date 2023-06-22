@@ -156,6 +156,140 @@ aside{
     bottom: 0;
 }
 
+.grid {
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+header{
+    background-color: var(--principal-cor-5);
+    display: flex;
+    width: calc(100vw - 20vw);
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+
+h1{
+   font-family: var(--font-2);
+   font-size: 50px;
+   color: var(--grayscale-cor-4);
+}
+
+
+
+
+.conteudos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+
+    
+}
+
+h2{
+    font-size: 20px;
+    font-family: var(--font-2);
+    text-align: center;
+    text-align: center;
+    color: var(--grayscale-cor-3);
+    padding-top: 10px;
+}
+
+p {  
+    
+    font-size: 20px;
+    font-family: var(--font-2);
+    padding: 30px;
+    text-align: center;
+}
+
+.icones_modulo{
+    display: flex;
+    gap:150px;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 30px;
+    
+    
+    
+    
+}
+
+.icones_modulo img{
+   
+    width: 90px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    
+    
+}
+
+
+.icones_modulo a{
+    display: flex;
+    width: 50px;
+    align-items: center;
+    
+    
+}
+
+.instruções{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--principal-cor-2);
+    width: 900px;
+    height: 200px;
+    border-radius: 15px;
+    
+}
+
+.instruções p {  
+    color: var(--grayscale-cor-3);
+    font-size: 20px;
+    font-family: var(--font-2);
+    padding: 30px;
+    text-align: center;
+    
+}
+
+.botao{
+    display: flex;
+    padding-right: 100px;
+    justify-content: right;
+    
+
+}
+
+
+
+.botao_acessar{
+    display: flex;
+    background-color: var(--principal-cor-3);
+    font-size: 20px;
+    justify-content: center;
+    padding: 10px 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 13px;
+    text-decoration: none;
+    color: var(--grayscale-cor-4);
+    
+    
+
+}
+
+
+
+
+
 @media screen and (max-width:768px) {
     .imagem_volks img{
         width: 70px;
