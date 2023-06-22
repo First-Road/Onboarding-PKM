@@ -404,8 +404,9 @@ main {
     }
 
     .termos_comandos div h2 {
-        width: 320px;
+        width: 302px;
         font-size: 14px;
+        text-align: none;
     }
 
     .termos_h2 {
