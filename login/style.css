@@ -39,7 +39,7 @@ main {
 
 }
 
-.reseta_all {
+.login_login {
     height: 100%;
     width: 60%;
     background-image: url(./assets/img/camron\ gelisia\ \ fashion\ brand\ art\ design\ logo\ 1.png);
@@ -51,7 +51,7 @@ main {
     flex-direction: column;
 }
 
-.reseta_all h1 {
+.login_login h1 {
     font-family: var(--font-1);
     font-size: 60px;
     color: var(--principal-cor-1);
@@ -60,7 +60,7 @@ main {
 
 }
 
-.reseta_tree {
+.login_tree {
     font-size: 25px;
     font-family: var(--font-2);
     color: var(--principal-cor-1);
@@ -69,7 +69,7 @@ main {
     flex-direction: column;
 }
 
-.reseta_direcional {
+.login_direcional {
     background-color: var(--grayscale-cor-3);
     height: 100%;
     width: 40%;
@@ -78,7 +78,7 @@ main {
     align-items: center;
 }
 
-.reseta_comandos {
+.login_comandos {
     height: 500px;
     max-width: 400px;
     width: 100%;
@@ -90,14 +90,14 @@ main {
     border: 3px solid var(--principal-cor-3);
 }
 
-.reseta_comandos h2 {
+.login_comandos h2 {
     font-family: var(--font-2);
     font-size: 40px;
     color: var(--principal-cor-3);
 
 }
 
-.reseta_comandos label {
+.login_comandos label {
     font-family: var(--font-2);
     font-size: 20px;
     color: var(--principal-cor-3);
@@ -105,7 +105,7 @@ main {
 
 }
 
-.reseta_comandos input {
+.login_comandos input {
     height: 40px;
     width: 100%;
     min-width: 245px;
@@ -115,7 +115,7 @@ main {
 
 }
 
-.reseta_comandos a {
+.login_comandos a {
     font-family: var(--font-2);
     font-size: 20px;
     color: var(--principal-cor-3);
@@ -124,7 +124,7 @@ main {
 }
 
 
-.reseta_comandos button {
+.login_comandos button {
     height: 40px;
     width: 250px;
     color: var(--grayscale-cor-4);
@@ -134,167 +134,170 @@ main {
     font-size: 20px;
     text-transform: uppercase;
     background-color: var(--principal-cor-3);
-    margin-bottom: 30px;
-}
-
-@media screen and (max-width: 1220px) {
-    .reseta_tree {
-        font-size: 22px;
-
-    }
-
 
 }
 
 @media screen and (max-width: 1200px) {
-    .reseta_all {
+    .login_login {
         height: 100%;
         width: 60%;
     }
 
-    .reseta_all h1 {
+    .login_login h1 {
         font-size: 50px;
+
     }
 
-    .reseta_tree {
+    .login_tree {
         font-size: 22px;
     }
 
-    .reseta_comandos {
+    .login_comandos {
         max-width: 380px;
         width: 100%;
     }
 
-    .reseta_comandos h2 {
+    .login_comandos h2 {
         font-size: 36px;
     }
 
-    .reseta_comandos label {
+    .login_comandos label {
         font-size: 18px;
-
     }
 
-    .reseta_comandos input {
+    .login_comandos input {
         height: 40px;
         width: 100%;
         min-width: 240px;
-
     }
 
-    .reseta_comandos a {
+    .login_comandos a {
         font-size: 18px;
     }
 
-    .reseta_comandos button{
+    .login_comandos button {
         height: 35px;
         width: 240px;
         font-size: 18px;
     }
 
-
-
 }
-@media screen and (max-width: 1067px){
-    .reseta_all{
+
+@media screen and (max-width: 1067px) {
+    .login_login {
         height: 100%;
+        /* width: 60%; */
     }
-    .reseta_all h1{
+
+    .login_login h1 {
         font-size: 46px;
+
     }
-    .reseta_tree{
+
+    .login_tree {
         font-size: 18px;
     }
-    .reseta_comandos{
+
+    .login_comandos {
         max-width: 340px;
         width: 100%;
     }
-    .reseta_comandos h2{
+
+    .login_comandos h2 {
         font-size: 32px;
     }
-    .reseta_comandos label{
+
+    .login_comandos label {
         font-size: 16px;
     }
-    .reseta_comandos input{
+
+    .login_comandos input {
         height: 35px;
         width: 100%;
         min-width: 235px;
     }
-    .reseta_comandos a{
+
+    .login_comandos a {
         font-size: 16px;
     }
-    .reseta_comandos button {
+
+    .login_comandos button {
         height: 35px;
         width: 220px;
         font-size: 18px;
     }
-
 }
+
 @media screen and (max-width: 970px) {
 
-    .reseta_tree {
+    .login_tree {
         font-size: 17px;
     }
 }
+
 @media screen and (max-width: 900px) {
 
-    .reseta_all h1 {
+    .login_login h1 {
         font-size: 45px;
 
     }
 
-    .reseta_tree {
+    .login_tree {
         font-size: 16px;
     }
 
-    .reseta_comandos {
+    .login_comandos {
         max-width: 350px;
         width: 100%;
     }
 
-    .reseta_comandos h2 {
+    .login_comandos h2 {
         font-size: 28px;
     }
-   
-    .reseta_comandos label {
+
+    .login_comandos label {
         font-size: 14px;
     }
 
-    .reseta_comandos input {
+    .login_comandos input {
         height: 35px;
         width: 100%;
         min-width: 230px;
     }
 
-    .reseta_comandos a {
+    .login_comandos a {
         font-size: 14px;
     }
 
-   
+    .login_comandos input {
+        height: 35px;
+        width: 270px;
+    }
 }
 
 @media screen and (max-width: 899px) {
-    .reseta_all h1 {
+    .login_login h1 {
         font-size: 40px;
 
     }
 
-    .reseta_tree {
+    .login_tree {
         font-size: 15px;
     }
 
-    .reseta_comandos {
-        max-width: 290px;
+    .login_comandos {
+        max-width: 340px;
         width: 100%
     }
 
-    .reseta_comandos input {
+    .login_comandos input {
         height: 35px;
         width: 100%;
         min-width: 220px;
         font-size: 12px;
     }
 
-    .reseta_comandos button {
+    .login_comandos button {
         height: 30px;
         width: 200px;
         font-size: 16px;
@@ -312,18 +315,18 @@ main {
 
     }
 
-    .reseta_all {
+    .login_login {
         background-image: none;
     }
 
-    .reseta_direcional {
+    .login_direcional {
         width: 40%;
         background-color: #f3f3f300;
         backdrop-filter: blur(1px);
 
     }
 
-    .reseta_comandos {
+    .login_comandos {
         height: 500px;
         max-width: 360px;
         min-width: 300px;
@@ -332,7 +335,7 @@ main {
         border-radius: 5px;
     }
 
-    .reseta_comandos div h2 {
+    .login_comandos div h2 {
         width: 302px;
         font-size: 14px;
         text-align: none;
@@ -345,7 +348,7 @@ main {
 
     }
 
-    .reseta_all h1 {
+    .login_login h1 {
         font-size: 35px;
     }
 
@@ -358,17 +361,17 @@ main {
         flex-direction: column;
     }
 
-    .reseta_all {
+    .login_login {
         height: 300px;
         min-width: 300px;
         max-width: 320px;
     }
 
-    .reseta_tree {
+    .login_tree {
         display: none;
     }
 
-    .reseta_comandos {
+    .login_comandos {
         height: 420px;
         max-width: 320px;
         min-width: 300px;
@@ -380,5 +383,3 @@ main {
 
 
 }
-
-
