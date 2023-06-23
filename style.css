@@ -81,20 +81,20 @@ aside{
 .menu_conteudo{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    /* gap: 50px; */
 }
 
 
 .menu_conteudo a{
     display: flex;
-    gap: 5px;
+   /*  gap: 5px; */
     align-items: center;
     text-decoration: none;
     color: white;
     font-family: var(--font-2);
-    font-size: 11px;
+    font-size: 12px;
     cursor: pointer;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 .menu_conteudo li :hover{
@@ -118,10 +118,7 @@ aside{
   align-items: center;
 }
 
-.listameio{
-   margin-top: 5px;
-   margin-bottom: 5px;
-}
+
 
 .listameio .icon1{
     font-size: 10px;
@@ -146,7 +143,6 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-bottom: 60px;
     align-items: center;
     gap: 10px;
 }
@@ -198,10 +194,8 @@ aside{
 .lista_itens input[type="checkbox"]:checked {
 
     cursor: pointer;
-
-    background: #048ABF;
-    /* appearance: auto; */
-
+    background-image: url("./assets/images/check_FILL0_wght700_GRAD0_opsz40.png");
+   
 }
 
 
