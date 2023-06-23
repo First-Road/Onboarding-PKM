@@ -70,7 +70,7 @@ aside{
 }
 
 .menu_conteudo img{
-    height: 35px;
+    height: 20px;
 }
 
 .menu_conteudo li{
@@ -87,12 +87,12 @@ aside{
 
 .menu_conteudo a{
     display: flex;
-    gap: 5px
+   /*  gap: 5px; */
     align-items: center;
     text-decoration: none;
     color: white;
     font-family: var(--font-2);
-    font-size: 12px;
+    font-size: 13px;
     cursor: pointer;
     margin-bottom: 25px;
 }
