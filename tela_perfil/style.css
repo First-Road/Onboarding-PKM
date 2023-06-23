@@ -404,14 +404,17 @@ h2{
     flex-direction: column;
     margin-top: 30px;
     gap: 20px;
-    margin-left: 60px;
-    
+    width: 970px;
+   
     align-items: center;
+    
+    
 }
 
 .carrousel_certificado{
     display: flex;
     gap: 15px;
+    justify-content: flex-start;
    
   
 }
@@ -423,10 +426,10 @@ h2{
 .carrousel_texto{
     display: flex;
     flex-direction: column;
-    justify-content: start;
     width: 625px;
-    align-items: start;
     gap: 5px;
+    
+  
    
 }
 
