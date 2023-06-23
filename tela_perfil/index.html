@@ -85,8 +85,8 @@
 
             <div class="elementos_texto_imagem">
                 <div class="user_config">
-                    <img src="../assets/icons/fotopadrao_user_aside.svg" alt="">
-                    <img src="../assets/icons/engrenagem_aside.svg" alt="">
+                    <img class="foto_padrao" src="../assets/icons/fotopadrao_user_aside.svg" alt="">
+                    <img class="config config1" src="../assets/icons/engrenagem_aside.svg" alt="">
                 </div>
 
 
@@ -102,53 +102,53 @@
 
                     <div class="posicao_linha">
                         <div class="primeira_linha">
-                            <div>
+                            <div class="input input1">
                                 <label for="Nome completo">Nome Completo</label>
-                                <input type="text">
+                                <input class="input_caixa" type="text">
                             </div>
 
-                            <div>
+                            <div class="input input2">
                                 <label for="Cpf">Cpf</label>
-                                <input type="number">
+                                <input class="input_caixa" type="number">
                             </div>
                         </div>
 
                         <div class="segunda_linha">
-                            <div>
+                            <div class="input input3">
                                 <label for="NIF">NIF</label>
-                                <input type="number">
+                                <input class="input_caixa" type="number">
                             </div>
 
-                            <div>
+                            <div class="input input4">
                                 <label for="Data de Nascimento">Data de Nascimento</label>
-                                <input type="date">
+                                <input class="input_caixa" type="date">
                             </div>
 
-                            <div>
+                            <div class="input input5">
                                 <label for="Unidade">Unidade</label>
-                                <select name="selecionar" id="">selecionar</select>
+                                <select class="input_caixa" name="selecionar" id="">selecionar</select>
                             </div>
                         </div>
 
                         <div class="terceira_linha">
-                            <div>
+                            <div class="input input6">
                                 <label for="Perfil">Perfil</label>
-                                <input type="text">
+                                <input class="input_caixa" type="text">
                             </div>
 
-                            <div>
+                            <div class="input input7">
                                 <label for="Cargo">Cargo</label>
-                                <input type="text">
+                                <input class="input_caixa" type="text">
                             </div>
                         </div>
 
                         <div class="quarta_linha">
-                            <div>
+                            <div class="input input8">
                                 <label for="email">E-mail</label>
-                                <input type="email">
+                                <input class="input_caixa" type="email">
                             </div>
 
-                            <div>
+                            <div class="button_salvar">
                                 <button>
                                     Salvar
                                 </button>
@@ -156,6 +156,33 @@
                         </div>
                     </div>
 
+                </div>
+
+                <hr>
+
+                <div class="posicionamento_alterar">
+                    <h2>Alterar senha</h2>
+
+                    <div class="senha">
+                        <div class="senha_antiga">
+                            <label for="">Senha antiga</label>
+                            <input class="input_senha" type="password" name="senha antiga" id="">
+                        </div>
+
+                        <div class="senha_nova">
+                            <label for="">Senha nova</label>
+                            <input class="input_senha2" type="password" name="senha nova" id="">
+
+                            <div class="texto_senha">
+                                <p>Mínimo de 8 carácteres com letras minúsculas, maiúsculas, números e símbolos</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="button_alterar">
+                        <button>Alterar</button>
+                    </div>
                 </div>
 
 

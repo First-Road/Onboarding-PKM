@@ -157,34 +157,71 @@ aside{
 }
 
 .secao_perfil{
-    background-color: var(--grayscale-cor-2);
-    padding: 40px 20px;
+    background-color: var(--grayscale-cor-3);
+    padding: 60px 30px;
     width: calc(100vw - 20vw);
 }
 
 
 .elementos_texto_imagem{
     display: flex;
-    gap: 30px;
+    gap: 50px;
 
+}
+
+.user_config{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.foto_padrao{
+    width: 120px;
+    height: 120px;
+}
+
+.config1{
+    position: absolute;
+    right: -8px;
+    bottom: 70px;
 }
 
 .texto_perfil{
     display: flex;
     flex-direction: column;
-    width: 400px;
-    gap: 10px;
+    width: 100%;
+    gap: 20px;
+    
+}
+
+.texto_perfil h1{
+    font-size: 35px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+}
+
+.texto_perfil p{
+    font-size: 18px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+
+
 }
 
 .primeira_linha{
     display: flex;
     gap: 10px;
+    
 }
 
 .centralizar{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
+    width: 580px;
+
     
     
      
@@ -196,6 +233,7 @@ aside{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 100%;
 }
 
 .segunda_linha{
@@ -212,8 +250,160 @@ aside{
 
 .quarta_linha{
     display: flex;
-    gap: 10px;
+    gap: 60px;
+    align-items: center;
 }
+
+.input{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    
+    
+}
+
+.input1{
+    flex: 2;
+    
+}
+
+.input2{
+    flex: 1;
+}
+
+.input3, .input4, .input5{
+    flex: 1;
+}
+
+.input6, .input7{
+    flex: 1;
+}
+
+.input8{
+    width: 70%;
+}
+
+.input_caixa{
+    border-radius: 10px;
+    height: 30px;
+    border: 2px solid var(--principal-cor-3) ;
+    background-color: var(--grayscale-cor-3);
+}
+
+.input label{
+    text-transform: uppercase ;
+    color: var(--principal-cor-3);
+    font-size: 12px;
+}
+
+.button_salvar {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    
+    
+}
+
+.button_salvar button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 29px;
+    border-radius: 20px;
+    background-color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 18px;
+    color: var(--grayscale-cor-3);
+    border: none;
+    box-shadow: 2px 3px 5px #888888;
+    
+}
+
+.posicionamento_alterar{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 30px;
+    align-items: center;
+}
+
+.senha{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.senha_antiga{
+    display: flex;
+    flex-direction: column;
+}
+
+.senha_nova{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.texto_senha{
+    width: 180px;
+    font-family: var(--font-2);
+    font-size: 10px;
+    color: #EE2333;
+}
+
+.input_senha, .input_senha2{
+    width: 180px;
+    border-radius: 10px;
+    height: 30px;
+    border: 2px solid var(--principal-cor-3) ;
+    background-color: var(--grayscale-cor-3);
+}
+
+.senha label{
+    text-transform: uppercase ;
+    color: var(--principal-cor-3);
+    font-size: 12px;
+}
+
+.button_alterar button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 29px;
+    border-radius: 20px;
+    background-color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 18px;
+    color: var(--grayscale-cor-3);
+    border: none;
+    box-shadow: 2px 3px 5px #888888;
+   
+
+}
+
+.button_alterar{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+
+}
+
+h2{
+    font-size: 20px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+}
+
+
+
+
+
+ 
 
 @media screen and (max-width:768px) {
     .imagem_volks img{
