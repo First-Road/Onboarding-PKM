@@ -352,8 +352,8 @@ h2 {
     font-family: var(--font-2);
     font-size: 20px;
     /* width: 500px;*/
-    height: 39px;
-    padding: 198px;
+    height: 19px;
+    padding: 244px;
 
 }
 
@@ -362,7 +362,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     /* width:1350px; */
-    height: 200px;
+    height:255px;
     background-color: #FEBE15;
     border-top: var(--principal-cor-1) solid;
 }
@@ -395,7 +395,7 @@ h2 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), linear-gradient(92.23deg, #6139ff -25.96%, #17BBFF 126.83%);
     box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(25px);
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 51px 30px;
     border-radius: 30%;
     flex-direction: column;
@@ -403,7 +403,7 @@ h2 {
     align-items: center;
     gap: 10px;
     text-transform: uppercase;
-    height: 50px;
+    height: 0px;
     text-decoration: none;
     color: #ffffff;
 
