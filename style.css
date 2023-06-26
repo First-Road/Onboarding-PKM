@@ -92,20 +92,20 @@ aside{
     gap: 10px;
     align-items: center;
     text-decoration: none;
-    color: white;
+    color: var(--grayscale-cor-4);
     font-family: var(--font-2);
     font-size: 16px;
     cursor: pointer;
 }
 
 .menu_conteudo li :hover{
-    color: #090C40;
+    color: var(--principal-cor-1);
     transition: 0.6s;
     transform: scale(1.1);
 
 }
 .icon:hover{
-    fill: #090C40;
+    fill: var(--principal-cor-1);
     transition: 0.6s;
     transform: scale(1.1);
 }
@@ -159,9 +159,22 @@ aside{
 }
 
 .adminPerfil{
-    background-color: var(--grayscale-cor-3);
+    background-image:
+    linear-gradient(#171717cf, #8482828e),
+     url(./assets/images/polyPoly_vw.jpg) ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     width: calc(80vw);
-    padding: 200px 30px;
+    padding: 200px 50px;
+}
+.adminPerfil_secao{
+    background-color:#f3f3f388;
+    width: 100%;
+    height: 110%;
+    border-radius: 25px;
+
 }
 .adminPerfil_texto_imagem{
     display: flex;
@@ -182,17 +195,18 @@ aside{
 .admin_fotopadrao{
     width: 120px;
     height: 120px;
-    border: 3px solid var(--principal-cor-3);
-    border-radius: 99px;
+    /* border: 3px solid var(--principal-cor-3);
+    border-radius: 99px; */
 }
 
 .admin_engrenagem{
     position: absolute;
-    right: 996px;
-    bottom: 664px;
+    right: 0px;
+    bottom: 0px;
     width: 25px;
-    background-color: var(--auxiliar-cor-2);
-    color: var(--auxiliar-cor-3);
+    /* fill: #025E73; */
+    /* background-color: var(--auxiliar-cor-2);
+    color: var(--auxiliar-cor-3); */
 }
 
 .texto_perfil{
@@ -358,7 +372,7 @@ aside{
     width: 180px;
     font-family: var(--font-2);
     font-size: 10px;
-    color: #EE2333;
+    color: var(--auxiliar-cor-6);
 }
 
 .input_senha, .input_senha2{
@@ -400,10 +414,14 @@ aside{
 
 }
 
-h2{
+h2 {
     font-size: 20px;
     font-family: var(--font-2);
     color: var(--principal-cor-3);
+}
+::placeholder , .input_caixa {
+    padding: 0 15px;
+}
 
 @media screen and (max-width:768px) {
     .imagem_volks img{
@@ -515,4 +533,3 @@ h2{
 
     
 }
-
