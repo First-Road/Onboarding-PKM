@@ -191,13 +191,15 @@ aside{
 
   .section{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
   .swiper {
-    width: 300px;
-    height: 400px;
+    width: 500px;
+    height: 600px;
+    
   }
 
   .swiper-slide {
@@ -212,7 +214,7 @@ aside{
 
 
   .swiper-slide:nth-child(1n) {
-    background-color: rgb(206, 17, 17);
+    background-color: #85D770;
   }
 
   .swiper-slide:nth-child(2n) {
@@ -250,6 +252,90 @@ aside{
   .swiper-slide:nth-child(10n) {
     background-color: rgb(54, 94, 77);
   }
+
+  .imagem_gol img{
+    width: 500px;
+    
+    
+}
+
+.card_fusca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    height: 600px;
+}
+
+.texto_card{
+    font-family: var(--font-2);
+    font-size: 25px;
+    
+    
+}
+.texto_gol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 450px;
+    padding-bottom: 50px;
+}
+
+.texto_gol span{
+    font-family: var(--font-2);
+    font-size: 15px;
+}
+
+
+.texto_gol p{
+    font-family: var(--font-2);
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.botao_selecionar button{
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+    border: 0 solid;
+    background-color: #025E73;
+    color: #FFFFFF;
+    font-family: var(--font-2);
+    font-size: 15px;
+}
+
+.botao_selecionar{
+    margin-bottom: 20px;
+}
+
+.swiper-wrapper{
+    margin-top: 20px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.titulo h2{
+    font-size: 35px;
+    font-family: var(--font-2);
+    color: #048ABF;
+
+}
+
+.titulo p{
+    font-size: 15px;
+    font-family: var(--font-2);
+    width: 550px;
+    text-align: center;
+    line-height: 20px;
+
+}
+
 
 
 @media screen and (max-width:768px) {
@@ -303,6 +389,8 @@ aside{
     aside{
         position: relative;
     }
+
+   
     
 }
 
