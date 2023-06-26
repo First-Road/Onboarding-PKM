@@ -184,7 +184,7 @@ aside{
   }
 
   .section{
-    position: relative;
+    /* position: relative; */
     height: 100%;
     width: calc(100vw - 20vw);
   }
@@ -196,8 +196,8 @@ aside{
     align-items: center;
   }
 
-  .swiper {
-    width: 500px;
+  .alinhamento_swiper {
+    width: 450px;
     height: 600px;
     
   }
@@ -211,6 +211,8 @@ aside{
     font-weight: bold;
     color: #fff;
   }
+
+  
 
 
   .swiper-slide:nth-child(1n) {
@@ -254,7 +256,7 @@ aside{
   }
 
   .imagem_gol img{
-    width: 500px;
+    width: 450px;
     
     
 }
@@ -264,7 +266,7 @@ aside{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 500px;
+    width: 450px;
     height: 600px;
 }
 
@@ -278,8 +280,8 @@ aside{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 450px;
-    padding-bottom: 50px;
+    width: 400px;
+    
 }
 
 .texto_gol span{
