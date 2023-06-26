@@ -174,14 +174,14 @@ aside{
 }
 
 .titulo_pagina{
-    background-color: #46D3F3;
+    /* background-color: #46D3F3; */
    
     
 }
 
 .cadastro_editar_conteudo .elementos_cadastro{
    
-    background-color: #5ABF4B;
+    /* background-color: #5ABF4B; */
     display: flex;
     font-family: var(--font-2);
     font-size: 40px;
@@ -212,6 +212,8 @@ aside{
     justify-content: flex-start;
     align-items: center;
 }
+
+
 
 
 /********MEDIAS*********/
