@@ -26,7 +26,7 @@
     --font-1: 'Sigmar', cursive;
     --font-2: Verdana, sans-serif;
     --space-icon-aside: 12px;
-    --title-h1-margin-page: 60px 0;
+    --title-h1-margin-page: 80px 0;
 
 }
 
@@ -110,8 +110,6 @@ aside{
     transform: scale(1.1);
 }
 
-
-
 .menu_conteudo div{
   display: flex;
   width: 35px;
@@ -160,7 +158,6 @@ aside{
 .cadastro_editar_conteudo{
     margin-left: 60px;
 }
-
 
 .cadastro_editar_conteudo .titulo_pagina{
     
@@ -211,6 +208,37 @@ aside{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.cadastro_editar_conteudo .elementos_cadastro .botoes{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.cadastro_editar_conteudo .elementos_cadastro .editar{
+    border: none;
+    border-radius: 40px;
+    background: #025E73;
+    font-family: var(--font-2);
+    color: #F2F2F2;
+    height: 43px;
+    text-align: center;
+    width: 250px;
+    
+}
+
+.cadastro_editar_conteudo .elementos_cadastro .cadastrar{
+    border: none;
+    border-radius: 40px;
+    background: #025E73;
+    font-family: var(--font-2);
+    color: #F2F2F2;
+    height: 43px;
+    margin-left: -30px;
+    text-align: center;
+    width: 250px;
+    
 }
 
 
