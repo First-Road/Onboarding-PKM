@@ -39,7 +39,7 @@ aside{
     display: flex;
     height: 100vh;
     width: 20vw;
-    background-color: var(--principal-cor-2);
+    background-color: var(--principal-cor-3);
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
@@ -95,6 +95,7 @@ aside{
     font-family: var(--font-2);
     font-size: 16px;
     cursor: pointer;
+    margin: 10px;
 }
 
 .menu_conteudo li :hover{
@@ -156,6 +157,98 @@ aside{
     right: -10px;
     bottom: 0;
 }
+
+.container_adminDeslogado {
+    height: 100vh;
+    width: calc(100vw - 20vw);
+    ;
+}
+
+.adminDeslogado_one {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+
+}
+
+.persona {
+    height: 185px;
+    width: 177px;
+    border-radius: 95px;
+}
+
+.adminDeslogado_one span {
+    font-family: var(--font-2);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.adminDeslogado_espac {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.adminDeslogado_two {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.adminDeslogado_two h2 {
+    font-family: var(--font-2);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.adminDeslogado_isp label{
+    font-family: var(--font-2);
+    font-size: 40px;
+    font-weight: 700;
+}
+.adminDeslogado_tree {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.adminDeslogado_tree span {
+    font-family: var(--font-2);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.relogio_admin{
+    gap: 30px;
+}
+.adminDeslogado_btn button{
+    height: 43px;
+    width: 200px;
+    display: flex;
+    justify-content: flex;
+    background-color: var(--principal-cor-1);
+    margin-top: 100px;
+    font-size: 20px;
+    color: var(--grayscale-cor-4);
+    border-radius: 25px;
+    border: none;
+    font-family: var(--font-2);
+    text-transform: uppercase;
+    padding: 10px 50px;
+  
+}
+
 
 @media screen and (max-width:768px) {
     .imagem_volks img{
