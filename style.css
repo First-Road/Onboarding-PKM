@@ -157,13 +157,58 @@ aside{
     bottom: 0;
 }
 
-.cadastro_editar_conteudo .titulo_pagina{
+.cadastro_editar_conteudo{
+    margin-left: 60px;
+}
 
+
+.cadastro_editar_conteudo .titulo_pagina{
+    
+    color: #737373;
     font-family: var(--font-2);
     font-size: var(--title-h1-margin-page);
-    color: #737373;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    width: calc(100vw - 20vw);
     
 }
+
+.titulo_pagina{
+    background-color: #46D3F3;
+   
+    
+}
+
+.cadastro_editar_conteudo .elementos_cadastro{
+   
+    background-color: #5ABF4B;
+    display: flex;
+    font-family: var(--font-2);
+    font-size: 40px;
+    color: #000;
+    
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cadastro_editar_conteudo .elementos_cadastro .input{
+    
+    border-radius: 10px;
+    border: 1px solid var(--azul-esmeralda, #025E73);
+    
+    width: 550px;
+    height: 50px;
+    
+    
+}
+.cadastro_editar_conteudo .elementos_cadastro .meio{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/********MEDIAS*********/
 
 @media screen and (max-width:768px) {
     .imagem_volks img{
