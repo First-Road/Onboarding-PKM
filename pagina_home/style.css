@@ -31,6 +31,8 @@
 
 main{
     display: flex;
+    justify-content: flex-end;
+    height: 100%;
 
 }
 
@@ -276,7 +278,11 @@ aside{
     }
 
     aside{
-        position: relative;
+        position: absolute;
+    }
+
+    body{
+        height: 100vh;
     }
 
 
