@@ -191,11 +191,17 @@ aside{
     gap: 30px;
 }
 
+.cadastro_editar_conteudo .elementos_cadastro .caixa{
+    width: 198px;
+    height: 69px;
+    
+}
+
 .cadastro_editar_conteudo .elementos_cadastro .input{
     
     border-radius: 10px;
     border: 1px solid var(--azul-esmeralda, #025E73);
-    
+    margin-left: 50px;
     width: 550px;
     height: 50px;
     
