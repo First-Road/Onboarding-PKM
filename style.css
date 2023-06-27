@@ -201,8 +201,8 @@ aside{
 
 .admin_engrenagem{
     position: absolute;
-    right: 0px;
-    bottom: 0px;
+    right: -6px;
+    bottom: 63px;
     width: 25px;
     /* fill: #025E73; */
     /* background-color: var(--auxiliar-cor-2);
