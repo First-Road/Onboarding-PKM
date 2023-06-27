@@ -38,7 +38,7 @@ aside{
     display: flex;
     height: 100vh;
     width: 20vw;
-    background-color: var(--principal-cor-2);
+    background-color: var(--principal-cor-3);
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
@@ -75,6 +75,7 @@ aside{
 
 .menu_conteudo li{
     list-style: none;
+    margin: 10px;
     
 }
 
@@ -90,7 +91,7 @@ aside{
     gap: 10px;
     align-items: center;
     text-decoration: none;
-    color: white;
+    color: var(--grayscale-cor-4);
     font-family: var(--font-2);
     font-size: 16px;
     cursor: pointer;
@@ -154,6 +155,253 @@ aside{
     position: absolute;
     right: -10px;
     bottom: 0;
+}
+
+
+.adminGestao_Yo {
+    height: calc(100vh - 120px);
+    width: calc(100vw - 20vw);
+    margin: 45px 50px;
+    color: var(--principal-cor-3);
+    background-color: var(--grayscale-cor-2);
+}
+
+.adminGestao_By{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: var(--grayscale-cor-3);
+    padding-right: 10px;
+    font-family: var(--font-2);
+    font-size: 20px;
+
+}
+
+.adminGestao_Ry{
+    height: 80px;
+    width: 100%;
+    max-width: 750px;
+
+}
+
+
+.adminGestao_Ray {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+.adminGestao_Perfil{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 180px;
+    font-family: var(--font2);
+    font-size: 20px;
+    margin-right: 10px;
+     
+}
+.adminGestao_Perfil label{
+    margin-bottom: 3px;
+   
+}
+
+.adminGestao_Perfil select{
+    height: 35px;
+    width: 180px;
+    border-color: var(--principal-cor-3);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    color: var(--principal-cor-3);
+}
+
+
+.adminGestao_Situacao{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    font-family: var(--font2);
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+.adminGestao_Situacao label{
+    margin-bottom: 3px;
+}
+
+.adminGestao_Situacao select{
+    height: 35px;
+    width: 180px;
+    border-color: var(--principal-cor-3);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    color: var(--principal-cor-3);
+}
+
+.adminGestao_Unidade{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    font-family: var(--font2);
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+.adminGestao_Unidade label{
+    margin-bottom: 3px;
+}
+
+.adminGestao_Unidade select{
+    height: 35px;
+    width: 180px;
+    border-color: var(--principal-cor-3);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    color: var(--principal-cor-3);
+}
+
+.delete_table img, .delete_table  {
+    height: 50px;
+    width: 50px;
+    margin-left: -6px;
+
+}
+
+table
+{
+    /* height: 10%; */
+    width: 100%;
+    background-color: var(--grayscale-cor-3);
+    color: var(--principal-cor-3);
+}
+
+
+
+table th 
+{
+    border-bottom: 3px solid red;
+    text-transform: uppercase;
+    font-family: var(--font2);
+    font-size: 16px;
+    font-weight: normal;
+    border-color: var(--grayscale-cor-4);
+    
+}
+table td
+{
+    border: 1px solid var(--grayscale-cor-4);
+    border-collapse: collapse;
+   
+    
+
+}
+
+.btn_cadastrar
+
+{
+    width: 170px;
+    padding: 6px 25px;
+    background-color:var(--principal-cor-3);
+    color: var(--grayscale-cor-4);
+    border: none;
+    font-family: var(--font2);
+    font-size: 18px;
+    font-weight: normal;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 19px;
+
+
+}
+
+.tr_one
+{
+    border-bottom: 1px solid var(--grayscale-cor-2);
+}
+
+
+th
+{
+    text-align: left;
+    padding-right: 10px;
+    height: 40px;
+
+}
+
+
+
+td
+{
+    padding-left: 4px;
+   
+
+
+}
+table tboby tr{
+    height: 45px;
+}
+
+
+.semafaro_td
+{
+    width: 45px;
+}
+
+.semafaro
+{
+    height: 40px;
+    width: 40px;
+}
+.cpf_td{
+       width: 120px;
+
+}
+.nif_td{
+    width: 100px;
+}
+.perfil_td{
+    width: 120px;
+}
+.unidade_td{
+    width: 180px;
+
+}
+.td_tableimg{
+    width: 175px;
+}
+
+.th_table
+{
+    align-items: right;
+
+}
+.delete_table
+{
+    align-items: right;
+
+}
+
+.th_tableimg, .td_tableimg
+{
+    width: 2vw;
+}
+label,select
+{
+    vertical-align: middle;
 }
 
 
