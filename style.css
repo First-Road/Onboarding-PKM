@@ -30,6 +30,7 @@
 
 }
 
+
 main{
     display: flex;
 
@@ -39,7 +40,7 @@ aside{
     display: flex;
     height: 100vh;
     width: 20vw;
-    background-color: var(--principal-cor-2);
+    background-color: var(--auxiliar-cor-7);
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
@@ -110,8 +111,6 @@ aside{
     transform: scale(1.1);
 }
 
-
-
 .menu_conteudo div{
   display: flex;
   width: 35px;
@@ -143,7 +142,6 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-bottom: 60px;
     align-items: center;
     gap: 10px;
 }
@@ -157,6 +155,39 @@ aside{
     right: -10px;
     bottom: 0;
 }
+
+.main .trilha_de_conteudo{
+    display: flex;
+}
+
+.trilha_de_conteudo .titulo{
+    font-family: var(--font-2);
+    font-size:var(--title-h1-margin-page);
+    font-weight: 700;
+    color: #545454;
+    
+
+}
+
+.trilha_de_conteudo .dados_usuario{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.trilha_de_conteudo .dados_usuario .id{
+    width: 89px;
+    height: 28px;
+    text-align: center;
+}
+
+.trilha_de_conteudo .modulo_1 .titulo_2{
+    font-family: var(--font-2);
+    font-size: 27px;
+    color: #000;
+    
+}
+
 
 @media screen and (max-width:768px) {
     .imagem_volks img{
