@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Minha Agenda</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
@@ -18,7 +18,8 @@
                 <div class="imagem_volks">
                     <img src="./assets/icons/logo_vw_aside.svg" alt="logo da volks">
                 </div>
-                <a class="menu_barras" id="menu" href="#" onclick="mostrarMenu()"><img src="assets/icons/icons8-cardápio.svg" alt="menu"></a>
+                <a class="menu_barras" id="menu" href="#" onclick="mostrarMenu()"><img
+                        src="assets/icons/icons8-cardápio.svg" alt="menu"></a>
                 <div class="posicionamento_elementos2">
                     <div class="moldura_config">
                         <img class="imagemfoto" src="./assets/icons/fotopadrao_user_aside.svg" alt="foto Perfil">
@@ -30,7 +31,8 @@
                             <li>
                                 <a href="">
                                     <div>
-                                        <img class="icon" src="./assets/icons/Icone_Caminhão_home.svg" alt="icone avatar">
+                                        <img class="icon" src="./assets/icons/Icone_Caminhão_home.svg"
+                                            alt="icone avatar">
                                     </div>
                                     <span>
                                         Avatar
@@ -40,7 +42,7 @@
                             <li class="listameio">
                                 <a href="">
                                     <div>
-                                        <img  class="icon" src="assets/icons/Vector.svg" alt="icone trilha">
+                                        <img class="icon" src="assets/icons/Vector.svg" alt="icone trilha">
                                     </div>
                                     <span>
                                         Trilha
@@ -51,7 +53,7 @@
                             <li>
                                 <a href="">
                                     <div>
-                                        <img  class="icon" src="./assets/icons/calendario_home.svg" alt="icone agenda">
+                                        <img class="icon" src="./assets/icons/calendario_home.svg" alt="icone agenda">
                                     </div>
                                     <span>
                                         Agenda
@@ -76,11 +78,57 @@
 
 
         </aside>
+        <section class="calendario">
+            <div class="container">
+                <div class="cabecalho">
+                    <div class="titulo">
+                        <h1>Minha Agenda</h1>
+                    </div>
+                    <div id="monthDisplay"></div>
+
+                    <div>
+                        <button id="backButton">Voltar</button>
+                        <button id="nextButton">Próximo</button>
+                    </div>
+
+                </div>
+
+                <div id="weekdays">
+                    <div class="domingo"><span>Domingo</span></div>
+                    <div class="segunda"><span>Segunda-feira</span></div>
+                    <div class="terca"><span>Terça-feira</span> </div>
+                    <div class="quarta"><span>Quarta-feira</span> </div>
+                    <div class="quinta"><span>Quinta-feira</span> </div>
+                    <div class="sexta"><span>Sexta-feira</span></div>
+                    <div class="sabado"> <span>Sábado</span></div>
+                </div>
+
+                <div id="calendar"></div>
+
+
+            </div>
+
+
+            <script src="./scripts/script.js"></script>
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
     </main>
 </body>
 
