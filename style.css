@@ -156,6 +156,9 @@ aside{
     bottom: 0;
 }
 
+
+
+
 @media screen and (max-width:768px) {
     .imagem_volks img{
         width: 70px;
