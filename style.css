@@ -206,20 +206,37 @@ aside{
     height: 95px;  
     margin-right: 11px;
     width: 233px;
+    font-family: var(--font-2);
+    font-size: 16px;
+    font-weight: 400;
 } 
 
 .trilha_de_conteudo .modulo_1 #c1{
     border-left: 19px solid #5ABF4B;
+    align-items: flex-start;
+    justify-content: space-between;   
+    flex-direction: column;
 }
 .trilha_de_conteudo .modulo_1 #c2{
     border-left: 19px solid #025E73;
 }
 .trilha_de_conteudo .modulo_1 #c3{
     border-left: 19px solid #FEBE15;
+    align-items: flex-start;
+    justify-content: space-between;   
+    flex-direction: column;
 }
 .trilha_de_conteudo .modulo_1 #c4{
     border-left: 19px solid #737373;
 }
+
+.trilha_de_conteudo .modulo_1 img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    
+}
+
 
 .trilha_de_conteudo .modulo_2 {
     margin-top: 34px;
@@ -245,12 +262,19 @@ aside{
     height: 95px;  
     margin-right: 11px;
     width: 233px;
+    font-family: var(--font-2);
+    font-size: 16px;
+    font-weight: 400;
+    
 } 
 .trilha_de_conteudo .modulo_2 #c1{
     border-left: 19px solid #BC1C2B;
 }
 .trilha_de_conteudo .modulo_2 #c2{
     border-left: 19px solid #BC1C2B;
+    align-items: flex-start;
+    justify-content: space-between;   
+    flex-direction: column;
 }
 .trilha_de_conteudo .modulo_2 #c3{
     border-left: 19px solid #FEBE15;
@@ -260,9 +284,26 @@ aside{
 }
 
 .trilha_de_conteudo .botoes{
-    
+    display: flex;
+    width: 932px;
+    height: 98px;
+    align-items: end;
+    justify-content: space-between;
 }
 
+.trilha_de_conteudo button{
+    
+    width: 250px;
+    height: 42.857px;
+    border-radius: 40px;
+    background: #A6A6A6;
+    font-family: var(--font-2);
+    font-size: 27px;
+    font-weight: 400;
+    
+    color: #F2F2F2;
+    
+}
 
 
 /* **** MEDEIAS **** */
