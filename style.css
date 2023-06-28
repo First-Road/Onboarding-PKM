@@ -164,19 +164,21 @@ aside{
      url(./assets/images/fabrica_vw_Alemanha.jfif) ;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 80%;
-    padding: 191px 60px;
 }
 .cadastroUnidade_secao{
     background-color:#f3f3f388;
-    width: 100%;
-    height: 110%;
+    padding: 50px;
     border-radius: 25px;
 
 }
 .cadastroUnidade_texto_imagem{
     display: flex;
     gap: 50px;
+    justify-content: center;
 }
 
 
