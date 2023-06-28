@@ -29,9 +29,13 @@
 
 }
 
+body {
+    overflow: hidden;
+}
+
 main {
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     height: 100%;
 
 }
@@ -44,6 +48,7 @@ aside {
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
+    z-index: 1;
 
 }
 
@@ -187,7 +192,7 @@ aside {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    
+
 
 
 
@@ -208,7 +213,7 @@ aside {
 
 }
 
-.posicao_icone img{
+.posicao_icone img {
     width: 55px;
     margin-top: 20px;
 }
@@ -226,7 +231,7 @@ aside {
     font-family: var(--font-2);
     font-size: 20px;
     display: flex;
-     
+
 
 
 
@@ -290,33 +295,34 @@ aside {
         height: 100vh;
     }
 
-    .posicao_icone li {
-        width: 50px;
-        height: 50px;
-    }
-
-  
-    .posicao_icone a span {
-        font-size: 15px;
-    }
 
 
 
 
 
-}
 
-@media screen and (max-width: 540px) {
     .posicao_icone a {
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
+        gap: 5px;
     }
 
-    .posicao_icone img{
+    .posicao_icone img {
         width: 30px;
     }
 
+    .posicao_icone span {
+        font-size: 8px;
+    }
+
+
+
+
+
+
 }
+
+
 
 @media screen and (max-width: 500px) {
     .imagem_volks img {
@@ -364,13 +370,21 @@ aside {
         width: 20px;
     }
 
+    
+    .posicao_icone a {
+        width: 75px;
+        height: 75px;
 
+    }
 
+    .posicao_icone img {
+        width: 28px;
+    }
 
-
-
-
-
+    .posicao_icone a span {
+        font-size: 12px;
+    }
 
 
 }
+
