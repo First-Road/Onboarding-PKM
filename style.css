@@ -29,6 +29,9 @@
     --title-h1-margin-page: 50px 0;
 
 }
+body{
+    overflow: hidden;
+}
 
 main{
     display: flex;
@@ -271,6 +274,56 @@ aside{
         
     
 
+
+    
+}
+
+@media screen and (max-width: 400px) {
+
+    .imagem_volks img{
+        width: 40px;
+    }
+
+    .posicionamento_elementos2{
+        margin-bottom: 150px;
+       
+    }
+
+   
+    .moldura_config{
+        width: 35px;
+       
+        
+    }
+
+    .config{
+        width: 10px;
+    }
+
+
+    .menu_conteudo img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .menu_conteudo span{
+        font-size: 6px;
+
+    }
+
+    .menu_conteudo a {
+        gap: 0;
+
+
+    }
+
+    .div_logofirst img{
+        width: 60px;
+    }
+
+    .div_logofirst a .saida{
+        width: 20px;
+    }
 
     
 }
