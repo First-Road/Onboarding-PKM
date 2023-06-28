@@ -158,30 +158,26 @@ aside{
     bottom: 0;
 }
 
-.adminadminCadastroGestor{
+.adminCadastroGestor{
     background-image:
     linear-gradient(#171717cf, #8482828e),
-     url(./assets/images/polyPoly_vw.jpg) ;
-    
+     url(./assets/images/func_vw_gestor.jfif) ;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    width: calc(80vw);
-    padding: 200px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
 }
-.adminadminCadastroGestor_secao{
+.adminCadastroGestor_secao{
     background-color:#f3f3f388;
-    width: 100%;
-    height: 110%;
     border-radius: 25px;
+    padding: 50px 10px;
 
 }
-.adminadminCadastroGestor_texto_imagem{
+.adminCadastroGestor_texto_imagem{
     display: flex;
     gap: 50px;
-}
-.AdminPerfil_user_config{
-
 }
 
 .user_config{
@@ -195,8 +191,7 @@ aside{
 .admin_fotopadrao{
     width: 120px;
     height: 120px;
-    /* border: 3px solid var(--principal-cor-3);
-    border-radius: 99px; */
+   
 }
 
 .admin_engrenagem{
@@ -204,9 +199,8 @@ aside{
     right: -6px;
     bottom: 63px;
     width: 25px;
-    /* fill: #025E73; */
-    /* background-color: var(--auxiliar-cor-2);
-    color: var(--auxiliar-cor-3); */
+    fill: var(--principal-cor-3);
+  
 }
 
 .texto_perfil{
@@ -309,6 +303,7 @@ aside{
     height: 30px;
     border: 2px solid var(--principal-cor-3) ;
     background-color: var(--grayscale-cor-3);
+    color: gray;
 }
 
 .input label{
@@ -348,6 +343,15 @@ aside{
     justify-content: end;
     gap: 30px;
     align-items: center;
+    max-width: 220px;
+}
+
+.adminCadastroGestorPosicionamento_Agendar p{
+    font-family: var(--font-2);
+    font-size: 12px;
+    color: var(--principal-cor-3);
+    text-align: justify;
+
 }
 
 .agendar{
@@ -381,6 +385,8 @@ aside{
     height: 30px;
     border: 2px solid var(--principal-cor-3) ;
     background-color: var(--grayscale-cor-3);
+    color: gray;
+     padding: 0 15px;
 }
 
 .agendar label{
@@ -389,8 +395,8 @@ aside{
     font-size: 12px;
 }
 
-.button_aagendar button{
-    width: 100%;
+.button_agendar button{
+    width: 93%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -421,6 +427,14 @@ h2 {
 }
 ::placeholder , .input_caixa {
     padding: 0 15px;
+}
+hr{
+    border-color: var(--principal-cor-3);
+}
+
+@media screen and (max-width:1200px){
+
+
 }
 
 @media screen and (max-width:768px) {
