@@ -1,27 +1,27 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-:root{
-    --principal-cor-1:#090C40;
-    --principal-cor-2:#048ABF;
-    --principal-cor-3:#025E73;
-    --principal-cor-4:#5ABF4B;
-    --principal-cor-5:#F2B705;
-    --principal-cor-6:#F5A26B;
-    --auxiliar-cor-1:#474966;
+:root {
+    --principal-cor-1: #090C40;
+    --principal-cor-2: #048ABF;
+    --principal-cor-3: #025E73;
+    --principal-cor-4: #5ABF4B;
+    --principal-cor-5: #F2B705;
+    --principal-cor-6: #F5A26B;
+    --auxiliar-cor-1: #474966;
     --auxiliar-cor-2: #46D3F3;
     --auxiliar-cor-3: #426B7F;
-    --auxiliar-cor-4:#72A091;
-    --auxiliar-cor-5:#E75A55;
-    --auxiliar-cor-6:#F54B5D;
+    --auxiliar-cor-4: #72A091;
+    --auxiliar-cor-5: #E75A55;
+    --auxiliar-cor-6: #F54B5D;
     --auxiliar-cor-7: #42816C;
     --grayscale-cor-1: #47485E;
-    --grayscale-cor-2:#C5C7D0;
-    --grayscale-cor-3:#F3F3F3;
-    --grayscale-cor-4:#FCFCFC;
+    --grayscale-cor-2: #C5C7D0;
+    --grayscale-cor-3: #F3F3F3;
+    --grayscale-cor-4: #FCFCFC;
 
     --font-1: 'Sigmar', cursive;
     --font-2: Verdana, sans-serif;
@@ -30,26 +30,30 @@
 
 }
 
-.main{
+.main {
     display: flex;
     width: 100vw;
     height: 100vh;
+    background: #F3F3F3;
 
 }
 
-aside{
+aside {
     display: flex;
     height: 100vh;
     width: 20vw;
+    min-width: 130px;
     background-color: var(--principal-cor-2);
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
-    
+    z-index: 2;
+
 }
 
-.posicionamento_elementos{
+.posicionamento_elementos {
     width: 20vw;
+    min-width: 130px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -57,39 +61,39 @@ aside{
     height: 100%;
 }
 
-.imagem_volks img{
+.imagem_volks img {
     width: 100px;
 }
 
-.menu_barras{
-       display: none; 
+.menu_barras {
+    display: none;
 }
 
-.imagemfoto{
+.imagemfoto {
     width: 100%;
 }
 
-.config{
+.config {
     width: 25px;
 }
 
-.menu_conteudo img{
+.menu_conteudo img {
     height: 35px;
 }
 
-.menu_conteudo li{
+.menu_conteudo li {
     list-style: none;
-    
+
 }
 
-.menu_conteudo{
+.menu_conteudo {
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
 
 
-.menu_conteudo a{
+.menu_conteudo a {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -100,13 +104,14 @@ aside{
     cursor: pointer;
 }
 
-.menu_conteudo li :hover{
+.menu_conteudo li :hover {
     color: #090C40;
     transition: 0.6s;
     transform: scale(1.1);
 
 }
-.icon:hover{
+
+.icon:hover {
     fill: #090C40;
     transition: 0.6s;
     transform: scale(1.1);
@@ -114,34 +119,34 @@ aside{
 
 
 
-.menu_conteudo div{
-  display: flex;
-  width: 35px;
-  justify-content: center;
-  align-items: center;
+.menu_conteudo div {
+    display: flex;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
 }
 
-.listameio{
-   margin-top: 5px;
-   margin-bottom: 5px;
+.listameio {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.div_logofirst{
+.div_logofirst {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
 
-.saida{
+.saida {
     width: 35px;
 }
 
-.logo_first img{
+.logo_first img {
     width: 125px;
 }
 
-.posicionamento_elementos2{
+.posicionamento_elementos2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -150,59 +155,42 @@ aside{
     gap: 10px;
 }
 
-.moldura_config{
+.moldura_config {
     position: relative;
 }
 
-.moldura_config a{
+.moldura_config a {
     position: absolute;
     right: -10px;
     bottom: 0;
 }
 
-.section{
+
+.section {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
     position: relative;
-    height: 100%;
-  }
-
-  .section{
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
-
-  .section{
-    background: #fff;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
-
-  .section{
-    /* position: relative; */
-    height: 100%;
-    width: calc(100vw - 20vw);
-  }
-
-  .section{
-    display: flex;
+    width: 100%;
+    height: 100vh;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-  }
+    display: flex;
+}
 
-  .alinhamento_swiper {
+
+
+
+
+.alinhamento_swiper {
     width: 450px;
-    height: 600px;
-    
-  }
+    height: 500px;
 
-  .swiper-slide {
+}
+
+.swiper-slide {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -210,93 +198,94 @@ aside{
     font-size: 22px;
     font-weight: bold;
     color: #fff;
-  }
-
-  
-
-
-  .swiper-slide:nth-child(1n) {
-    background-color: #85D770;
-  }
-
-  .swiper-slide:nth-child(2n) {
-    background-color: rgb(0, 140, 255);
-  }
-
-  .swiper-slide:nth-child(3n) {
-    background-color: rgb(10, 184, 111);
-  }
-
-  .swiper-slide:nth-child(4n) {
-    background-color: rgb(211, 122, 7);
-  }
-
-  .swiper-slide:nth-child(5n) {
-    background-color: rgb(118, 163, 12);
-  }
-
-  .swiper-slide:nth-child(6n) {
-    background-color: rgb(180, 10, 47);
-  }
-
-  .swiper-slide:nth-child(7n) {
-    background-color: rgb(35, 99, 19);
-  }
-
-  .swiper-slide:nth-child(8n) {
-    background-color: rgb(0, 68, 255);
-  }
-
-  .swiper-slide:nth-child(9n) {
-    background-color: rgb(218, 12, 218);
-  }
-
-  .swiper-slide:nth-child(10n) {
-    background-color: rgb(54, 94, 77);
-  }
-
-  .imagem_gol img{
-    width: 450px;
-    
-    
 }
 
-.card_fusca{
+
+
+
+.swiper-slide:nth-child(1n) {
+    background-color: #85D770;
+}
+
+.swiper-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+}
+
+.swiper-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+}
+
+.swiper-slide:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+}
+
+.swiper-slide:nth-child(5n) {
+    background-color: rgb(118, 163, 12);
+}
+
+.swiper-slide:nth-child(6n) {
+    background-color: rgb(180, 10, 47);
+}
+
+.swiper-slide:nth-child(7n) {
+    background-color: rgb(35, 99, 19);
+}
+
+.swiper-slide:nth-child(8n) {
+    background-color: rgb(0, 68, 255);
+}
+
+.swiper-slide:nth-child(9n) {
+    background-color: rgb(218, 12, 218);
+}
+
+.swiper-slide:nth-child(10n) {
+    background-color: rgb(54, 94, 77);
+}
+
+.imagem_gol img {
+    width: 450px;
+
+
+}
+
+.card_fusca {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     width: 450px;
-    height: 600px;
+    height: 500px;
 }
 
-.texto_card{
+.texto_card {
     font-family: var(--font-2);
     font-size: 25px;
-    
-    
+
+
 }
-.texto_gol{
+
+.texto_gol {
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 400px;
-    
+
 }
 
-.texto_gol span{
+.texto_gol span {
     font-family: var(--font-2);
     font-size: 15px;
 }
 
 
-.texto_gol p{
+.texto_gol p {
     font-family: var(--font-2);
     font-size: 12px;
     line-height: 21px;
 }
 
-.botao_selecionar button{
+.botao_selecionar button {
     width: 150px;
     height: 30px;
     border-radius: 25px;
@@ -307,29 +296,30 @@ aside{
     font-size: 15px;
 }
 
-.botao_selecionar{
+.botao_selecionar {
     margin-bottom: 20px;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
     margin-top: 20px;
 }
 
-.titulo{
+.titulo {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
 }
 
-.titulo h2{
+.titulo h2 {
     font-size: 35px;
     font-family: var(--font-2);
+    margin-top: 30px;
     color: #048ABF;
 
 }
 
-.titulo p{
+.titulo p {
     font-size: 15px;
     font-family: var(--font-2);
     width: 550px;
@@ -341,89 +331,230 @@ aside{
 
 
 @media screen and (max-width:768px) {
-    .imagem_volks img{
+    .imagem_volks img {
         width: 70px;
     }
 
-    .posicionamento_elementos2{
+    .posicionamento_elementos2 {
         margin-bottom: 100px;
-       
+
     }
 
-   
-    .moldura_config{
+
+    .moldura_config {
         width: 70px;
-       
-        
+
+
     }
 
-    .config{
+    .config {
         width: 20px;
     }
 
 
-    .menu_conteudo img{
+    .menu_conteudo img {
         width: 30px;
         height: 30px;
     }
 
-    .menu_conteudo span{
+    .menu_conteudo span {
         font-size: 13px;
 
     }
 
-    .menu_barras{
+    .menu_barras {
         display: flex;
-        background-color:  var(--principal-cor-2);
+        background-color: var(--principal-cor-2);
         padding: 7px;
-        border-radius: 0 15px 15px 0 ;
+        border-radius: 0 15px 15px 0;
         position: absolute;
         top: 20px;
         right: -40px;
+        z-index: 1;
 
     }
 
-    .menu_barras img{
+    .menu_barras img {
         width: 30px;
         height: 30px;
     }
 
-    aside{
-        position: relative;
+    aside {
+        position: absolute;
     }
 
-   
-    
+    .alinhamento_swiper {
+        width: 350px;
+        height: 500px;
+
+    }
+
+
+    .card_fusca {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 350px;
+        height: 500px;
+    }
+
+    .texto_card {
+        font-family: var(--font-2);
+        font-size: 20px;
+
+
+    }
+
+    .texto_gol {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 300px;
+
+    }
+
+    .texto_gol span {
+        font-family: var(--font-2);
+        font-size: 10px;
+    }
+
+
+    .texto_gol p {
+        font-family: var(--font-2);
+        font-size: 10px;
+        line-height: 21px;
+    }
+
+    .botao_selecionar button {
+        width: 150px;
+        height: 30px;
+        border-radius: 25px;
+        border: 0 solid;
+        background-color: #025E73;
+        color: #FFFFFF;
+        font-family: var(--font-2);
+        font-size: 15px;
+    }
+
+    .botao_selecionar {
+        margin-bottom: 20px;
+    }
+
+    .swiper-wrapper {
+        margin-top: 20px;
+    }
+
+    .titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .titulo h2 {
+        font-size: 25px;
+        font-family: var(--font-2);
+        color: #048ABF;
+
+    }
+
+    .titulo p {
+        font-size: 12px;
+        font-family: var(--font-2);
+        width: 350px;
+        text-align: center;
+        line-height: 17px;
+
+    }
+
+    .imagem_gol img {
+        width: 350px;
+
+
+    }
+
+
+
+
+
+
 }
 
+@media screen and (max-width: 600px) {
+    .alinhamento_swiper {
+        width: 300px;
+        height: 500px;
+
+    }
+
+    .card_fusca {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-around; */
+        width: 300px;
+        height: 500px;
+    }
+
+    .imagem_gol img {
+        width: 300px;
+
+
+    }
+
+    .texto_gol span {
+        font-family: var(--font-2);
+        font-size: 10px;
+    }
+
+
+    .texto_gol p {
+        font-family: var(--font-2);
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .texto_gol {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 250px;
+
+    }
+}
+
+
+
+
 @media screen and (max-width: 500px) {
-    .imagem_volks img{
+    .imagem_volks img {
         width: 50px;
     }
 
-    .posicionamento_elementos2{
+    .posicionamento_elementos2 {
         margin-bottom: 150px;
-       
+
     }
 
-   
-    .moldura_config{
+
+    .moldura_config {
         width: 45px;
-       
-        
+
+
     }
 
-    .config{
+    .config {
         width: 13px;
     }
 
 
-    .menu_conteudo img{
+    .menu_conteudo img {
         width: 25px;
         height: 25px;
     }
 
-    .menu_conteudo span{
+    .menu_conteudo span {
         font-size: 10px;
 
     }
@@ -434,22 +565,71 @@ aside{
 
     }
 
-    .div_logofirst img{
+    .div_logofirst img {
         width: 80px;
     }
 
-    .div_logofirst a .saida{
+    .div_logofirst a .saida {
         width: 20px;
     }
 
-
-
-
-   
-        
-    
-
-
-    
 }
 
+@media screen and (max-width: 460px){
+    .alinhamento_swiper {
+        width: 180px;
+        height: 500px;
+
+    }
+
+    .card_fusca {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-around; */
+        width: 180px;
+        height: 500px;
+    }
+
+    .imagem_gol img {
+        width: 190px;
+
+
+    }
+
+    .texto_gol span {
+        font-family: var(--font-2);
+        font-size: 10px;
+    }
+
+
+    .texto_gol p {
+        font-family: var(--font-2);
+        font-size: 8px;
+        line-height: 15px;
+    }
+
+    .texto_gol {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 180px;
+
+    }
+
+    .titulo h2 {
+        font-size: 25px;
+        font-family: var(--font-2);
+        color: #048ABF;
+
+    }
+
+    .titulo p {
+        font-size: 10px;
+        font-family: var(--font-2);
+        width: 250px;
+        text-align: center;
+        line-height: 17px;
+
+    }
+}
