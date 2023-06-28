@@ -26,7 +26,7 @@
     --font-1: 'Sigmar', cursive;
     --font-2: Verdana, sans-serif;
     --space-icon-aside: 16px;
-    --title-h1-margin-page: 50px 0;
+    --title-h1-margin-page: 53px 0;
 
 }
 
@@ -156,8 +156,9 @@ aside{
     bottom: 0;
 }
 
-.main .trilha_de_conteudo{
-    display: flex;
+#teste{
+    width: calc(100vw - 20vw);
+    margin-left: 100px;
 }
 
 .trilha_de_conteudo .titulo{
@@ -173,6 +174,7 @@ aside{
     display: flex;
     justify-content: end;
     align-items: center;
+    width: 1000px;
 }
 
 .trilha_de_conteudo .dados_usuario .id{
@@ -182,12 +184,88 @@ aside{
 }
 
 .trilha_de_conteudo .modulo_1 .titulo_2{
+    color: #000;
     font-family: var(--font-2);
     font-size: 27px;
-    color: #000;
+    margin-bottom: 23px;
+   
     
 }
 
+.trilha_de_conteudo .modulo_1 .caixas_modulo{
+    display: flex;
+    margin-bottom: 60px;
+    
+    
+}
+
+.trilha_de_conteudo .modulo_1 .caixa{
+    
+    background-color:#D9D9D9;
+    display: flex;
+    height: 95px;  
+    margin-right: 11px;
+    width: 233px;
+} 
+
+.trilha_de_conteudo .modulo_1 #c1{
+    border-left: 19px solid #5ABF4B;
+}
+.trilha_de_conteudo .modulo_1 #c2{
+    border-left: 19px solid #025E73;
+}
+.trilha_de_conteudo .modulo_1 #c3{
+    border-left: 19px solid #FEBE15;
+}
+.trilha_de_conteudo .modulo_1 #c4{
+    border-left: 19px solid #737373;
+}
+
+.trilha_de_conteudo .modulo_2 {
+    margin-top: 34px;
+}
+
+.trilha_de_conteudo .modulo_2 .titulo_3{
+    color: #000;
+    font-family: var(--font-2);
+    font-size: 27px;
+    margin-bottom: 23px;  
+}
+
+.trilha_de_conteudo .modulo_2 .caixas_modulo_2{
+    display: flex;
+    margin-bottom: 60px;
+    
+    
+}
+.trilha_de_conteudo .modulo_2 .caixa{
+    
+    background-color:#D9D9D9;
+    display: flex;
+    height: 95px;  
+    margin-right: 11px;
+    width: 233px;
+} 
+.trilha_de_conteudo .modulo_2 #c1{
+    border-left: 19px solid #BC1C2B;
+}
+.trilha_de_conteudo .modulo_2 #c2{
+    border-left: 19px solid #BC1C2B;
+}
+.trilha_de_conteudo .modulo_2 #c3{
+    border-left: 19px solid #FEBE15;
+}
+.trilha_de_conteudo .modulo_2 #c4{
+    border-left: 19px solid #737373;
+}
+
+.trilha_de_conteudo .botoes{
+    
+}
+
+
+
+/* **** MEDEIAS **** */
 
 @media screen and (max-width:768px) {
     .imagem_volks img{
