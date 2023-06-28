@@ -17,7 +17,6 @@
     --auxiliar-cor-4:#72A091;
     --auxiliar-cor-5:#E75A55;
     --auxiliar-cor-6:#F54B5D;
-    --auxiliar-cor-7: #42816C;
     --grayscale-cor-1: #47485E;
     --grayscale-cor-2:#C5C7D0;
     --grayscale-cor-3:#F3F3F3;
@@ -29,14 +28,9 @@
     --title-h1-margin-page: 50px 0;
 
 }
-body{
-    overflow: hidden;
-}
 
 main{
     display: flex;
-    
-    height: 100%;
 
 }
 
@@ -44,7 +38,7 @@ aside{
     display: flex;
     height: 100vh;
     width: 20vw;
-    background-color: var(--principal-cor-2);
+    background-color: var(--principal-cor-3);
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
@@ -81,6 +75,7 @@ aside{
 
 .menu_conteudo li{
     list-style: none;
+    margin: 10px;
     
 }
 
@@ -96,7 +91,7 @@ aside{
     gap: 10px;
     align-items: center;
     text-decoration: none;
-    color: white;
+    color: var(--grayscale-cor-4);
     font-family: var(--font-2);
     font-size: 16px;
     cursor: pointer;
@@ -162,6 +157,310 @@ aside{
     bottom: 0;
 }
 
+
+.adminUnidade_Yo {
+    height: 100%;
+    width: 80%;
+    margin: 120px 120px;
+    color: var(--principal-cor-3);
+    background-color: var(--grayscale-cor-3);
+}
+
+.adminUnidade_By{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: var(--grayscale-cor-3);
+    padding-right: 10px;
+    font-family: var(--font-2);
+    font-size: 20px;
+
+}
+
+.adminUnidade_Ry{
+    height: 80px;
+    width: 100%;
+    max-width: 750px;
+
+}
+
+
+.adminUnidade_Ray {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+.adminUnidade_Perfil{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 180px;
+    font-family: var(--font2);
+    font-size: 20px;
+    margin-right: 10px;
+     
+}
+.adminUnidade_Perfil label{
+    margin-bottom: 3px;
+   
+}
+
+.adminUnidade_Perfil select{
+    height: 35px;
+    width: 180px;
+    border-color: var(--principal-cor-3);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    color: var(--principal-cor-3);
+    position: relative;
+}
+
+
+.adminUnidade_Situacao{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    font-family: var(--font2);
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+.adminUnidade_Situacao label{
+    margin-bottom: 3px;
+}
+
+.adminUnidade_Situacao select{
+    height: 35px;
+    width: 180px;
+    border-color: var(--principal-cor-3);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    color: var(--principal-cor-3);
+}
+
+.adminUnidade_Unidade{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    font-family: var(--font2);
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+.adminUnidade_Unidade label{
+    margin-bottom: 3px;
+}
+
+.adminUnidade_Unidade select{
+    height: 35px;
+    width: 180px;
+    border-color: var(--principal-cor-3);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    color: var(--principal-cor-3);
+}
+.unidade_input{
+    position: relative;
+    height: 35px;
+    width: 180px;
+    border-color: var(--principal-cor-3);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    color: var(--principal-cor-3);
+}
+
+
+.icon_input{
+    position: absolute;
+    top: 163px;
+    left: 842px;
+    height: 25px;
+    width: 25px;
+    fill: var(--principal-cor-3);
+
+}
+
+.delete_table img, .delete_table  {
+    height: 50px;
+    width: 50px;
+    margin-left: -6px;
+
+}
+
+table
+{
+    /* height: 10%; */
+    width: 100%;
+    background-color: var(--grayscale-cor-3);
+    color: var(--principal-cor-3);
+}
+
+
+
+table th 
+{
+    border-bottom: 3px solid red;
+    text-transform: uppercase;
+    font-family: var(--font2);
+    font-size: 16px;
+    font-weight: normal;
+    border-color: var(--grayscale-cor-4);
+    
+}
+table td
+{
+    border: 1px solid var(--grayscale-cor-4);
+    border-collapse: collapse;
+   
+    
+
+}
+
+.btn_cadastrar
+
+{
+    width: 170px;
+    padding: 6px 25px;
+    background-color:var(--principal-cor-3);
+    color: var(--grayscale-cor-4);
+    border: none;
+    font-family: var(--font2);
+    font-size: 18px;
+    font-weight: normal;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 19px;
+
+
+}
+
+.tr_one
+{
+    border-bottom: 1px solid var(--grayscale-cor-2);
+}
+
+
+th
+{
+    text-align: left;
+    padding-right: 10px;
+    height: 40px;
+
+}
+
+
+
+td
+{
+    padding-left: 4px;
+   
+
+
+}
+table tboby tr{
+    height: 45px;
+}
+
+
+.semafaro_td
+{
+    width: 45px;
+}
+
+.semafaro
+{
+    height: 40px;
+    width: 40px;
+}
+.cnpj_td{
+       width: 180px;
+
+}
+.razaosocial_td{
+    width: 220px;
+}
+
+.unidade_td{
+    width: 180px;
+
+}
+.td_tableimg{
+    width: 180px;
+    padding: 0 0 0 120px;
+    
+}
+
+.th_table
+{
+    align-items: right;
+
+}
+.delete_table
+{
+    align-items: right;
+
+}
+.th_tableimg{
+    padding: 0 15px
+}
+
+.th_tableimg, .td_tableimg
+{
+    width: 180px;
+}
+label,select
+{
+    vertical-align: middle;
+}
+.chart_img{
+    height: 28px;
+    width: 28px;
+    fill: #025E73;
+}
+.icon{
+    height: 25px;
+    width: 25px;
+    fill: var(--principal-cor-3);
+}
+.calender_img{
+    height: 28px;
+    width: 28px;
+    fill: #025E73;
+}
+.ban_img{
+    height: 28px;
+    width: 28px;
+    fill: #025E73;
+
+}
+
+@media screen and (max-width:1440px){
+    .icon_input{
+        position: absolute;
+        top: 191px;
+        left: 815px;
+}
+
+
+
 @media screen and (max-width:768px) {
     .imagem_volks img{
         width: 70px;
@@ -211,13 +510,8 @@ aside{
     }
 
     aside{
-        position: absolute;
+        position: relative;
     }
-
-    body{
-        height: 100vh;
-    }
-
     
 }
 
@@ -277,54 +571,3 @@ aside{
 
     
 }
-
-@media screen and (max-width: 400px) {
-
-    .imagem_volks img{
-        width: 40px;
-    }
-
-    .posicionamento_elementos2{
-        margin-bottom: 150px;
-       
-    }
-
-   
-    .moldura_config{
-        width: 35px;
-       
-        
-    }
-
-    .config{
-        width: 10px;
-    }
-
-
-    .menu_conteudo img{
-        width: 20px;
-        height: 20px;
-    }
-
-    .menu_conteudo span{
-        font-size: 6px;
-
-    }
-
-    .menu_conteudo a {
-        gap: 0;
-
-
-    }
-
-    .div_logofirst img{
-        width: 60px;
-    }
-
-    .div_logofirst a .saida{
-        width: 20px;
-    }
-
-    
-}
-
