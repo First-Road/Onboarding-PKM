@@ -17,6 +17,7 @@
     --auxiliar-cor-4:#72A091;
     --auxiliar-cor-5:#E75A55;
     --auxiliar-cor-6:#F54B5D;
+    --auxiliar-cor-7: #42816C;
     --grayscale-cor-1: #47485E;
     --grayscale-cor-2:#C5C7D0;
     --grayscale-cor-3:#F3F3F3;
@@ -75,7 +76,7 @@ aside{
 
 .menu_conteudo li{
     list-style: none;
-    margin: 10px;
+    margin-bottom: 10px;
     
 }
 
@@ -98,13 +99,13 @@ aside{
 }
 
 .menu_conteudo li :hover{
-    color: #090C40;
+    color: var(--principal-cor-1);
     transition: 0.6s;
     transform: scale(1.1);
 
 }
 .icon:hover{
-    fill: #090C40;
+    fill: var(--principal-cor-1);
     transition: 0.6s;
     transform: scale(1.1);
 }
@@ -157,275 +158,285 @@ aside{
     bottom: 0;
 }
 
-
-.adminUnidade_Yo {
-    height: 100%;
+.cadastroUnidade{
+    background-image:
+    linear-gradient(#171717cf, #8482828e),
+     url(./assets/images/fabrica_vw_Alemanha.jfif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 80%;
-    margin: 60px 50px;
-    color: var(--principal-cor-3);
-    background-color: var(--grayscale-cor-2);
+    padding: 191px 60px;
+}
+.cadastroUnidade_secao{
+    background-color:#f3f3f388;
+    width: 100%;
+    height: 110%;
+    border-radius: 25px;
+
+}
+.cadastroUnidade_texto_imagem{
+    display: flex;
+    gap: 50px;
 }
 
-.adminGestao_By{
-    height: 100px;
+
+.user_config{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.admin_fotopadrao{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.admin_engrenagem{
+    position: absolute;
+    right: -6px;
+    bottom: 63px;
+    width: 25px;
+   
+}
+.cadastroUnidade_Semafaro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.cadastroUnidade_Semafaro span{
+    font-size: 18px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+}
+
+.cadastroImg{
+    height: 150px;
+    width: 150px;
+
+
+}
+
+.texto_perfil{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    
+}
+
+.texto_perfil h1{
+    font-size: 35px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+}
+
+.texto_perfil p{
+    font-size: 18px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+
+
+}
+
+.primeira_linha{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.cadastroUnidade_Centralizar{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 580px;
+    
+}
+
+.posicao_linha{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.segunda_linha{
+    display: flex;
+    gap: 10px;
+
+}
+
+.terceira_linha{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.quarta_linha{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+
+}
+.quinta_linha{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    
+    
+}
+
+.input1{
+    flex: 2;
+    
+}
+
+.input2{
+    flex: 1;
+}
+
+.input3, .input4, .input5{
+    flex: 1;
+}
+
+.input6, .input7{
+    flex: 1;
+}
+
+.input8, .input9{
+    flex: 2;
+}
+.input10{
+    width: 60%;
+}
+.input_caixa{
+    border-radius: 10px;
+    height: 30px;
+    border: 2px solid var(--principal-cor-3) ;
+    background-color: var(--grayscale-cor-3);
+}
+
+.input label{
+    text-transform: uppercase ;
+    color: var(--principal-cor-3);
+    font-size: 12px;
+}
+
+.button_salvar {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    
+    
+}
+
+.button_salvar button{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    background: var(--grayscale-cor-3);
-    padding-right: 10px;
-    font-family: var(--font-2);
-    font-size: 20px;
-
-}
-
-.adminGestao_Ry{
-    height: 80px;
-    width: 100%;
-    max-width: 750px;
-
-}
-
-
-.adminGestao_Ray {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-
-}
-.adminGestao_Perfil{
-    display: flex;
     justify-content: center;
-    flex-direction: column;
-    width: 180px;
-    font-family: var(--font2);
-    font-size: 20px;
-    margin-right: 10px;
-     
-}
-.adminGestao_Perfil label{
-    margin-bottom: 3px;
-   
-}
-
-.adminGestao_Perfil select{
-    height: 35px;
-    width: 180px;
-    border-color: var(--principal-cor-3);
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    text-align: center;
-    display: block;
-    color: var(--principal-cor-3);
-}
-
-
-.adminGestao_Situacao{
-    display: flex;
-    flex-direction: column;
-    width: 180px;
-    font-family: var(--font2);
-    font-size: 20px;
-    margin-right: 10px;
-
-}
-
-.adminGestao_Situacao label{
-    margin-bottom: 3px;
-}
-
-.adminGestao_Situacao select{
-    height: 35px;
-    width: 180px;
-    border-color: var(--principal-cor-3);
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    text-align: center;
-    display: block;
-    color: var(--principal-cor-3);
-}
-
-.adminGestao_Unidade{
-    display: flex;
-    flex-direction: column;
-    width: 180px;
-    font-family: var(--font2);
-    font-size: 20px;
-    margin-right: 10px;
-
-}
-
-.adminGestao_Unidade label{
-    margin-bottom: 3px;
-}
-
-.adminGestao_Unidade select{
-    height: 35px;
-    width: 180px;
-    border-color: var(--principal-cor-3);
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    text-align: center;
-    display: block;
-    color: var(--principal-cor-3);
-}
-
-.delete_table img, .delete_table  {
-    height: 50px;
-    width: 50px;
-    margin-left: -6px;
-
-}
-
-table
-{
-    /* height: 10%; */
-    width: 100%;
-    background-color: var(--grayscale-cor-3);
-    color: var(--principal-cor-3);
-}
-
-
-
-table th 
-{
-    border-bottom: 3px solid red;
-    text-transform: uppercase;
-    font-family: var(--font2);
-    font-size: 16px;
-    font-weight: normal;
-    border-color: var(--grayscale-cor-4);
-    
-}
-table td
-{
-    border: 1px solid var(--grayscale-cor-4);
-    border-collapse: collapse;
-   
-    
-
-}
-
-.btn_cadastrar
-
-{
-    width: 170px;
-    padding: 6px 25px;
-    background-color:var(--principal-cor-3);
-    color: var(--grayscale-cor-4);
-    border: none;
-    font-family: var(--font2);
+    height: 29px;
+    border-radius: 20px;
+    background-color: var(--principal-cor-3);
+    font-family: var(--font-2);
     font-size: 18px;
-    font-weight: normal;
-    cursor: pointer;
-    list-style: none;
-    text-decoration: none;
-    border-radius: 19px;
-
-
+    color: var(--grayscale-cor-3);
+    border: none;
+    box-shadow: 2px 3px 5px #888888;
+    
+}
+/* 
+.posicionamento_alterar{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 30px;
+    align-items: center;
 }
 
-.tr_one
-{
-    border-bottom: 1px solid var(--grayscale-cor-2);
+.senha{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
 }
 
-
-th
-{
-    text-align: left;
-    padding-right: 10px;
-    height: 40px;
-
+.senha_antiga{
+    display: flex;
+    flex-direction: column;
 }
 
+.senha_nova{
+    display: flex;
+    flex-direction: column;
+   
+}
 
+.texto_senha{
+    width: 180px;
+    font-family: var(--font-2);
+    font-size: 10px;
+    color: var(--auxiliar-cor-6);
+}
 
-td
-{
-    padding-left: 4px;
+.input_senha, .input_senha2{
+    width: 180px;
+    border-radius: 10px;
+    height: 30px;
+    border: 2px solid var(--principal-cor-3) ;
+    background-color: var(--grayscale-cor-3);
+}
+
+.senha label{
+    text-transform: uppercase ;
+    color: var(--principal-cor-3);
+    font-size: 12px;
+}
+
+.button_alterar button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 29px;
+    border-radius: 20px;
+    background-color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 18px;
+    color: var(--grayscale-cor-3);
+    border: none;
+    box-shadow: 2px 3px 5px #888888;
    
 
-
-}
-table tboby tr{
-    height: 45px;
 }
 
-
-.semafaro_td
-{
-    width: 45px;
-}
-
-.semafaro
-{
-    height: 40px;
-    width: 40px;
-}
-.cpf_td{
-       width: 120px;
-
-}
-.nif_td{
-    width: 100px;
-}
-.perfil_td{
-    width: 120px;
-}
-.unidade_td{
-    width: 180px;
-
-}
-.td_tableimg{
-    width: 175px;
-}
-
-.th_table
-{
-    align-items: right;
-
-}
-.delete_table
-{
-    align-items: right;
+.button_alterar{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
 
 }
 
-.th_tableimg, .td_tableimg
-{
-    width: 2vw;
+h2 {
+    font-size: 20px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
 }
-label,select
-{
-    vertical-align: middle;
-}
-.chart_img{
-    height: 28px;
-    width: 28px;
-    fill: #025E73;
-}
-.icon{
-    height: 25px;
-    width: 25px;
-    fill: var(--principal-cor-3);
-}
-.calender_img{
-    height: 28px;
-    width: 28px;
-    fill: #025E73;
-}
-.ban_img{
-    height: 28px;
-    width: 28px;
-    fill: #025E73;
-
-}
-
-
+::placeholder , .input_caixa {
+    padding: 0 15px;
+} */
 
 @media screen and (max-width:768px) {
     .imagem_volks img{

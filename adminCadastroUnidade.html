@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pagina AdminCadastroUnidade</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
@@ -31,7 +31,7 @@
                             <li>
                                 <a href="">
                                     <div>
-                                        <img class="icon" src="./assets/images/Vector.png" alt="icone industria">
+                                        <img class="icon" src="./assets/icons/icon_gt_unidade.svg" alt="icone industria">
                                     </div>
                                     <span>
                                         Gestão Unidade
@@ -93,108 +93,129 @@
 
         </aside>
 
-        <section class="adminUnidade_Yo">
+        <section class="cadastroUnidade">        
 
-            <div class="adminUnidade_By">
-                <div class="adminUnidade_Ry">
+            <div class="cadastroUnidade_secao">
 
-                    <div class="adminUnidade_Ray">
-                        <div class="adminUnidade_Perfil">
-                            <label for="mySelect">Empresa ou CNPJ</label>
-                            <div>
-                                <input type="text">
-                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
 
-                            </div>
-                           
-                            
-        
+                <div class="cadastroUnidade_texto_imagem">
+                    <div class="cadastro_US">
+                        <div class="user_config">
+                            <img class="admin_fotopadrao" src="./assets/icons/Group 34.svg" alt="">
+                            <img class="admin_engrenagem" src="./assets/icons/settings_FILL0_wght400_GRAD0_opsz48 1 (1).png" alt="">
                         </div>
-                        <div class="adminUnidade_Situacao">
-        
-                            <label for="mySelect">Situação</label>
-                            <select name="" id="mySelect">
-                                <option value="" disabled selected>Selecione</option>
-                                <option value="">opção 1</option>
-                                <option value="">opção 2</option>
-                                <option value="">opção 3</option>
-                                <option value="">opção 4</option>
-                                <option value="">opção 5</option>
-                            </select>
+                        <div class="cadastroUnidade_Semafaro">
+                            <img class="cadastroImg" src="./assets/icons/icon_semaforo_verde.svg" alt="">
+                            <span>Situação</span>
                         </div>
-                        <div class="adminUnidade_Unidade">
-                            <label for="mySelect">Unidade</label>
-                            <select name="" id="mySelect">
-                                <option value="" disabled selected>Selecione</option>
-                                <option value="">opção 1</option>
-                                <option value="">opção 2</option>
-                                <option value="">opção 3</option>
-                                <option value="">opção 4</option>
-                                <option value="">opção 5</option>
-                            </select>
-        
-                        </div> 
-        
-                        <a class="delete_table" href="">
-                            <img src="./assets/icons/lixeira.svg" alt="">
-                        </a>
+
                     </div>
+    
+    
+                    <div class="cadastroUnidade_Centralizar">
+    
+    
+                        <div class="texto_perfil">
+                            <h1>CADASTRO DA UNIDADE</h1>
+                            <p>O tamanho da imagem deve ter pelo menos 500px de tamanho e menos de 300kb. Arquivos
+                                permitidos
+                                são .png e .jpg</p>
+                        </div>
+    
+                        <div class="posicao_linha">
+                            <div class="primeira_linha">
+                                <div class="input input1">
+                                    <label for="Razao Social">Razâo Social</label>
+                                    <input class="input_caixa" type="text" placeholder="Insira a razão social aqui">
+                                </div>
+    
+                                <div class="input input2">
+                                    <label for="CNPJ">CNPJ</label>
+                                    <input class="input_caixa" type="text" placeholder="000.000.000/0000-00">
+                                </div>
+                            </div>
+    
+                            <div class="segunda_linha">
+                                <div class="input input3">
+                                    <label for="CEP">CEP</label>
+                                    <input class="input_caixa" type="number" placeholder="00000-000">
+                                </div>
+    
+                                <div class="input input4">
+                                    <label for="Estado">UF</label>
+                                    <input class="input_caixa" type="text" placeholder="Estado">
+                                </div>
+    
+                                <div class="input input5">
+                                    <label for="Unidade">Unidade</label>
+                                    <select class="input_caixa" name="selecionar" id="" placeholder="Selecione">
+                                        <option value="">Selecione</option>
+                                        <option value="" aria-placeholder="Gol">Gol</option>
+                                        <option value="" aria-placeholder="Fusca">Fusca</option>
+                                        <option value="" aria-placeholder="Paraty">ParaTy</option>
+                                        <option value="" aria-placeholder="Polo">Polo</option>
+                                        <option value="" aria-placeholder="Voyage">Voyage</option>
+                                    </select>
+                                    
+                                </div>
+                            </div>
+    
+                            <div class="terceira_linha">
+                                <div class="input input6">
+                                    <label for="Cidade">Cidade</label>
+                                    <input class="input_caixa" type="text" placeholder="Cidade">
+                                </div>
+    
+                                <div class="input input7">
+                                    <label for="Bairro">Bairro</label>
+                                    <input class="input_caixa" type="text" placeholder="Bairro">
+                                </div>
+                            </div>
+                            
+                            <div class="quarta_linha">
+                                <div class="input input8">
+                                    <label for="Logradouro">Logradouro</label>
+                                    <input class="input_caixa" type="text" placeholder="Endereço">
+
+                                </div>
+                                
+                                <div class="input input9">
+                                    <label for="Numero">Nº</label>
+                                    <input class="input_caixa" type="text" placeholder="000">
+    
+                                </div>
+                            </div>
+                            
+                            <div class="quinta-linha">
+                                <div class="input input10">
+                                    <label for="">Complemento</label>
+                                    <input class="input_caixa" type="text" placeholder="Endereço">
+
+
+                                </div>
+                                <div class="button_salvar">
+                                    <button>
+                                        Salvar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>    
+    
                 </div>
-                </div>
 
 
-            <table>
-                <thead>
-                    <tr class="tr_one">
-                        <th class="th_table"></th>
-                        <th class="th_table">CNPJ</th>
-                        <th class="th_table">Razão Social</th>
-                        <th class="th_table">unidade</th>
-                        <th class="th_tableimg">
-                            <a class="btn_cadastrar" href="">Cadastrar</a>
-                        </th>
-                
-                    </tr>
-
-                   
-
-                    
-                    
-                    
-                </thead>
-
-                
-
-                <tbody>
-                    <tr>
-                        
-                        <td class="semafaro_td"><img class="semafaro" src="./assets/icons/icon_semaforo_verde.svg" alt=""></td>
-                        <td class="cnpj_td" aria-placeholder="000.000.000-00" type="text"></td>
-                        <td class="razaosocial_td" aria-placeholder="">Razão Social</td>                    
-                         <td class="unidade_td" aria-placeholder="" type="text">São Bernardo do Campo</td>
-                        <td class="td_tableimg"> 
-                            <a href="">
-                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M410.3 231l11.3-11.3-33.9-33.9-62.1-62.1L291.7 89.8l-11.3 11.3-22.6 22.6L58.6 322.9c-10.4 10.4-18 23.3-22.2 37.4L1 480.7c-2.5 8.4-.2 17.5 6.1 23.7s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L387.7 253.7 410.3 231zM160 399.4l-9.1 22.7c-4 3.1-8.5 5.4-13.3 6.9L59.4 452l23-78.1c1.4-4.9 3.8-9.4 6.9-13.3l22.7-9.1v32c0 8.8 7.2 16 16 16h32zM362.7 18.7L348.3 33.2 325.7 55.8 314.3 67.1l33.9 33.9 62.1 62.1 33.9 33.9 11.3-11.3 22.6-22.6 14.5-14.5c25-25 25-65.5 0-90.5L453.3 18.7c-25-25-65.5-25-90.5 0zm-47.4 168l-144 144c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l144-144c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z"/></svg>
-                            </a>
-                                                       
-                            <a href="">
-                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M367.2 412.5L99.5 144.8C77.1 176.1 64 214.5 64 256c0 106 86 192 192 192c41.5 0 79.9-13.1 111.2-35.5zm45.3-45.3C434.9 335.9 448 297.5 448 256c0-106-86-192-192-192c-41.5 0-79.9 13.1-111.2 35.5L412.5 367.2zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/></svg>
-                            </a>
-                        </td>
-        
-                    </tr>
-
-
-
-                </tbody>                
-               
-                
-             </table>
-
-
-
+            </div>
 
         </section>
+
+
+
+    </main>
+</body>
+
+</html>
 
 
 
