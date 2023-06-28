@@ -26,24 +26,35 @@
                     </div>
 
                     <div class="menu_conteudo">
+
                         <ul>
                             <li>
                                 <a href="">
                                     <div>
-                                        <img class="icon" src="./assets/icons/Icone_Caminhão_home.svg" alt="icone avatar">
+                                        <img class="icon" src="./assets/icons/icon_gt_unidade.svg" alt="icone industria">
                                     </div>
                                     <span>
-                                        Avatar
+                                        Gestão Unidade
                                     </span>
                                 </a>
                             </li>
-                            <li class="listameio">
+                            <li>
                                 <a href="">
                                     <div>
-                                        <img  class="icon" src="assets/icons/Vector.svg" alt="icone trilha">
+                                        <img class="icon" src="./assets/icons/icon_carrinho-aside.svg" alt="icone carro">
                                     </div>
                                     <span>
-                                        Trilha
+                                        Cadastro Unidade
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div>
+                                        <img class="icon" src="./assets/icons/icon_3users.svg" alt="icone user3">
+                                    </div>
+                                    <span>
+                                        Gestão Usuario
                                     </span>
                                 </a>
                             </li>
@@ -51,15 +62,20 @@
                             <li>
                                 <a href="">
                                     <div>
-                                        <img  class="icon" src="./assets/icons/calendario_home.svg" alt="icone agenda">
+                                        <img  class="icon" src="./assets/icons/icon_3users_seting.svg" alt="icone user3_seting">
                                     </div>
                                     <span>
-                                        Agenda
+                                        Cadastro Gestor
                                     </span>
                                 </a>
                             </li>
                         </ul>
+
+
                     </div>
+                        
+                           
+                            
                 </div>
 
 
@@ -76,6 +92,132 @@
 
 
         </aside>
+
+        <section class="adminCadastroGestor">
+
+
+           
+
+
+
+            <div class="adminCadastroGestor_secao">
+
+
+                <div class="adminCadastroGestor_texto_imagem">
+                    <div class="user_config">
+                        <img class="admin_fotopadrao" src="./assets/icons/fotopadrao_user_aside.svg" alt="">
+                        <img class="admin_engrenagem" src="./assets/icons/engrenagem_aside.svg" alt="">
+                    </div>
+    
+    
+                    <div class="adminCadastroGestor_Centralizar">
+    
+    
+                        <div class="texto_perfil">
+                            <h1>Cadastro de Gestor</h1>
+                            <p>O tamanho da imagem deve ter pelo menos 500px de tamanho e menos de 300kb. Arquivos
+                                permitidos
+                                são .png e .jpg</p>
+                        </div>
+    
+                        <div class="posicao_linha">
+                            <div class="primeira_linha">
+                                <div class="input input1">
+                                    <label for="Nome completo">Nome Completo</label>
+                                    <input class="input_caixa" type="text" placeholder="Roberto Nascimento">
+                                </div>
+    
+                                <div class="input input2">
+                                    <label for="Cpf">Cpf</label>
+                                    <input class="input_caixa" type="text" placeholder="000.000.000-00">
+                                </div>
+                            </div>
+    
+                            <div class="segunda_linha">
+                                <div class="input input3">
+                                    <label for="NIF">NIF</label>
+                                    <input class="input_caixa" type="number" placeholder="000000000">
+                                </div>
+    
+                                <div class="input input4">
+                                    <label for="Data de Nascimento">Data de Nascimento</label>
+                                    <input class="input_caixa" type="date">
+                                </div>
+    
+                                <div class="input input5">
+                                    <label for="Unidade">Unidade</label>
+                                    <select class="input_caixa" name="selecionar" id="" placeholder="Selecione">
+                                        <option value="">Selecione</option>
+                                        <option value="" aria-placeholder="Gol">Gol</option>
+                                        <option value="" aria-placeholder="Fusca">Fusca</option>
+                                        <option value="" aria-placeholder="Paraty">ParaTy</option>
+                                        <option value="" aria-placeholder="Polo">Polo</option>
+                                        <option value="" aria-placeholder="Voyage">Voyage</option>
+                                    </select>
+                                    
+                                </div>
+                            </div>
+    
+                            <div class="terceira_linha">
+                                <div class="input input6">
+                                    <label for="Perfil">Perfil</label>
+                                    <input class="input_caixa" type="text" placeholder="Administrativo">
+                                </div>
+    
+                                <div class="input input7">
+                                    <label for="Cargo">Cargo</label>
+                                    <input class="input_caixa" type="text" placeholder="Gerente">
+                                </div>
+                            </div>
+    
+                            <div class="quarta_linha">
+                                <div class="input input8">
+                                    <label for="email">E-mail</label>
+                                    <input class="input_caixa" type="email" placeholder="email@email.vw.com.br">
+                                </div>
+    
+                                <div class="button_salvar">
+                                    <button>
+                                        Salvar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    <hr>
+    
+                    <div class="adminCadastroGestorPosicionamento_Agendar">
+                        <h2>ENVIAR SENHA</h2>
+                        <p>Programação para enviar e-mail de boas-vindas com dados de acesso ou reset de senha:</p>
+    
+                        <div class="agendar">
+                            <div class="data_enviarSenha">
+                                <label for="">Data</label>
+                                <input class="input_caixas2" type="date">
+                            </div>
+    
+                            <div class="horario_enviarSenha">
+                                <label for="">Horario</label>
+                                <input class="input_caixass2" type="time">
+    
+                               
+                            </div>
+                        </div>
+    
+                        <div class="button_agendar">
+                            <button>Agendar</button>
+                        </div>
+                    </div>
+    
+    
+                </div>
+
+
+            </div>
+
+        </section>
 
 
 
