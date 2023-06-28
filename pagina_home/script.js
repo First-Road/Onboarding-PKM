@@ -18,12 +18,7 @@ function mostrarMenu() {
     else {
         aside.style.left = "0px"
            
-        // secao.style.width = "80vw"  
-        secao.style.width = "100vw"
-       
-        // aside.style.width = "50px"
-        // posicao.style.width = "20px"
-       
+        
     }
 
     
