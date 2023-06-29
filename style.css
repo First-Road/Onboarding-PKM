@@ -39,7 +39,7 @@ aside{
     display: flex;
     height: 100vh;
     width: 20vw;
-    background-color: var(--principal-cor-2);
+    background-color: var(--auxiliar-cor-7);
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
@@ -71,7 +71,7 @@ aside{
 }
 
 .menu_conteudo img{
-    height: 35px;
+    height: 20px;
 }
 
 .menu_conteudo li{
@@ -88,13 +88,14 @@ aside{
 
 .menu_conteudo a{
     display: flex;
-    gap: 10px;
+   /*  gap: 5px; */
     align-items: center;
     text-decoration: none;
     color: white;
     font-family: var(--font-2);
-    font-size: 16px;
+    font-size: 13px;
     cursor: pointer;
+    margin-bottom: 25px;
 }
 
 .menu_conteudo li :hover{
