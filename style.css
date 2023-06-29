@@ -31,6 +31,8 @@
 
 main {
     display: flex;
+    width: 100vw;
+    height: 100vh;
 
 }
 
@@ -46,6 +48,7 @@ aside {
 }
 
 .posicionamento_elementos {
+    min-width: 80px;
     width: 20vw;
     display: flex;
     justify-content: space-around;
@@ -157,266 +160,61 @@ aside {
     bottom: 0;
 }
 
-.cabecalho {
-    flex-direction: column;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 55%;
-
-
-}
-
-
-.cabecalho .logocaminhoes {
-    margin-top: 10px;
-    width: 90px;
-    height: 80px;
-}
-
-
-
-
-.imagempessoa {
-    display: flex;
-
-
-}
-
-.imagempessoa .pessoa {
-    display: flex;
-    width: 85px;
-
-}
-
-.imagemconfigura {
-    position: relative;
-
-
-}
-
-.imagemconfigura .configura {
-    position: absolute;
-    width: 25px;
-    bottom: 55px;
-    right: -50px;
-
-
-}
-
-
-.menu_lista {
-    margin-bottom: 0px;
-    text-transform: uppercase;
-    font-family: var(--font-2);
-    font-weight: 500px;
-    font-size: 0px;
-    text-align: center;
-
-
-
-
-}
-
-.unidadelogo {
-
-    width: 25px;
-    margin-left: 5px;
-    margin-bottom: 10px;
-
-}
-
-
-.usuarioslogo {
-    width: 28px;
-
-
-}
-
-.menu_lista ul li {
-
-    list-style-type: none;
-
-
-
-}
-
-.menu_lista ul li a {
-
-    display: flex;
-    align-items: center;
-
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 15px;
-
-
-}
-
-
-
-.saida {
+section{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 80vw;
+
 }
 
-.saida a {
+header{
+    height: 15vh;
+    background-color: var(--principal-cor-5);
     display: flex;
-    padding-top: -100px;
-    align-items: center;
-
+    justify-content: center;
+    
 }
 
-.saida a img {
-    display: flex;
-    padding-bottom: 10px;
-    align-items: center;
-    width: 35px;
-
-
-
-}
-
-.saida .logomarca {
-    width: 130px;
-}
-
-.parabens {
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: space-between;
-    align-items: center;
-    width: 100vh;
-
-
-}
-
-header {
-
-    background-color: #FEBE15;
-    width: auto;
-    height: 150px;
-    border-bottom: black solid;
-
-}
-
-
-
-.grid {
-    max-width: 1400px;
-    width: 90%;
-    margin: 0 auto;
-
-}
-
-.cabecalho_parabens {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    padding-top: 25px;
-    align-items: center;
-
-
-
-}
-
-h1 {
-    display: flex;
-    font-size: 50px;
-    gap: 50px;
-    font-size: bold;
-    font-family: var(--font-2);
-    color: #048ABF;
-
-
-}
-
-
-.ganhador,
-.ganhador2 {
-    display: flex;
+.ganhador, .ganhador2{
     width: 100px;
-    height: 100px;
-    border-radius: 30px;
-
-}
-
-
-
-h2 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family: var(--font-2);
-    font-size: 20px;
-    /* width: 500px;*/
-    height: 19px;
-    padding: 244px;
-
-}
-
-
-.botoes_footer {
-    display: flex;
-    justify-content: space-around;
-    /* width:1350px; */
-    height:255px;
-    background-color: #FEBE15;
-    border-top: var(--principal-cor-1) solid;
-}
-
-
-.botao_certificado,
-.botao_satisfacao,
-.botao_trilha {
-
-    /* display: flex;
-        text-decoration: none;
-        color: #ffffff;
-        background-color: var(--auxiliar-cor-3);
-        font-family:var(--font-2);
-        padding: 50px 30px;
-        height: 50px;
-        border-radius: 13px;
-        flex-direction: column;
-        justify-content:space-evenly ;
-        align-items: center;
-        gap: 10px;
-        text-transform: uppercase;
-        margin-top: 50px;
-        border: #090C40 solid; */
-
-
-
-
-    display: flex;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), linear-gradient(92.23deg, #6139ff -25.96%, #17BBFF 126.83%);
-    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(25px);
-    margin-top: 20px;
-    padding: 51px 30px;
+    height: 80px;
     border-radius: 30%;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 10px;
-    text-transform: uppercase;
-    height: 0px;
-    text-decoration: none;
-    color: #ffffff;
-
+    border: 2px solid black;
 }
 
-
-.icone_certificado,
-.icone_satisfacao,
-.icone_trilha {
+.cabecalho_parabens{
     display: flex;
-    width: 50px;
-    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    width: 50vw;
 }
+
+h1{
+    font-size: 45px;
+    font-family: var(--font-2);
+    font-weight: bold;
+    color: var(--principal-cor-2);
+}
+
+
+.posicao_h2{
+    background-color: #F3F3F3;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    display: flex;
+    width: 30vw;
+    text-align: center;
+    
+    
+}
+
+
+
 
 @media screen and (max-width:768px) {
     .imagem_volks img {
@@ -467,7 +265,7 @@ h2 {
     }
 
     aside {
-        position: relative;
+        position: absolute;
     }
 
 }
