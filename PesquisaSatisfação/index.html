@@ -5,23 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Satisifação</title>
+    <title>Pesquisa de Satisfação</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <main>
-        <aside>
-            <div class="posicionamento_elementos">
+        <aside id="aside">
+            <div class="posicionamento_elementos" id="posicao">
+    
 
+                
                 <div class="imagem_volks">
-                    <img src="./assets/icons/logo_vw_aside.svg" alt="logo da volks">
+                    <img src="../assets/icons/logo_vw_aside.svg" alt="logo da volks">
                 </div>
-                <a class="menu_barras" id="menu" href="#" onclick="mostrarMenu()"><img src="assets/icons/icons8-cardápio.svg" alt="menu"></a>
+                <a class="menu_barras" id="menu" href="#" onclick="mostrarMenu()"><img src="../assets/icons/icons8-cardápio.svg" alt="menu"></a>
                 <div class="posicionamento_elementos2">
                     <div class="moldura_config">
-                        <img class="imagemfoto" src="./assets/icons/fotopadrao_user_aside.svg" alt="foto Perfil">
-                        <a href=""><img class="config" src="./assets/icons/engrenagem_aside.svg" alt="config"></a>
+                        <img class="imagemfoto" src="../assets/icons/fotopadrao_user_aside.svg" alt="foto Perfil">
+                        <a href=""><img class="config" src="../assets/icons/engrenagem_aside.svg" alt="config"></a>
                     </div>
 
                     <div class="menu_conteudo">
@@ -29,7 +32,7 @@
                             <li>
                                 <a href="">
                                     <div>
-                                        <img src="./assets/icons/Icone_Caminhão_home.svg" alt="icone avatar">
+                                        <img class="icon" src="../assets/icons/Icone_Caminhão_home.svg" alt="icone avatar">
                                     </div>
                                     <span>
                                         Avatar
@@ -39,7 +42,7 @@
                             <li class="listameio">
                                 <a href="">
                                     <div>
-                                        <img src="./assets/icons/trilha_home.svg" alt="icone trilha">
+                                        <img  class="icon" src="../assets/icons/Vector.svg" alt="icone trilha">
                                     </div>
                                     <span>
                                         Trilha
@@ -50,7 +53,7 @@
                             <li>
                                 <a href="">
                                     <div>
-                                        <img src="./assets/icons/calendario_home.svg" alt="icone agenda">
+                                        <img  class="icon" src="../assets/icons/calendario_home.svg" alt="icone agenda">
                                     </div>
                                     <span>
                                         Agenda
@@ -64,9 +67,9 @@
 
 
                 <div class="div_logofirst">
-                    <a href=""><img class="saida" src="./assets/icons/icon_voltar_aside.svg" alt="icone saida"></a>
+                    <a href=""><img class="saida" src="../assets/icons/icon_voltar_aside.svg" alt="icone saida"></a>
                     <div class="logo_first">
-                        <img src="./assets/icons/Logo_FirstRoad_aside.svg" alt="logo">
+                        <img src="../assets/icons/Logo_FirstRoad_aside.svg" alt="logo">
                     </div>
                 </div>
 
@@ -75,20 +78,18 @@
 
 
         </aside>
-
-
         <div class="pesquisa_satisfacao grid ">
-            <h1>Pesquisa de Satisifação</h1>
+            <h1>Pesquisa de Satisfação</h1>
             <div class="icones">
 
-                <a href=""><img src="./assets/icons/insatisfeito.gif" alt=""></a>
-                <a href=""><img src="./assets/icons/nao_gostei.gif" alt=""></a>
-                <a href=""><img src="./assets/icons/gostei.gif" alt=""></a>
-                <a href=""><img src="./assets/icons/gostei_muito.gif" alt=""></a>
+                <a href=""><img src="../assets/icons/insatisfeito.gif" alt=""></a>
+                <a href=""><img src="../assets/icons/nao_gostei.gif" alt=""></a>
+                <a href=""><img src="../assets/icons/gostei.gif" alt=""></a>
+                <a href=""><img src="../assets/icons/gostei_muito.gif" alt=""></a>
                
 
             </div>
-            <h2>Conte nos como foi sua experiência</h2>
+            <h2>Conte para nós como foi sua experiência</h2>
             <textarea name="feedback" id="" cols="30" rows="10"></textarea>
             <div class="botao_enviar">
                 <a href="">Enviar Pesquisa</a>
@@ -100,10 +101,6 @@
 
 
         </div>
-
-
-
-
 
 
 

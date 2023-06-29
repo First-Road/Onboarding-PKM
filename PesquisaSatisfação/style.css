@@ -162,11 +162,9 @@ aside{
     bottom: 0;
 }
 
-
-
 .grid {
-    max-width: 1400px;
-    width: 90%;
+   
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -174,6 +172,7 @@ aside{
     background-color: var(--grayscale-cor-2);
     display: flex;
     align-items: center;
+    width: 100vw;
     justify-content: center;
     flex-direction: column;
     gap: 50px;
@@ -246,6 +245,10 @@ textarea {
     h1{
         font-size: 45px;
     }
+
+    h2{
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -305,6 +308,20 @@ textarea {
     }
 
     
+}
+
+@media screen and (max-width:630px){
+    h1{
+        font-size: 25px;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+
+    textarea{
+        width: 350px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -411,8 +428,17 @@ textarea {
         width: 20px;
     }
 
-    
+    textarea{
+        width: 280px;
+        height: 150px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 12px;
+    }
 }
-
-
 
