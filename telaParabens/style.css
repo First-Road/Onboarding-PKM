@@ -37,23 +37,26 @@ main {
 }
 
 aside {
-    display: flex;
+    display: block;
+    position: fixed;
     height: 100vh;
     width: 20vw;
     background-color: var(--principal-cor-2);
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
+    min-width: 80px;
 
 }
 
 .posicionamento_elementos {
-    min-width: 80px;
     width: 20vw;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    min-width: 80px;
 }
 
 .imagem_volks img {
@@ -207,16 +210,69 @@ h1{
 
 h2{
     display: flex;
-    width: 30vw;
+    width: 50vw;
     text-align: center;
+    margin-bottom: 50px;
     
     
 }
 
+.botoes_footer{
+    background-color: var(--principal-cor-5);
+    display: flex;
+    height: 20vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botoes_footer a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: var(--font-2);
+}
+
+.botao_certificado, .botao_satisfacao, .botao_trilha{
+    width: 150px;
+}
+
+.botao_certificado img{
+    width: 70px;
+}
+
+.botao_satisfacao img{
+    width: 50px;
+}
+
+.botao_trilha img{
+    width: 50px;
+    
+}
+
+.botao{
+    display: flex;
+    width: 150px;
+    background-color: var(--principal-cor-2);
+    align-items: center;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.botao:hover{
+    background-color: var(--principal-cor-4);
+    transition: 0.6ms;
+    transform: scale(1.1);
+}
 
 
+@media screen and (max-width:768px){
 
-@media screen and (max-width:768px) {
+    
+    
     .imagem_volks img {
         width: 70px;
     }
@@ -224,6 +280,11 @@ h2{
     .posicionamento_elementos2 {
         margin-bottom: 100px;
 
+    }
+
+    h2{
+        font-size: 20px;
+        width: 500px;
     }
 
 
@@ -266,6 +327,10 @@ h2{
 
     aside {
         position: absolute;
+    }
+
+    section{
+        width: 100vw;
     }
 
 }
@@ -316,6 +381,49 @@ h2{
         width: 20px;
     }
 
+
+    
+    h2{
+        font-size: 20px;
+        width: 300px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .botao{
+        width: 70px;
+        height: 70px;
+
+    }
+
+    .botoes_footer a{
+      text-align: center;
+      font-size: 10px;
+    }
+
+    .ganhador, .ganhador2{
+        width: 70px;
+        height: 50px;
+        
+    }
+
+
+    .botao_certificado img{
+        width: 50px;
+    }
+    
+    .botao_satisfacao img{
+        width: 30px;
+    }
+    
+    .botao_trilha img{
+        width: 30px;
+        
+    }
+    
+       
 
 
 
