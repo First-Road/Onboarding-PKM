@@ -207,41 +207,6 @@ section {
 }
 
 
-/* @keyframes veic1{
-    0% {
-        position: absolute;
-        top: 0px;
-        right: -153px;
-    }
-
-    100% {
-        position: absolute;
-        top: 0px;
-        right: 90px;
-    }
-}
-@keyframes veic2{
-    0% {
-        position: absolute;
-        top: 0px;
-        right: 90px;
-    }
-
-    100% {
-        position: absolute;
-        top: 0px;
-        right: 300px;
-    }
-}
-@keyframes veic3{
-
-}
-@keyframes veic4{
-
-}
-@keyframes veic5{
-
-} */
 
 @keyframes veic {
     0% {
