@@ -44,7 +44,7 @@ aside{
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
-    min-width: 130px;
+    min-width: 80px;
     
 }
 
@@ -54,7 +54,7 @@ aside{
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    min-width: 130px;
+    min-width: 80px;
 }
 
 .imagem_volks img{
@@ -160,10 +160,6 @@ aside{
     bottom: 0;
 }
 
-.grid {
-    width: 100%;
-    margin: 0 auto;
-}
 
 section{
     display: flex;
@@ -179,7 +175,6 @@ header{
     display: flex;
     width: 80vw;
     height: 15vh;
-    gap: 100px;
     border-radius: 15px;
     align-items: center;
     
@@ -191,12 +186,21 @@ header img{
 }
 
 
-
+.header_titulo{
+    width: 80vw;
+    display: flex;
+    gap: 15vw;
+    align-items: center;
+    justify-content: center;
+}
 
 h1{
    font-family: var(--font-2);
    font-size: 35px;
    color: var(--grayscale-cor-4);
+   width: 80vw;
+   /* align-items: center;
+   justify-content:center; */
 }
 
 
@@ -206,6 +210,9 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    width: 80vw;
+    height: 85vh;
     
 
     
@@ -215,26 +222,24 @@ h2{
     font-size: 20px;
     font-family: var(--font-2);
     text-align: center;
-    text-align: center;
     color: var(--grayscale-cor-3);
-    padding-top: 5px;
+    
 }
 
-p {  
+.conteudos p {  
     
     font-size: 20px;
     font-family: var(--font-2);
-    padding: 20px;
     text-align: center;
+    width: 70vw;
 }
 
 
 
 .icones_modulo{
     display: flex;
-    width: 900px;
+    width: 70vw;
     justify-content: space-evenly;
-    margin-bottom: 30px;
 }
 
 .icones_modulo a{
@@ -271,21 +276,22 @@ p {
     width: 100px;
 }
 
-.instruções{
+.instrucoes{
     display: flex;
     flex-direction: column;
     background-color: var(--principal-cor-2);
-    width: 900px;
+    width: 70vw;
     height: 185px;
+    gap: 25px;
     border-radius: 15px;
     
 }
 
-.instruções p {  
+.instrucoes p {  
     color: var(--grayscale-cor-3);
-    font-size: 20px;
+    font-size: 18px;
     font-family: var(--font-2);
-    padding: 30px;
+    
     text-align: center;
     
 }
@@ -294,6 +300,7 @@ p {
     display: flex;
     padding-right: 100px;
     justify-content: right;
+    
     
 
 }
@@ -316,19 +323,14 @@ p {
 
 }
 
-@media screen and (max-width:1100px){
-    .instruções{ 
-        width: 600px;
-    }
-    .botao{
-        margin-bottom: 10px;
-        height: 70px;
 
+
+@media screen and (max-width:1200px){
+    h1{
+        font-size: 25px;
     }
 
 }
-
-
 
 
 
@@ -383,7 +385,58 @@ p {
     aside{
         position: absolute;
     }
+
+    section{
+        width: 100vw;
+    }
+
+    header{
+        width: 100vw;
+    }
+    h1{
+        font-size: 20px;
+    }
+
+    .conteudos{
+        width: 100vw;
+    }
+
+    .icones_modulo{
+        width: 100vw;
+    }
+
+    .instrucoes{
+        width: 90vw;
+        height: 30vh;
+        
+    }
+    .instrucoes p{
+        width: 85vw;
+       
+
+    }
+
+    .botao_acessar{
+        width: 80px;
+        
+    }
+    .botao{
+        align-items: end;
+        padding-right: 40px;
+        padding-top: 40px;
+    }
+
+    .icones_modulo img{
+        width: 70px;
+    }
+
+    .iconeChamado img{
+        height: 55px;
+        width: 70px;
+        gap: 10px;
     
+    }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -430,6 +483,12 @@ p {
 
     .div_logofirst a .saida{
         width: 20px;
+    }
+
+    .botao{
+        align-items: end;
+        padding-right: 40px;
+        padding-top: 0px;
     }
 
 
