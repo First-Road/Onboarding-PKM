@@ -168,7 +168,8 @@ aside{
 section{
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 80vw;
+    height: 100vh;
     flex-direction: column;
 }
 
@@ -176,7 +177,8 @@ section{
 header{
     background-color: var(--principal-cor-5);
     display: flex;
-    width: 100%;
+    width: 80vw;
+    height: 15vh;
     gap: 100px;
     border-radius: 15px;
     align-items: center;
@@ -185,6 +187,7 @@ header{
 
 header img{
     margin-left: 30px;
+    width: 80px;
 }
 
 
@@ -192,7 +195,7 @@ header img{
 
 h1{
    font-family: var(--font-2);
-   font-size: 45px;
+   font-size: 35px;
    color: var(--grayscale-cor-4);
 }
 
