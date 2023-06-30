@@ -48,6 +48,7 @@ aside{
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
+    min-width: 80px;
     
 }
 
@@ -57,6 +58,7 @@ aside{
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    min-width: 80px;
 }
 
 .imagem_volks img{
@@ -225,8 +227,6 @@ textarea {
     background-color: #048ABF;
     font-family: 'Mochiy Pop One', sans-serif;
     padding: 15px 50px;
-    border: var(--grayscale-cor-3) solid;
-    
     border-radius: 13px;
 }
 
@@ -383,7 +383,7 @@ textarea {
 
 @media screen and (max-width: 400px) {
 
-    .imagem_volks img{
+    /* .imagem_volks img{
         width: 40px;
     }
 
@@ -426,7 +426,7 @@ textarea {
 
     .div_logofirst a .saida{
         width: 20px;
-    }
+    } */
 
     textarea{
         width: 280px;
