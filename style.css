@@ -158,6 +158,40 @@ aside{
     bottom: 0;
 }
 
+.imagens{
+    /* display: flex; */
+    width: 80vw;
+}
+
+.imagens .primeiro_bloco{
+    
+
+}
+
+.imagens .primeiro_bloco img{
+    width: 180px;
+}
+
+.imagens .bloco_meio{
+    width: 540px;
+}
+
+.imagens .bloco_meio #conclusao{
+    width: 325px;
+}
+
+.imagens .terceiro_bloco{
+    display: flex;
+    
+}
+
+.imagens .bloco_lateral{
+    display: flex;
+    flex-direction: column;
+    width: 296px;
+    height: 677px;
+}
+
 @media screen and (max-width:768px) {
     .imagem_volks img{
         width: 70px;
