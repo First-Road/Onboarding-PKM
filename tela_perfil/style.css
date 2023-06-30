@@ -28,6 +28,9 @@
     --title-h1-margin-page: 50px 0;
 
 }
+body{
+    overflow: hidden;
+}
 
 main{
     display: flex;
@@ -42,6 +45,7 @@ aside{
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
+    min-width: 80px;
     
 }
 
@@ -51,6 +55,7 @@ aside{
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    min-width: 80px;
 }
 
 .imagem_volks img{
@@ -160,7 +165,9 @@ aside{
     background-color: var(--grayscale-cor-3);
     padding: 60px 30px;
     width: calc(100vw - 20vw);
-}
+    height: 100vh;
+    background-color: #F3F3F3;
+}    
 
 
 .elementos_texto_imagem{
@@ -283,6 +290,10 @@ aside{
     width: 70%;
 }
 
+.data{
+    font-size: 1px;
+}
+
 .input_caixa{
     border-radius: 10px;
     height: 30px;
@@ -293,7 +304,7 @@ aside{
 .input label{
     text-transform: uppercase ;
     color: var(--principal-cor-3);
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .button_salvar {
@@ -321,19 +332,27 @@ aside{
     
 }
 
+hr{
+    display: flex;
+    flex-direction: column;
+}
+
 .posicionamento_alterar{
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    gap: 30px;
+    width: 200px;
+    justify-content: flex-end;
     align-items: center;
+    height: 384px;
+    gap: 30px;
+    
 }
 
 .senha{
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    align-items: center;
+    gap: 20px;
+   
 }
 
 .senha_antiga{
@@ -348,14 +367,14 @@ aside{
 }
 
 .texto_senha{
-    width: 180px;
+    width: 150px;
     font-family: var(--font-2);
-    font-size: 10px;
+    font-size: 8px;
     color: #EE2333;
 }
 
 .input_senha, .input_senha2{
-    width: 180px;
+    width: 150px;
     border-radius: 10px;
     height: 30px;
     border: 2px solid var(--principal-cor-3) ;
@@ -365,11 +384,11 @@ aside{
 .senha label{
     text-transform: uppercase ;
     color: var(--principal-cor-3);
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .button_alterar button{
-    width: 100%;
+    width: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -386,10 +405,9 @@ aside{
 }
 
 .button_alterar{
-    width: 90%;
     display: flex;
-    align-items: center;
-    padding-top: 12px;
+    margin-left: 20px;
+    
 
 }
 
@@ -506,11 +524,15 @@ button:hover{
         width: 30px;
         height: 30px;
     }
+    aside {
+        position: absolute;
+        z-index: 1;
+    }
 
-    aside{
+    main {
+        height: 100vh;
         position: relative;
     }
-    
 }
 
 @media screen and (max-width: 500px) {
@@ -557,16 +579,54 @@ button:hover{
 
     .div_logofirst a .saida{
         width: 20px;
+    }  
+}
+
+@media screen and (max-width: 400px) {
+
+    .imagem_volks img{
+        width: 40px;
+    }
+
+    .posicionamento_elementos2{
+        margin-bottom: 150px;
+       
+    }
+
+   
+    .moldura_config{
+        width: 35px;
+       
+        
+    }
+
+    .config{
+        width: 10px;
     }
 
 
+    .menu_conteudo img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .menu_conteudo span{
+        font-size: 6px;
+
+    }
+
+    .menu_conteudo a {
+        gap: 0;
 
 
-   
-        
-    
+    }
 
+    .div_logofirst img{
+        width: 60px;
+    }
 
-    
+    .div_logofirst a .saida{
+        width: 20px;
+    }
+
 }
-
