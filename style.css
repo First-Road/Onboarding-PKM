@@ -14,9 +14,10 @@
     --auxiliar-cor-1: #474966;
     --auxiliar-cor-2: #46D3F3;
     --auxiliar-cor-3: #426B7F;
-    --auxiliar-cor-4: #72A091;
-    --auxiliar-cor-5: #E75A55;
-    --auxiliar-cor-6: #F54B5D;
+    --auxiliar-cor-4:#72A091;
+    --auxiliar-cor-5:#E75A55;
+    --auxiliar-cor-6:#F54B5D;
+    --auxiliar-cor-7: #42816C;
     --grayscale-cor-1: #47485E;
     --grayscale-cor-2: #C5C7D0;
     --grayscale-cor-3: #F3F3F3;
@@ -28,9 +29,14 @@
     --title-h1-margin-page: 50px 0;
 
 }
+body{
+    overflow: hidden;
+}
 
 main {
     display: flex;
+    
+    height: 100%;
 
 }
 
@@ -42,11 +48,21 @@ aside {
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
+<<<<<<< HEAD
 
 }
 
 .posicionamento_elementos {
     width: 20vw;
+=======
+    min-width: 80px;
+    
+}
+
+.posicionamento_elementos{
+    width: 100%;
+    min-width: 80px;
+>>>>>>> 87bacf710635a555e132402b9991e89f3b3a99be
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -600,9 +616,54 @@ aside {
         height: 30px;
     }
 
+<<<<<<< HEAD
     .container_adminLogado {
         height: 100vh;
         width: 100vw;
+=======
+    aside{
+        position: absolute;
+        width: 150px;
+    }
+
+    .posicionamento_elementos{
+        width: 100%;
+    }
+
+    body{
+        height: 100vh;
+    }
+
+    #sombra{
+        height: 100vh;
+        width: 100vw;
+        background-color: #0000004f;
+        position: fixed;
+        top: 0;
+        right: 110vw;
+        overflow: hidden;
+        transition: .5s;
+        backdrop-filter: blur(10px);
+    }
+
+    
+}
+
+@media screen and (max-width: 500px) {
+    /* .imagem_volks img{
+        width: 50px;
+    }
+
+    .posicionamento_elementos2{
+        margin-bottom: 150px;
+       
+    }
+
+   
+    .moldura_config{
+        width: 45px;
+       
+>>>>>>> 87bacf710635a555e132402b9991e89f3b3a99be
         
     }
 
@@ -774,12 +835,13 @@ aside {
 
     .div_logofirst a .saida {
         width: 20px;
-    }
-
+    } */
+ /* */ 
 
 
 }
 
+<<<<<<< HEAD
 @media screen and( max-width: 400px){
     aside{
         position: absolute;
@@ -817,3 +879,55 @@ aside {
         left: -79vw;
     }
 }
+=======
+@media screen and (max-width: 400px) {
+
+    /* .imagem_volks img{
+        width: 40px;
+    }
+
+    .posicionamento_elementos2{
+        margin-bottom: 150px;
+       
+    }
+
+   
+    .moldura_config{
+        width: 35px;
+       
+        
+    }
+
+    .config{
+        width: 10px;
+    }
+
+
+    .menu_conteudo img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .menu_conteudo span{
+        font-size: 6px;
+
+    }
+
+    .menu_conteudo a {
+        gap: 0;
+
+
+    }
+
+    .div_logofirst img{
+        width: 60px;
+    }
+
+    .div_logofirst a .saida{
+        width: 20px;
+    } */
+
+    
+}
+
+>>>>>>> 87bacf710635a555e132402b9991e89f3b3a99be
