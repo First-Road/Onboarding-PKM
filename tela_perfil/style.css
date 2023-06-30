@@ -29,8 +29,14 @@
 
 }
 
+body{
+    overflow: hidden;
+}
+
 main{
     display: flex;
+    
+    height: 100%;
 
 }
 
@@ -42,11 +48,10 @@ aside{
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
-    
 }
 
 .posicionamento_elementos{
-    width: 20vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -155,6 +160,7 @@ aside{
     right: -10px;
     bottom: 0;
 }
+
 
 .secao_perfil{
     background-color: var(--grayscale-cor-3);
@@ -508,65 +514,32 @@ button:hover{
     }
 
     aside{
-        position: relative;
+        position: absolute;
+        width: 150px;
+        z-index: 1;
     }
-    
+
+    .posicionamento_elementos{
+        width: 100%;
+    }
+
+    body{
+        height: 100vh;
+    }
+
+    #sombra{
+        height: 100vh;
+        width: 100vw;
+        background-color: #0000004f;
+        position: fixed;
+        top: 0;
+        right: 110vw;
+        overflow: hidden;
+        transition: .5s;
+        backdrop-filter: blur(10px);
+        z-index: 1;
+    }
 }
 
-@media screen and (max-width: 500px) {
-    .imagem_volks img{
-        width: 50px;
-    }
 
-    .posicionamento_elementos2{
-        margin-bottom: 150px;
-       
-    }
-
-   
-    .moldura_config{
-        width: 45px;
-       
-        
-    }
-
-    .config{
-        width: 13px;
-    }
-
-
-    .menu_conteudo img{
-        width: 25px;
-        height: 25px;
-    }
-
-    .menu_conteudo span{
-        font-size: 10px;
-
-    }
-
-    .menu_conteudo a {
-        gap: 3px;
-
-
-    }
-
-    .div_logofirst img{
-        width: 80px;
-    }
-
-    .div_logofirst a .saida{
-        width: 20px;
-    }
-
-
-
-
-   
-        
-    
-
-
-    
-}
-
+  
