@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Editar Agenda Colaborador</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
@@ -141,42 +141,57 @@
 
 
         </aside>
-        <div class="conteudos">
-            <div>
-                <h1>Conteudos</h1>
-            </div>
-            <div class="lista_itens">
-                <div class="checkbox">
-                <input id="check" type="checkbox" name="" >
-                <label for="">Manual de boas vindas</label>
+        <section class="calendario">
+            <div class="container">
+                <div class="cabecalho">
+                    <div class="titulo">
+                        <h1>Editar Agenda Colaborador</h1>
+                    </div>
+                    <div id="monthDisplay"></div>
+
+                    <div>
+                        <button id="backButton">Voltar</button>
+                        <button id="nextButton">Próximo</button>
+                    </div>
+
                 </div>
 
-                <div class="checkbox">
-                <input id="check" type="checkbox" name="" >
-                <label for="">Configurar o banco de dados</label>
+                <div id="weekdays">
+                    <div class="domingo"><span>Domingo</span></div>
+                    <div class="segunda"><span>Segunda-feira</span></div>
+                    <div class="terca"><span>Terça-feira</span> </div>
+                    <div class="quarta"><span>Quarta-feira</span> </div>
+                    <div class="quinta"><span>Quinta-feira</span> </div>
+                    <div class="sexta"><span>Sexta-feira</span></div>
+                    <div class="sabado"> <span>Sábado</span></div>
                 </div>
 
-                <div class="checkbox">
-                <input id="check" type="checkbox" name="" >
-                <label for="">Baixar VSCode</label>
-                </div>
+                <div id="calendar"></div>
 
-                <div class="checkbox">
-                <input id="check" type="checkbox" name="" >
-                <label for="">Configurar o Docker</label>
-                </div>
-
-                <div class="checkbox">
-                <input id="check" type="checkbox" name="" >
-                <label for="">Conhecer as APIs</label>
-                </div>
 
             </div>
-        </div>
+
+
+            <script src="./scripts/script.js"></script>
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
     </main>
 </body>
 
