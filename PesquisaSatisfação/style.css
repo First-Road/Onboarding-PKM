@@ -53,12 +53,12 @@ aside{
 }
 
 .posicionamento_elementos{
-    width: 20vw;
+    width: 100%;
+    min-width: 80px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    min-width: 80px;
 }
 
 .imagem_volks img{
@@ -163,6 +163,7 @@ aside{
     right: -10px;
     bottom: 0;
 }
+
 
 .grid {
    
@@ -301,11 +302,29 @@ textarea {
 
     aside{
         position: absolute;
+        width: 150px;
+    }
+
+    .posicionamento_elementos{
+        width: 100%;
     }
 
     body{
         height: 100vh;
     }
+
+    #sombra{
+        height: 100vh;
+        width: 100vw;
+        background-color: #0000004f;
+        position: fixed;
+        top: 0;
+        right: 110vw;
+        overflow: hidden;
+        transition: .5s;
+        backdrop-filter: blur(10px);
+    }
+
 
     
 }
@@ -325,8 +344,8 @@ textarea {
 }
 
 @media screen and (max-width: 500px) {
-    .imagem_volks img{
-        width: 50px;
+    /* .imagem_volks img{ */
+        /* width: 50px;
     }
 
     .posicionamento_elementos2{
@@ -368,7 +387,7 @@ textarea {
 
     .div_logofirst a .saida{
         width: 20px;
-    }
+    } */
 
 
 
