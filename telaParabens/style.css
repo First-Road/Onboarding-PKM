@@ -29,16 +29,19 @@
 
 }
 
-main {
+body{
+    overflow: hidden;
+}
+
+main{
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    
+    height: 100%;
 
 }
 
-aside {
-    display: block;
-    position: fixed;
+aside{
+    display: flex;
     height: 100vh;
     width: 20vw;
     background-color: var(--principal-cor-2);
@@ -46,52 +49,51 @@ aside {
     position: relative;
     transition: all 0.5s ease;
     min-width: 80px;
-
+    
 }
 
-.posicionamento_elementos {
-    width: 20vw;
-    height: 100vh;
+.posicionamento_elementos{
+    width: 100%;
+    min-width: 80px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    min-width: 80px;
 }
 
-.imagem_volks img {
+.imagem_volks img{
     width: 100px;
 }
 
-.menu_barras {
-    display: none;
+.menu_barras{
+       display: none; 
 }
 
-.imagemfoto {
+.imagemfoto{
     width: 100%;
 }
 
-.config {
+.config{
     width: 25px;
 }
 
-.menu_conteudo img {
+.menu_conteudo img{
     height: 35px;
 }
 
-.menu_conteudo li {
+.menu_conteudo li{
     list-style: none;
-
+    
 }
 
-.menu_conteudo {
+.menu_conteudo{
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
 
 
-.menu_conteudo a {
+.menu_conteudo a{
     display: flex;
     gap: 10px;
     align-items: center;
@@ -102,14 +104,13 @@ aside {
     cursor: pointer;
 }
 
-.menu_conteudo li :hover {
+.menu_conteudo li :hover{
     color: #090C40;
     transition: 0.6s;
     transform: scale(1.1);
 
 }
-
-.icon:hover {
+.icon:hover{
     fill: #090C40;
     transition: 0.6s;
     transform: scale(1.1);
@@ -117,34 +118,34 @@ aside {
 
 
 
-.menu_conteudo div {
-    display: flex;
-    width: 35px;
-    justify-content: center;
-    align-items: center;
+.menu_conteudo div{
+  display: flex;
+  width: 35px;
+  justify-content: center;
+  align-items: center;
 }
 
-.listameio {
-    margin-top: 5px;
-    margin-bottom: 5px;
+.listameio{
+   margin-top: 5px;
+   margin-bottom: 5px;
 }
 
-.div_logofirst {
+.div_logofirst{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
 
-.saida {
+.saida{
     width: 35px;
 }
 
-.logo_first img {
+.logo_first img{
     width: 125px;
 }
 
-.posicionamento_elementos2 {
+.posicionamento_elementos2{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -153,20 +154,22 @@ aside {
     gap: 10px;
 }
 
-.moldura_config {
+.moldura_config{
     position: relative;
 }
 
-.moldura_config a {
+.moldura_config a{
     position: absolute;
     right: -10px;
     bottom: 0;
 }
 
+
 section{
     display: flex;
     flex-direction: column;
     width: 80vw;
+    height: 100vh;
 
 }
 
@@ -271,72 +274,86 @@ h2{
 
 @media screen and (max-width:768px){
 
-    
-    
-    .imagem_volks img {
+    .imagem_volks img{
         width: 70px;
     }
 
-    .posicionamento_elementos2 {
+    .posicionamento_elementos2{
         margin-bottom: 100px;
-
+       
     }
 
-    h2{
-        font-size: 20px;
-        width: 500px;
-    }
-
-
-    .moldura_config {
+   
+    .moldura_config{
         width: 70px;
-
-
+       
+        
     }
 
-    .config {
+    .config{
         width: 20px;
     }
 
 
-    .menu_conteudo img {
+    .menu_conteudo img{
         width: 30px;
         height: 30px;
     }
 
-    .menu_conteudo span {
+    .menu_conteudo span{
         font-size: 13px;
 
     }
 
-    .menu_barras {
+    .menu_barras{
         display: flex;
-        background-color: var(--principal-cor-2);
+        background-color:  var(--principal-cor-2);
         padding: 7px;
-        border-radius: 0 15px 15px 0;
+        border-radius: 0 15px 15px 0 ;
         position: absolute;
         top: 20px;
         right: -40px;
 
     }
 
-    .menu_barras img {
+    .menu_barras img{
         width: 30px;
         height: 30px;
     }
 
-    aside {
+    aside{
         position: absolute;
+        width: 150px;
+    }
+
+    .posicionamento_elementos{
+        width: 100%;
+    }
+
+    body{
+        height: 100vh;
     }
 
     section{
         width: 100vw;
     }
 
+    #sombra{
+        height: 100vh;
+        width: 100vw;
+        background-color: #0000004f;
+        position: fixed;
+        top: 0;
+        right: 110vw;
+        overflow: hidden;
+        transition: .5s;
+        backdrop-filter: blur(10px);
+    }
+
 }
 
 @media screen and (max-width: 500px) {
-    .imagem_volks img {
+    /* .imagem_volks img {
         width: 50px;
     }
 
@@ -379,7 +396,7 @@ h2{
 
     .div_logofirst a .saida {
         width: 20px;
-    }
+    } */
 
 
     
