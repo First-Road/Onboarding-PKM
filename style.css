@@ -26,7 +26,7 @@
     --font-1: 'Sigmar', cursive;
     --font-2: Verdana, sans-serif;
     --space-icon-aside: 16px;
-    --title-h1-margin-page: 50px 0;
+    --title-h1-margin-page: 60px 0;
 
 }
 
@@ -39,7 +39,7 @@ aside{
     display: flex;
     height: 100vh;
     width: 20vw;
-    background-color: var(--principal-cor-2);
+    background-color: var(--auxiliar-cor-7);
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
@@ -71,7 +71,7 @@ aside{
 }
 
 .menu_conteudo img{
-    height: 35px;
+    height: 20px;
 }
 
 .menu_conteudo li{
@@ -88,13 +88,14 @@ aside{
 
 .menu_conteudo a{
     display: flex;
-    gap: 10px;
+   /*  gap: 5px; */
     align-items: center;
     text-decoration: none;
     color: white;
     font-family: var(--font-2);
-    font-size: 16px;
+    font-size: 13px;
     cursor: pointer;
+    margin-bottom: 25px;
 }
 
 .menu_conteudo li :hover{
@@ -156,6 +157,29 @@ aside{
     right: -10px;
     bottom: 0;
 }
+
+.main .section .gestao_colaborador{
+    width: 80vw;
+    display: flex;
+}
+
+.gestao_colaborador .titulo_gestao{
+    font-family: var(--font-2);
+    font-weight: 400;
+    color: #737373;
+    
+}
+
+.gestao_colaborador .primeiro_bloco{
+    justify-content: space-between;
+    display: flex;
+    width: 80vw;
+   flex-direction: column;
+}
+
+
+
+
 
 @media screen and (max-width:768px) {
     .imagem_volks img{
