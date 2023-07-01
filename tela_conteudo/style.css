@@ -29,10 +29,14 @@
 
 }
 
+body{
+    overflow: hidden;
+}
+
 main{
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    
+    height: 100%;
 
 }
 
@@ -49,12 +53,12 @@ aside{
 }
 
 .posicionamento_elementos{
-    width: 20vw;
+    width: 100%;
+    min-width: 80px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    min-width: 80px;
 }
 
 .imagem_volks img{
@@ -384,7 +388,31 @@ h2{
 
     aside{
         position: absolute;
+        width: 150px;
+        z-index: 1;
     }
+
+    .posicionamento_elementos{
+        width: 100%;
+    }
+
+    body{
+        height: 100vh;
+    }
+
+    #sombra{
+        height: 100vh;
+        width: 100vw;
+        background-color: #0000004f;
+        position: fixed;
+        top: 0;
+        right: 110vw;
+        overflow: hidden;
+        transition: .5s;
+        backdrop-filter: blur(10px);
+        z-index: 1;
+    }
+
 
     section{
         width: 100vw;
@@ -423,7 +451,7 @@ h2{
     .botao{
         align-items: end;
         padding-right: 40px;
-        padding-top: 40px;
+        padding-bottom: 10;
     }
 
     .icones_modulo img{
@@ -440,7 +468,7 @@ h2{
 }
 
 @media screen and (max-width: 500px) {
-    .imagem_volks img{
+    /* .imagem_volks img{
         width: 50px;
     }
 
@@ -483,12 +511,12 @@ h2{
 
     .div_logofirst a .saida{
         width: 20px;
-    }
+    } */
 
     .botao{
         align-items: end;
         padding-right: 40px;
-        padding-top: 0px;
+        padding-bottom: 50px;
     }
 
 
