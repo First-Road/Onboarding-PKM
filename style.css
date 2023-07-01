@@ -17,6 +17,7 @@
     --auxiliar-cor-4:#72A091;
     --auxiliar-cor-5:#E75A55;
     --auxiliar-cor-6:#F54B5D;
+    --auxiliar-cor-7: #42816C;
     --grayscale-cor-1: #47485E;
     --grayscale-cor-2:#C5C7D0;
     --grayscale-cor-3:#F3F3F3;
@@ -28,9 +29,14 @@
     --title-h1-margin-page: 50px 0;
 
 }
+body{
+    overflow: hidden;
+}
 
 main{
     display: flex;
+    
+    height: 100%;
 
 }
 
@@ -38,15 +44,17 @@ aside{
     display: flex;
     height: 100vh;
     width: 20vw;
-    background-color: var(--principal-cor-3);
+    background-color: var(--principal-cor-2);
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
+    min-width: 80px;
     
 }
 
 .posicionamento_elementos{
-    width: 20vw;
+    width: 100%;
+    min-width: 80px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -70,12 +78,11 @@ aside{
 }
 
 .menu_conteudo img{
-    height: 35px;
+    height: 20px;
 }
 
 .menu_conteudo li{
     list-style: none;
-    margin: 10px;
     
 }
 
@@ -91,7 +98,7 @@ aside{
     gap: 10px;
     align-items: center;
     text-decoration: none;
-    color: var(--grayscale-cor-4);
+    color: white;
     font-family: var(--font-2);
     font-size: 16px;
     cursor: pointer;
@@ -118,9 +125,8 @@ aside{
   align-items: center;
 }
 
-.listameio{
-   margin-top: 5px;
-   margin-bottom: 5px;
+.menu_conteudo ul li {
+    margin-bottom: 10px;
 }
 
 .div_logofirst{
@@ -156,7 +162,6 @@ aside{
     right: -10px;
     bottom: 0;
 }
-
 
 .adminUnidade_Yo {
     height: 100%;
@@ -452,14 +457,6 @@ label,select
 
 }
 
-@media screen and (max-width:1440px){
-    .icon_input{
-        position: absolute;
-        top: 191px;
-        left: 815px;
-}
-
-
 
 @media screen and (max-width:768px) {
     .imagem_volks img{
@@ -484,8 +481,8 @@ label,select
 
 
     .menu_conteudo img{
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        
     }
 
     .menu_conteudo span{
@@ -510,13 +507,35 @@ label,select
     }
 
     aside{
-        position: relative;
+        position: absolute;
+        width: 150px;
     }
+
+    .posicionamento_elementos{
+        width: 100%;
+    }
+
+    body{
+        height: 100vh;
+    }
+
+    #sombra{
+        height: 100vh;
+        width: 100vw;
+        background-color: #0000004f;
+        position: fixed;
+        top: 0;
+        right: 110vw;
+        overflow: hidden;
+        transition: .5s;
+        backdrop-filter: blur(10px);
+    }
+
     
 }
 
 @media screen and (max-width: 500px) {
-    .imagem_volks img{
+    /* .imagem_volks img{
         width: 50px;
     }
 
@@ -559,8 +578,8 @@ label,select
 
     .div_logofirst a .saida{
         width: 20px;
-    }
-
+    } */
+ /* */ 
 
 
 
@@ -568,6 +587,56 @@ label,select
         
     
 
+
+    
+}
+
+@media screen and (max-width: 400px) {
+
+    /* .imagem_volks img{
+        width: 40px;
+    }
+
+    .posicionamento_elementos2{
+        margin-bottom: 150px;
+       
+    }
+
+   
+    .moldura_config{
+        width: 35px;
+       
+        
+    }
+
+    .config{
+        width: 10px;
+    }
+
+
+    .menu_conteudo img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .menu_conteudo span{
+        font-size: 6px;
+
+    }
+
+    .menu_conteudo a {
+        gap: 0;
+
+
+    }
+
+    .div_logofirst img{
+        width: 60px;
+    }
+
+    .div_logofirst a .saida{
+        width: 20px;
+    } */
 
     
 }
