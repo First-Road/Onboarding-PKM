@@ -78,7 +78,7 @@ aside{
 }
 
 .menu_conteudo img{
-    height: 35px;
+    height: 20px;
 }
 
 .menu_conteudo li{
@@ -391,8 +391,8 @@ aside{
 
 
     .menu_conteudo img{
-        width: 30px;
-        height: 30px;
+        width: 20px;
+       
     }
 
     .menu_conteudo span{
