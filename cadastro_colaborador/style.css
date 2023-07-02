@@ -44,7 +44,7 @@ aside{
     display: flex;
     height: 100vh;
     width: 20vw;
-    background-color: var(--principal-cor-2);
+    background-color: var(--auxiliar-cor-7);
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
@@ -144,6 +144,9 @@ aside{
 .logo_first img{
     width: 125px;
 }
+.icon{
+    width: 30px;
+}
 
 .posicionamento_elementos2{
     display: flex;
@@ -163,6 +166,199 @@ aside{
     right: -10px;
     bottom: 0;
 }
+
+.secao_perfil{
+    background-color: var(--grayscale-cor-3);
+    padding: 60px 30px;
+    width: calc(100vw - 20vw);
+    height: 100vh;
+    background-color: #F3F3F3;
+}    
+
+
+.elementos_texto_imagem{
+    display: flex;
+    gap: 50px;
+
+}
+
+.user_config{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.foto_padrao{
+    width: 120px;
+    height: 120px;
+}
+
+.config1{
+    position: absolute;
+    right: -8px;
+    bottom: 70px;
+}
+
+.texto_perfil{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    
+}
+
+.texto_perfil h1{
+    font-size: 20px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+}
+
+.texto_perfil p{
+    font-size: 18px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+
+
+}
+
+.primeira_linha{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.centralizar{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 580px;
+
+    
+    
+     
+ 
+    
+}
+
+.posicao_linha{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.segunda_linha{
+    display: flex;
+    gap: 10px;
+
+}
+
+.terceira_linha{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.quarta_linha{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    
+    
+}
+
+.input1{
+    flex: 2;
+    
+}
+
+.input2{
+    flex: 1;
+}
+
+.input3, .input4, .input5{
+    flex: 1;
+}
+
+.input6, .input7{
+    flex: 1;
+}
+
+.input8{
+    width: 70%;
+}
+
+.data{
+    font-size: 1px;
+}
+
+.input_caixa{
+    border-radius: 10px;
+    height: 30px;
+    border: 2px solid var(--principal-cor-3) ;
+    background-color: var(--grayscale-cor-3);
+}
+
+.input label{
+    text-transform: uppercase ;
+    color: var(--principal-cor-3);
+    font-size: 10px;
+}
+
+.button_salvar {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    
+    
+}
+
+.button_salvar button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 29px;
+    border-radius: 20px;
+    background-color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 18px;
+    color: var(--grayscale-cor-3);
+    border: none;
+    box-shadow: 2px 3px 5px #888888;
+    
+}
+
+.alterar_gestor{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+.terceira{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 15px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+    margin-bottom: 15px;
+    
+}
+
 
 @media screen and (max-width:768px) {
     .imagem_volks img{
