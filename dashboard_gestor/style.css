@@ -32,6 +32,8 @@
 
 main{
     display: flex;
+    width: 100vw;
+    height: 100vh;
 
 }
 
@@ -158,13 +160,44 @@ aside{
     bottom: 0;
 }
 
-.imagens{
-    /* display: flex; */
+.posicao{
+    display: flex;
+    gap: 25px;
+}
+
+.imagens_conteudo{
+    display: flex;
+    flex-direction: column;
     width: 80vw;
+    height: 100vh;
+    margin: 20px;
+    gap: 30px;
+    background-color: #F3F3F3;
+}
+
+.texto_dashboard{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 35px;
+}
+
+.inputs{
+    display: flex;
+    gap: 30px;
+}
+
+.imagens{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
 }
 
 .imagens .primeiro_bloco{
-    
+    display: flex;
+    gap: 25px;
+    margin-left: 35px;
 
 }
 
@@ -172,24 +205,71 @@ aside{
     width: 180px;
 }
 
-.imagens .bloco_meio{
-    width: 540px;
+.bloco_meio img{
+    width: 592px;
+   
 }
 
-.imagens .bloco_meio #conclusao{
-    width: 325px;
+.bloco_meio{
+    margin-left: 35px;
 }
 
 .imagens .terceiro_bloco{
     display: flex;
+    gap: 25px;
+    margin-left: 35px;
     
 }
 
-.imagens .bloco_lateral{
+#conclusao{
+    width: 360px;
+    height: 145px;
+}
+
+.posicao_imagens{
+    display: flex;
+}
+
+.bloco_lateral{
     display: flex;
     flex-direction: column;
-    width: 296px;
-    height: 677px;
+    gap: 13px;
+}
+
+.imagem1{
+    height: 364px;
+}
+
+h1{
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+    font-size: 30px;
+    
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input input{
+    width: 300px;
+    height: 25px;
+    border-radius: 25px;
+    border: 1px solid var(--principal-cor-3);
+    text-align: center;
+}
+
+.input input::placeholder{
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+}
+
+.input label{
+    font-family: var(--font-2);
+    font-size: 15px;
+    color: var(--principal-cor-3);
 }
 
 @media screen and (max-width:768px) {
