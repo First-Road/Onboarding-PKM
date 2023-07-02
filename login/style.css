@@ -42,7 +42,7 @@ main{
 .login_login{
     height: 100%;
     width: 60%;
-    background-image: url(./assets/img/camron\ gelisia\ \ fashion\ brand\ art\ design\ logo\ 1.png);
+    background-image: url(../assets/img/camron\ gelisia\ \ fashion\ brand\ art\ design\ logo\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -74,6 +74,7 @@ main{
     height: 100%;
     width: 40%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -133,6 +134,31 @@ main{
     font-size: 20px;
     text-transform: uppercase;
     background-color: var(--principal-cor-3);
+
+}
+
+.tipo_login{
+    display: flex;
+    gap: 30px; 
+    margin-top: 50px;
+    align-items: center;
+    
+
+}
+
+.tipo_login a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background-color: var(--principal-cor-3);
+    border-radius: 25px;
+    font-family: var(--font-2);
+    font-size: 15px;
+    text-transform: uppercase;
+    color: var(--grayscale-cor-4);
+    text-decoration: none;
 
 }
 
