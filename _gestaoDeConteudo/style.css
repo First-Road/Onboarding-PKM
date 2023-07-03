@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --principal-cor-1:#090C40;
+    --principal-cor-2:#048ABF;
+    --principal-cor-3:#025E73;
+    --principal-cor-4:#5ABF4B;
+    --principal-cor-5:#F2B705;
+    --principal-cor-6:#F5A26B;
+    --auxiliar-cor-1:#474966;
+    --auxiliar-cor-2: #46D3F3;
+    --auxiliar-cor-3: #426B7F;
+    --auxiliar-cor-4:#72A091;
+    --auxiliar-cor-5:#E75A55;
+    --auxiliar-cor-6:#F54B5D;
+    --grayscale-cor-1: #47485E;
+    --grayscale-cor-2:#C5C7D0;
+    --grayscale-cor-3:#F3F3F3;
+    --grayscale-cor-4:#FCFCFC;
+
+    --font-1: 'Sigmar', cursive;
+    --font-2: Verdana, sans-serif;
+    --space-icon-aside: 16px;
+    --title-h1-margin-page: 50px 0;
+
+}
+
+main{
+    display: flex;
+
+}
+
+aside{
+    display: flex;
+    height: 100vh;
+    width: 20vw;
+    background-color: #42816C;
+    left: 0px;
+    position: relative;
+    transition: all 0.5s ease;
+    
+}
+
+.posicionamento_elementos{
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem_volks img{
+    width: 100px;
+}
+
+.menu_barras{
+       display: none; 
+}
+
+.imagemfoto{
+    width: 100%;
+}
+
+.config{
+    width: 25px;
+}
+
+.menu_conteudo img{
+    height: 20px;
+}
+
+.menu_conteudo li{
+    list-style: none;
+    
+}
+
+.menu_conteudo{
+    display: flex;
+    flex-direction: column;
+    /* gap: 50px; */
+}
+
+
+.menu_conteudo a{
+    display: flex;
+   /*  gap: 5px; */
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-2);
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.menu_conteudo li :hover{
+    color: #090C40;
+    transition: 0.6s;
+    transform: scale(1.1);
+
+}
+.icon:hover{
+    fill: #090C40;
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+
+
+
+.menu_conteudo div{
+  display: flex;
+  width: 35px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.listameio .icon1{
+    font-size: 10px;
+}
+
+.div_logofirst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.saida{
+    width: 35px;
+}
+
+.logo_first img{
+    width: 125px;
+}
+
+.posicionamento_elementos2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.moldura_config{
+    position: relative;
+}
+
+.moldura_config a{
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+}
+
+.conteudos {
+    width: calc(100vw - 20vw);
+    /* border: 2px solid red; */
+    margin-left: 60px;
+}
+
+.conteudos h1{
+    font-family: var(--font-2);
+    font-size: 60px;
+    color: #A6A6A6;
+    /* border: 2px solid pink; */
+    margin-top: 60px;
+    
+}
+.lista_itens .checkbox{
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 38px;
+    gap: 30px;
+}
+
+.lista_itens input[type="checkbox"]{
+    width: 52px;
+    height: 48px;
+
+    border: 4px solid black;
+    border-radius: 8px;
+    appearance: none;
+
+
+    
+}
+
+.lista_itens input[type="checkbox"]:checked {
+
+    cursor: pointer;
+    background-image: url("./assets/images/check_FILL0_wght700_GRAD0_opsz40.png");
+   
+}
+
+
+.conteudos .lista_itens{
+    font-family: var(--font-2);
+    font-size: 40px;
+    color: #000;
+
+    margin-top: 60px;
+}
+
+.check_manual{
+    gap: 10px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .imagem_volks img{
+        width: 70px;
+    }
+
+    .posicionamento_elementos2{
+        margin-bottom: 100px;
+       
+    }
+
+   
+    .moldura_config{
+        width: 70px;
+       
+        
+    }
+
+    .config{
+        width: 20px;
+    }
+
+
+    .menu_conteudo img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .menu_conteudo span{
+        font-size: 13px;
+
+    }
+
+    .menu_barras{
+        display: flex;
+        background-color:  var(--principal-cor-2);
+        padding: 7px;
+        border-radius: 0 15px 15px 0 ;
+        position: absolute;
+        top: 20px;
+        right: -40px;
+
+    }
+
+    .menu_barras img{
+        width: 30px;
+        height: 30px;
+    }
+
+    aside{
+        position: relative;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .imagem_volks img{
+        width: 50px;
+    }
+
+    .posicionamento_elementos2{
+        margin-bottom: 150px;
+       
+    }
+
+   
+    .moldura_config{
+        width: 45px;
+       
+        
+    }
+
+    .config{
+        width: 13px;
+    }
+
+
+    .menu_conteudo img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .menu_conteudo span{
+        font-size: 10px;
+
+    }
+
+    .menu_conteudo a {
+        gap: 3px;
+
+
+    }
+
+    .div_logofirst img{
+        width: 80px;
+    }
+
+    .div_logofirst a .saida{
+        width: 20px;
+    }
+
+
+
+
+   
+        
+    
+
+
+    
+}
+
