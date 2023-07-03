@@ -10,7 +10,7 @@ addEventListener("resize", () => {
         aside.style.left = "0px"
     }
     else{
-        aside.style.left = "-140px"
+        aside.style.left = "-145px"
 
     }
 });
@@ -18,7 +18,7 @@ addEventListener("resize", () => {
 
 function mostrarMenu() {
     if (window.getComputedStyle(aside).left == "0px") {
-        aside.style.left = "-140px"
+        aside.style.left = "-145px"
         sombra.style.right ="110vw"
         body.style.overflow = "auto"
     }

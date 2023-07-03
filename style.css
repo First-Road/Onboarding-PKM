@@ -49,11 +49,12 @@ aside{
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
+    justify-content: center;
     
 }
 
 .posicionamento_elementos{
-    width: 20vw;
+    /* width: 20vw; */
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -126,7 +127,7 @@ aside{
 
 
 .menu_conteudo ul li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .div_logofirst{
@@ -352,7 +353,7 @@ aside{
     }
 
     .menu_conteudo a{
-        font-size: 14px;
+        /* font-size: 14px; */
         gap: 8px;
     } 
     
@@ -417,7 +418,7 @@ aside{
     }
 
     .menu_conteudo a{
-        font-size: 13px;
+        /* font-size: 13px; */
         gap: 7px;
     } 
     
@@ -485,7 +486,7 @@ aside{
         width: 80px;
     }
     .menu_conteudo a{
-        font-size: 13px;
+        /* font-size: 13px; */
         gap: 7px;
     } 
     
@@ -537,6 +538,7 @@ aside{
 
     aside{
         position: absolute;
+        width: 150px;
     }
 
     body{
@@ -605,7 +607,7 @@ aside{
     }
 
     .menu_conteudo a{
-        font-size: 13px;
+        /* font-size: 13px; */
         gap: 7px;
     } 
     
@@ -723,7 +725,7 @@ aside{
     }
 
     .menu_conteudo a{
-        font-size: 13px;
+        /* font-size: 13px; */
         gap: 7px;
     } 
     
@@ -832,7 +834,7 @@ aside{
     }
 
     .menu_conteudo span{
-        font-size: 6px;
+        /* font-size: 6px; */
 
     }
 
