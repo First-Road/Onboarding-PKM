@@ -37,6 +37,7 @@ main{
     display: flex;
     
     height: 100%;
+    background-color: var(--grayscale-cor-2);
 
 }
 
@@ -123,10 +124,7 @@ aside{
   align-items: center;
 }
 
-.listameio{
-   margin-top: 5px;
-   margin-bottom: 5px;
-}
+
 .menu_conteudo ul li {
     margin-bottom: 10px;
 }
@@ -178,7 +176,7 @@ aside{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 70px;
 
 }
 
@@ -220,7 +218,7 @@ aside{
     font-weight: 700;
 }
 
-.adminDeslogado_two label {
+.adminLogado_two label {
     font-family: var(--font-2);
     font-size: 40px;
     font-weight: 700;
@@ -230,14 +228,15 @@ aside{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    /* gap: 10px; */
 
 }
 
 .adminLogado_two .adminLogado_isp progress {
     height: 100px;
-    width: 250px;
+    width: 15px;
 }
+
 
 .adminLogado_two .adminLogado_isp span {
     font-family: var(--font-2);
@@ -265,7 +264,7 @@ aside{
     gap: 30px;
 }
 
-.adminLogado_btn button{
+/* .adminLogado_btn button{
     height: 43px;
     width: 200px;
     display: flex;
@@ -280,23 +279,229 @@ aside{
     text-transform: uppercase;
     padding: 10px 50px;
   
+} */
+
+@media screen and (max-width:1200px){
+
+    .imagem_volks img{
+        width: 99px;
+    }
+
+    .menu_conteudo a{
+        font-size: 15px;
+        gap: 9px;
+    } 
+    
+    .saida{
+        height: 33px;
+        width: 33px;
+    }
+    
+    .logo_first img{
+        height: 87px;
+        width: 123px;
+    }
+    .persona {
+        height: 165px;
+        width: 157px;
+        border-radius: 95px;
+    }
+    
+    .adminLogado_one span {
+        font-size: 35px;
+    }
+    
+    
+    .semafaro_verde{
+        height: 109px;
+        width: 109px;
+    }
+
+    .adminLogado_two h2 {
+        font-size: 35px;
+    }
+    
+    .adminLogado_two label {
+        font-size: 35px;
+    }
+
+    .adminLogado_two .adminLogado_isp progress {
+        height: 100px;
+        width: 12.5px;
+    }
+
+    .adminLogado_two .adminLogado_isp span {
+        font-size: 35px;
+    }
+
+    .adminLogado_tree span {
+        font-size: 35px;
+    }
+    .relogio_admin{
+        height: 89px;
+        width: 89px;
+        gap: 28px;
+    }
+    
+
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px){
     .imagem_volks img{
-        width: 70px;
+        width: 98px;
+    }
+
+    .menu_conteudo a{
+        font-size: 14px;
+        gap: 8px;
+    } 
+    
+    .saida{
+        height: 33px;
+        width: 33px;
+    }
+    
+    .logo_first img{
+        height: 87px;
+        width: 123px;
+    }
+
+
+    .persona {
+        height: 155px;
+        width: 147px;
+        border-radius: 95px;
+    }
+    
+    .adminLogado_one span {
+        font-size: 30px;
+    }
+    
+    
+    .semafaro_verde{
+        height: 99px;
+        width: 99px;
+    }
+
+    .adminLogado_two h2 {
+        font-size: 30px;
+    }
+    
+    .adminLogado_two label {
+        font-size: 30px;
+    }
+
+    .adminLogado_two .adminLogado_isp progress {
+        height: 100px;
+        width: 12.5px;
+    }
+    .adminLogado_two .adminLogado_isp span {
+        font-size: 30px;
+    }
+
+    .adminLogado_tree span {
+        font-size: 30px;
+    }
+
+    .relogio_admin{
+        height: 80px;
+        width: 80px;
+        gap: 28px;
+    }
+
+}
+
+@media screen and (max-width:900px){
+    .imagem_volks img{
+        width: 97px;
+    }
+
+    .menu_conteudo a{
+        font-size: 13px;
+        gap: 7px;
+    } 
+    
+    .saida{
+        height: 31px;
+        width: 31px;
+    }
+    
+    .logo_first img{
+        height: 85px;
+        width: 121px;
+    }
+
+
+    .persona {
+        height: 153px;
+        width: 145px;
+        border-radius: 95px;
+    }
+    
+    .adminLogado_one span {
+        font-size: 28px;
+    }
+    
+    
+    .semafaro_verde{
+        height: 97px;
+        width: 97px;
+    }
+
+    .adminLogado_two h2 {
+        font-size: 28px;
+    }
+    
+    .adminLogado_two label {
+        font-size: 28px;
+    }
+
+    .adminLogado_two .adminLogado_isp progress {
+        height: 100px;
+        width: 10px;
+    }
+    .adminLogado_two .adminLogado_isp span {
+        font-size: 28px;
+    }
+
+    .adminLogado_tree span {
+        font-size: 28px;
+    }
+
+    .relogio_admin{
+        height: 72px;
+        width: 72px;
+        gap: 26px;
+    }
+
+}
+
+
+
+@media screen and (max-width:768px) {
+   
+
+    .imagem_volks img{
+        width: 80px;
+    }
+    .menu_conteudo a{
+        font-size: 13px;
+        gap: 7px;
+    } 
+    
+    .saida{
+        height: 31px;
+        width: 31px;
+    }
+    
+    .logo_first img{
+        height: 85px;
+        width: 121px;
     }
 
     .posicionamento_elementos2{
         margin-bottom: 100px;
        
-    }
-
-   
-    .moldura_config{
-        width: 70px;
-       
-        
     }
 
     .config{
@@ -338,12 +543,138 @@ aside{
         height: 100vh;
     }
 
+    .container_adminLogado {
+        height: 100%;
+        width: 100%;
+    }
+
+
+
+    .persona {
+        height: 143px;
+        width: 135px;
+        border-radius: 95px;
+    }
+    
+    .adminLogado_one span {
+        font-size: 24px;
+    }
+    
+    
+    .semafaro_verde{
+        height: 87px;
+        width: 87px;
+    }
+
+    .adminLogado_two h2 {
+        font-size: 24px;
+    }
+    
+    .adminLogado_two label {
+        font-size: 24px;
+    }
+
+    .adminLogado_two .adminLogado_isp progress {
+        height: 100px;
+        width: 10px;
+    }
+    .adminLogado_two .adminLogado_isp span {
+        font-size: 24px;
+    }
+
+    .adminLogado_tree span {
+        font-size: 24px;
+    }
+
+    .relogio_admin{
+        height: 69px;
+        width: 69px;
+        gap: 25px;
+    }
+
+
+
     
 }
 
+
+
+@media screen and(max-width: 600px){
+    .imagem_volks img{
+        width: 75px;
+    }
+
+    .menu_conteudo a{
+        font-size: 13px;
+        gap: 7px;
+    } 
+    
+    .saida{
+        height: 30px;
+        width: 30px;
+    }
+    
+    .logo_first img{
+        height: 70px;
+        width: 100px;
+    }
+
+
+    .persona {
+        height: 133px;
+        width: 125px;
+        border-radius: 95px;
+    }
+    
+    .adminLogado_one span {
+        font-size: 22px;
+    }
+    
+    
+    .semafaro_verde{
+        height: 75px;
+        width: 75px;
+    }
+
+    .adminLogado_two h2 {
+        font-size: 22px;
+    }
+    
+    .adminLogado_two label {
+        font-size: 22px;
+    }
+
+    .adminLogado_two .adminLogado_isp progress {
+        height: 100px;
+        width: 10px;
+    }
+    .adminLogado_two .adminLogado_isp span {
+        font-size: 22px;
+    }
+
+    .adminLogado_tree span {
+        font-size: 22px;
+    }
+
+    .relogio_admin{
+        height: 66px;
+        width: 66px;
+        gap: 24px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width: 500px) {
     .imagem_volks img{
-        width: 50px;
+        width: 65px;
     }
 
     .posicionamento_elementos2{
@@ -387,21 +718,95 @@ aside{
         width: 20px;
     }
 
+    .imagem_volks img{
+        width: 75px;
+    }
 
-
-
-   
-        
+    .menu_conteudo a{
+        font-size: 13px;
+        gap: 7px;
+    } 
     
+    .saida{
+        height: 30px;
+        width: 30px;
+    }
+    
+    .logo_first img{
+        height: 70px;
+        width: 100px;
+    }
 
+
+    .persona {
+        height: 133px;
+        width: 125px;
+        border-radius: 95px;
+    }
+    
+    .adminLogado_one span {
+        font-size: 22px;
+    }
+    
+    
+    .semafaro_verde{
+        height: 75px;
+        width: 75px;
+    }
+
+    .adminLogado_two h2 {
+        font-size: 22px;
+    }
+    
+    .adminLogado_two label {
+        font-size: 22px;
+    }
+
+    .adminLogado_two .adminLogado_isp progress {
+        height: 100px;
+        width: 10px;
+    }
+    .adminLogado_two .adminLogado_isp span {
+        font-size: 22px;
+    }
+
+    .adminLogado_tree span {
+        font-size: 22px;
+    }
+
+    .relogio_admin{
+        height: 66px;
+        width: 66px;
+        gap: 24px;
+    }
 
     
 }
 
+
+
 @media screen and (max-width: 400px) {
 
+    .adminLogado_one{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .adminLogado_espac{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .adminLogado_two {
+        gap: 20px;
+    }
+
     .imagem_volks img{
-        width: 40px;
+        width: 55px;
     }
 
     .posicionamento_elementos2{
@@ -445,6 +850,47 @@ aside{
         width: 20px;
     }
 
-    
-}
+    .adminLogado_one span {
+        font-size: 20px;
+    }
 
+    .semafaro_verde{
+        height: 65px;
+        width: 65px;
+    }
+
+    .adminLogado_two h2 {
+        font-size: 20px;
+    }
+    
+    .adminLogado_two label {
+        font-size: 20px;
+    }
+
+    .adminLogado_two .adminLogado_isp progress {
+        height: 100px;
+        width: 10px;
+        gap: -10px;
+    }
+
+    
+    .adminLogado_two .adminLogado_isp span {
+        font-size: 22px;
+    }
+
+    .adminLogado_tree{
+        padding-bottom: 40px;
+    }
+
+    .adminLogado_tree span {
+        font-size: 20px;
+    }
+
+    .relogio_admin{
+        height: 60px;
+        width: 60px;
+        gap: 22px;
+    }
+
+    
+} 
