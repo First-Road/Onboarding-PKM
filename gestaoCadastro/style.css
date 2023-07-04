@@ -26,24 +26,16 @@
     --font-1: 'Sigmar', cursive;
     --font-2: Verdana, sans-serif;
     --space-icon-aside: 16px;
-<<<<<<<< HEAD:trilhaDeConteudo/style.css
-    --title-h1-margin-page: 53px 0;
-========
     --title-h1-margin-page: 60px 0;
->>>>>>>> gestaoColaboradorGestor:gestaoColaboradorGestor/style.css
 
 }
 
 
 main{
-<<<<<<<< HEAD:trilhaDeConteudo/style.css
-    display: flex;
-========
+
     display: flex;    
     height: 100%;
     background-color: var(--grayscale-cor-3);
->>>>>>>> gestaoCadastro:gestaoCadastro/style.css
-
 }
 
 aside{
@@ -165,8 +157,6 @@ aside{
     bottom: 0;
 }
 
-<<<<<<<< HEAD:trilhaDeConteudo/style.css
-<<<<<<<< HEAD:trilhaDeConteudo/style.css
 #teste{
     width: calc(100vw - 20vw);
     margin-left: 100px;
@@ -318,7 +308,6 @@ aside{
 
 
 /* **** MEDEIAS **** */
-========
 .main .section .gestao_colaborador{
     width: 80vw;
     display: flex;
@@ -336,7 +325,7 @@ aside{
     display: flex;
     width: 80vw;
    flex-direction: column;
-========
+}
 
 .adminGestao_Yo {
     height: 100%;
@@ -521,15 +510,9 @@ th
     padding-right: 10px;
     height: 40px;
 
->>>>>>>> gestaoCadastro:gestaoCadastro/style.css
+
 }
 
-
-
-<<<<<<<< HEAD:trilhaDeConteudo/style.css
-
->>>>>>>> gestaoColaboradorGestor:gestaoColaboradorGestor/style.css
-========
 td
 {
     padding-left: 4px;
@@ -612,7 +595,7 @@ label,select
 }
 
 
->>>>>>>> gestaoCadastro:gestaoCadastro/style.css
+
 
 @media screen and (max-width:768px) {
     .imagem_volks img{
@@ -725,8 +708,6 @@ label,select
     
 }
 
-<<<<<<<< HEAD:trilhaDeConteudo/style.css
-========
 @media screen and (max-width: 400px) {
 
     /* .imagem_volks img{
@@ -776,4 +757,4 @@ label,select
 
     
 }
->>>>>>>> gestaoCadastro:gestaoCadastro/style.css
+

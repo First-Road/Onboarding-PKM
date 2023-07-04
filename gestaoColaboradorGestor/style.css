@@ -26,12 +26,7 @@
     --font-1: 'Sigmar', cursive;
     --font-2: Verdana, sans-serif;
     --space-icon-aside: 16px;
-<<<<<<<< HEAD:trilhaDeConteudo/style.css
-    --title-h1-margin-page: 53px 0;
-========
     --title-h1-margin-page: 60px 0;
->>>>>>>> gestaoColaboradorGestor:gestaoColaboradorGestor/style.css
-
 }
 
 
@@ -161,8 +156,6 @@ aside{
     bottom: 0;
 }
 
-<<<<<<<< HEAD:gestaoColaboradorGestor/style.css
-<<<<<<<< HEAD:trilhaDeConteudo/style.css
 #teste{
     width: calc(100vw - 20vw);
     margin-left: 100px;
@@ -314,7 +307,7 @@ aside{
 
 
 /* **** MEDEIAS **** */
-========
+
 .main .section .gestao_colaborador{
     width: 80vw;
     display: flex;
@@ -332,7 +325,8 @@ aside{
     display: flex;
     width: 80vw;
    flex-direction: column;
-========
+}
+
 .container_dashboard {
     height: 100vh;
     width: calc(100vw - 20vw);
@@ -456,17 +450,9 @@ h1{
 .dashboard_two_bb img{
     height: 50px;
     width: 50px;
->>>>>>>> dashboard:dashborad/style.css
+
 }
 
-
-
-
-<<<<<<<< HEAD:gestaoColaboradorGestor/style.css
->>>>>>>> gestaoColaboradorGestor:gestaoColaboradorGestor/style.css
-
-========
->>>>>>>> dashboard:dashborad/style.css
 @media screen and (max-width:768px) {
     .imagem_volks img{
         width: 70px;
@@ -516,13 +502,13 @@ h1{
     }
 
     aside{
-<<<<<<<< HEAD:gestaoColaboradorGestor/style.css
+
         position: relative;
     }
-========
-        position: absolute;
+
+    /*     position: absolute;
         width: 150px;
-    }
+    } */
 
     .posicionamento_elementos{
         width: 100%;
@@ -544,7 +530,7 @@ h1{
         backdrop-filter: blur(10px);
     }
 
->>>>>>>> dashboard:dashborad/style.css
+
     
 }
 
@@ -605,8 +591,6 @@ h1{
     
 }
 
-<<<<<<<< HEAD:gestaoColaboradorGestor/style.css
-========
 @media screen and (max-width: 400px) {
 
     /* .imagem_volks img{
@@ -656,4 +640,4 @@ h1{
 
     
 }
->>>>>>>> dashboard:dashborad/style.css
+

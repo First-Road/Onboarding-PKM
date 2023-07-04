@@ -41,15 +41,7 @@ aside{
     display: flex;
     height: 100vh;
     width: 20vw;
-<<<<<<<< HEAD:cadastroDeConteudos/style.css
-<<<<<<<< HEAD:_gestaoDeConteudo/style.css
     background-color: #42816C;
-========
-    background-color: var(--auxiliar-cor-7);
->>>>>>>> cadastroDeConteudos:cadastroDeConteudos/style.css
-========
-    background-color: var(--auxiliar-cor-7);
->>>>>>>> gestaoDashboard:gestaoDashiboard/style.css
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
@@ -103,15 +95,7 @@ aside{
     text-decoration: none;
     color: white;
     font-family: var(--font-2);
-<<<<<<<< HEAD:cadastroDeConteudos/style.css
-<<<<<<<< HEAD:_gestaoDeConteudo/style.css
-    font-size: 12px;
-========
     font-size: 13px;
->>>>>>>> cadastroDeConteudos:cadastroDeConteudos/style.css
-========
-    font-size: 13px;
->>>>>>>> gestaoDashboard:gestaoDashiboard/style.css
     cursor: pointer;
     margin-bottom: 25px;
 }
@@ -174,8 +158,6 @@ aside{
     bottom: 0;
 }
 
-<<<<<<<< HEAD:cadastroDeConteudos/style.css
-<<<<<<<< HEAD:_gestaoDeConteudo/style.css
 .conteudos {
     width: calc(100vw - 20vw);
     /* border: 2px solid red; */
@@ -228,7 +210,7 @@ aside{
 
 .check_manual{
     gap: 10px;
-========
+}
 .cadastro_editar_conteudo{
     margin-left: 60px;
 }
@@ -313,18 +295,15 @@ aside{
     text-align: center;
     width: 250px;
     
->>>>>>>> cadastroDeConteudos:cadastroDeConteudos/style.css
 }
 
 
 
-<<<<<<<< HEAD:_gestaoDeConteudo/style.css
-========
+
 
 /********MEDIAS*********/
 
->>>>>>>> cadastroDeConteudos:cadastroDeConteudos/style.css
-========
+
 .posicao{
     display: flex;
     gap: 25px;
@@ -437,7 +416,7 @@ h1{
     color: var(--principal-cor-3);
 }
 
->>>>>>>> gestaoDashboard:gestaoDashiboard/style.css
+
 @media screen and (max-width:768px) {
     .imagem_volks img{
         width: 70px;
