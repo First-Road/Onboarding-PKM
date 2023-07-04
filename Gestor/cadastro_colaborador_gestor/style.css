@@ -78,7 +78,7 @@ aside{
 }
 
 .menu_conteudo img{
-    height: 35px;
+    height: 20px;
 }
 
 .menu_conteudo li{
@@ -100,8 +100,9 @@ aside{
     text-decoration: none;
     color: white;
     font-family: var(--font-2);
-    font-size: 16px;
+    font-size: 13px;
     cursor: pointer;
+    margin-bottom: 25px;
 }
 
 .menu_conteudo li :hover{
@@ -210,9 +211,9 @@ aside{
 }
 
 .texto_perfil h1{
-    font-size: 20px;
-    font-family: var(--font-2);
-    color: var(--principal-cor-3);
+     font-family: var(--font-2);
+     font-size: 27px;
+     color: #737373;
 }
 
 .texto_perfil p{
