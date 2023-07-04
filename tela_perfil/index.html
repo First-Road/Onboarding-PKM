@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="assets/icons/favicon.svg" type="image/x-icon">
+</head>
+
+<body id="body">
+    <main>
+        <div id="sombra"></div>
+        <aside id="aside">
+            <div class="posicionamento_elementos" id="posicao">
+
+                <div class="imagem_volks">
+                    <img src="assets/icons/logo_vw_aside.svg" alt="logo da volks">
+                </div>
+                <a class="menu_barras" id="menu" href="#" onclick="mostrarMenu()"><img src="assets/icons/icons8-cardápio.svg" alt="menu"></a>
+                <div class="posicionamento_elementos2">
+                    <div class="moldura_config">
+                        <img class="imagemfoto" src="assets/icons/fotopadrao_user_aside.svg" alt="foto Perfil">
+                        <a href=""><img class="config" src="assets/icons/engrenagem_aside.svg" alt="config"></a>
+                    </div>
+
+                    <div class="menu_conteudo">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <div>
+                                        <img class="icon" src="assets/icons/Icone_Caminhão_home.svg" alt="icone avatar">
+                                    </div>
+                                    <span>
+                                        Avatar
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="listameio">
+                                <a href="">
+                                    <div>
+                                        <img  class="icon" src="assets/icons/Vector.svg" alt="icone trilha">
+                                    </div>
+                                    <span>
+                                        Trilha
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="">
+                                    <div>
+                                        <img  class="icon" src="assets/icons/agenda_aside.svg" alt="icone agenda">
+                                    </div>
+                                    <span>
+                                        Agenda
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <div class="div_logofirst">
+                    <a href=""><img class="saida" src="assets/icons/icon_voltar_aside.svg" alt="icone saida"></a>
+                    <div class="logo_first">
+                        <img src="assets/icons/Logo_FirstRoad_aside.svg" alt="logo">
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </aside>
+
+        <section class="secao_perfil">
+
+
+            <div class="elementos_texto_imagem">
+                <div class="user_config">
+                    <img class="foto_padrao" src="assets/icons/foto_perfil2.svg" alt="">
+                    <img class="config config1" src="assets/icons/lapis_perfil.svg" alt="">
+                </div>
+
+
+                <form class="centralizar">
+
+
+                    <div class="texto_perfil">
+                        <h1>Perfil</h1>
+                        <p>O tamanho da imagem deve ter pelo menos 500px de tamanho e menos de 300kb. Arquivos
+                            permitidos
+                            são .png e .jpg</p>
+                    </div>
+
+                    <div class="posicao_linha">
+                        <div class="primeira_linha">
+                            <div class="input input1">
+                                <label for="Nome completo">Nome Completo</label>
+                                <input class="input_caixa" type="text">
+                            </div>
+
+                            <div class="input input2">
+                                <label for="Cpf">Cpf</label>
+                                <input class="input_caixa" type="number">
+                            </div>
+                        </div>
+
+                        <div class="segunda_linha">
+                            <div class="input input3">
+                                <label for="NIF">NIF</label>
+                                <input class="input_caixa" type="number">
+                            </div>
+
+                            <div class="input input4">
+                                <label class="data" for="Data de Nascimento">Data de Nascimento</label>
+                                <input class="input_caixa" type="date">
+                            </div>
+
+                            <div class="input input5">
+                                <label for="Unidade">Unidade</label>
+                                <select class="input_caixa" name="selecionar" id="">selecionar</select>
+                            </div>
+                        </div>
+
+                        <div class="terceira_linha">
+                            <div class="input input6">
+                                <label for="Perfil">Perfil</label>
+                                <input class="input_caixa" type="text">
+                            </div>
+
+                            <div class="input input7">
+                                <label for="Cargo">Cargo</label>
+                                <input class="input_caixa" type="text">
+                            </div>
+                        </div>
+
+                        <div class="quarta_linha">
+                            <div class="input input8">
+                                <label for="email">E-mail</label>
+                                <input class="input_caixa" type="email">
+                            </div>
+
+                            <div class="button_salvar">
+                                <button>
+                                    Salvar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    
+                </form>
+
+                <form>
+
+                    <div class="posicionamento_alterar">
+                        <h2>Alterar senha</h2>
+
+                        <div class="senha">
+                            <div class="senha_antiga">
+                                <label for="">Senha antiga</label>
+                                <input class="input_senha" type="password" name="senha antiga" id="">
+                            </div>
+
+                            <div class="senha_nova">
+                                <label for="">Senha nova</label>
+                                <input class="input_senha2" type="password" name="senha nova" id="">
+
+                                <div class="texto_senha">
+                                    <p>Mínimo de 8 carácteres com letras minúsculas, maiúsculas, números e símbolos
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="button_alterar">
+                            <button>Alterar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="elementos_carrousel">
+                <div class="carrousel_texto">
+                    <h2>Certificados</h2>
+                    <p>Acesse os certificados que foi adquirindo em sua jornada:</p>
+                </div>
+                <div class="carrousel_certificado">
+                    <img src="assets/icons/flecha_esquerda.svg" alt="icone flecha">
+                    <div class="certificados">
+                        <img src="assets/images/certificado2.png" alt="certificado">
+                        <img src="assets/images/certificado2.png" alt="certificado">
+                        <img src="assets/images/certificado2.png" alt="certificado">
+                    </div>
+                    <img class="flecha_esquerda" src="assets/icons/flecha_direita.svg" alt="icone flecha">
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
