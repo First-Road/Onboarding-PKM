@@ -99,14 +99,14 @@ aside {
 
 .menu_conteudo li :hover {
     color: #090C40;
-    transition: 0.6s;
+    transition: 0.6ms;
     transform: scale(1.1);
 
 }
 
 .icon:hover {
     fill: #090C40;
-    transition: 0.6s;
+    transition: 0.6ms;
     transform: scale(1.1);
 }
 
@@ -320,6 +320,12 @@ button {
     cursor: default;
     background-color: var(--body-color);
     box-shadow: none;
+}
+
+button:hover{
+    background-color: var(--principal-cor-4);
+    transition: 0.6ms;
+    transform: scale(1.1);
 }
 
 
