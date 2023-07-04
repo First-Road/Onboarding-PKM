@@ -264,6 +264,14 @@ h2{
 
 }
 
+.icones_modulo img:hover {
+    transform: scale(1.1);
+   
+    transition: 0.6ms;
+
+
+}
+
 .iconeChamado img{
     height: 80px;
     width: 15px;
@@ -324,6 +332,13 @@ h2{
     color: var(--grayscale-cor-4);
     
     
+
+}
+.botao_acessar:hover {
+    transform: scale(1.1);
+    background-color: var(--principal-cor-4);
+    transition: 0.6ms;
+
 
 }
 
