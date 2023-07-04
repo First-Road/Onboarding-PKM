@@ -815,6 +815,7 @@ aside{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    }
 
     .adminDeslogado_two {
         gap: 20px;

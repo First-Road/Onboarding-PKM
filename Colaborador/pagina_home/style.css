@@ -14,16 +14,9 @@
     --auxiliar-cor-1: #474966;
     --auxiliar-cor-2: #46D3F3;
     --auxiliar-cor-3: #426B7F;
-<<<<<<<< HEAD:_gestaoDeConteudo/style.css
-    --auxiliar-cor-4:#72A091;
-    --auxiliar-cor-5:#E75A55;
-    --auxiliar-cor-6:#F54B5D;
-    --auxiliar-cor-7: #42816C;
-========
     --auxiliar-cor-4: #72A091;
     --auxiliar-cor-5: #E75A55;
     --auxiliar-cor-6: #F54B5D;
->>>>>>>> home:pagina_home/style.css
     --grayscale-cor-1: #47485E;
     --grayscale-cor-2: #C5C7D0;
     --grayscale-cor-3: #F3F3F3;
@@ -171,7 +164,6 @@ aside{
     bottom: 0;
 }
 
-<<<<<<<< HEAD:_gestaoDeConteudo/style.css
 .conteudos {
     width: calc(100vw - 20vw);
     /* border: 2px solid red; */
@@ -307,7 +299,7 @@ aside{
     text-align: center;
     width: 250px;
     
-========
+}
 .imagem_botoes {
     background-image: url(assets/img/painel_volks.png);
     background-size: cover;
@@ -379,12 +371,9 @@ aside{
 
 
 
->>>>>>>> home:pagina_home/style.css
+
 }
 
-
-
-<<<<<<<< HEAD:_gestaoDeConteudo/style.css
 
 /********MEDIAS*********/
 
@@ -409,8 +398,6 @@ aside{
     
 }
 
-========
->>>>>>>> home:pagina_home/style.css
 @media screen and (max-width:768px) {
    .imagem_volks img{
         width: 70px;
