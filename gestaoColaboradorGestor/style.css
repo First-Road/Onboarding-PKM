@@ -27,8 +27,8 @@
     --font-2: Verdana, sans-serif;
     --space-icon-aside: 16px;
     --title-h1-margin-page: 60px 0;
-}
 
+}
 
 main{
     display: flex;
@@ -43,13 +43,11 @@ aside{
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
-    min-width: 80px;
     
 }
 
 .posicionamento_elementos{
-    width: 100%;
-    min-width: 80px;
+    width: 20vw;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -112,6 +110,8 @@ aside{
     transform: scale(1.1);
 }
 
+
+
 .menu_conteudo div{
   display: flex;
   width: 35px;
@@ -119,8 +119,9 @@ aside{
   align-items: center;
 }
 
-.menu_conteudo ul li {
-    margin-bottom: 10px;
+.listameio{
+   margin-top: 5px;
+   margin-bottom: 5px;
 }
 
 .div_logofirst{
@@ -142,6 +143,7 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-bottom: 60px;
     align-items: center;
     gap: 10px;
 }
@@ -156,303 +158,135 @@ aside{
     bottom: 0;
 }
 
-#teste{
-    width: calc(100vw - 20vw);
-    margin-left: 100px;
-}
-
-.trilha_de_conteudo .titulo{
-    font-family: var(--font-2);
-    font-size:var(--title-h1-margin-page);
-    font-weight: 700;
-    color: #545454;
-    
-
-}
-
-.trilha_de_conteudo .dados_usuario{
+section{
+    width: 80vw;
+    height: 100vh;
     display: flex;
-    justify-content: end;
-    align-items: center;
-    width: 1000px;
+    flex-direction: column;
+    margin: 60px 40px;
+    gap: 70px;
 }
 
-.trilha_de_conteudo .dados_usuario .id{
-    width: 89px;
-    height: 28px;
+.titulo_gestao{
+    font-family: var(--font-2);
+    font-size: 45px;
+    color: var(--grayscale-cor-1);
+}
+
+.primeiro_bloco{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 70vw;
+    align-items: center;
+    
+    
+}
+
+
+.primeira_linha, .segunda_linha, .terceira_linha{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.primeira_linha{
+    margin-right: 20px;
+}
+
+
+.primeira_linha input, .segunda_linha input, .terceira_linha input{
+    width: 700px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid var(--principal-cor-2);
+}
+
+.primeira_linha label, .segunda_linha label, .terceira_linha label{
+    font-family: var(--font-2);
+    font-weight: 400;
+    font-size: 20px;
     text-align: center;
 }
 
-.trilha_de_conteudo .modulo_1 .titulo_2{
-    color: #000;
+button{
+    width: 130px;
+    height: 30px;
+    border-radius: 25px;
     font-family: var(--font-2);
-    font-size: 27px;
-    margin-bottom: 23px;
+    color: var(--grayscale-cor-4);
+    border: none;
+    background-color: var(--principal-cor-3);
+    font-size: 17px;
+}
+
+.colunas{
+    display: flex;
+    gap: 60px;
+}
+
+.segundo_bloco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.terceiro_bloco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.segundo_bloco div, .terceiro_bloco div{
+    display: flex;
+    gap: 15px;
+}
+
+.segundo_bloco input, .terceiro_bloco input{
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid var(--principal-cor-2);
+}
+
+.segundo_bloco label, .terceiro_bloco label{
+    font-family: var(--font-2);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nif{
+    margin-left: 25px;
+}
+
+.equipe{
+    margin-right: 25px;
+
+}
+
+.cargo{
+    margin-right: 22px;
+
+}
+
+.perfil{
+    margin-right: 15px;
+
+}
+
+.unidade{
+    margin-right: 20px;
+}
+
+.cadastrar{
+    width: 70vw;
+    display: flex;
+    justify-content: flex-end;
    
-    
 }
-
-.trilha_de_conteudo .modulo_1 .caixas_modulo{
-    display: flex;
-    margin-bottom: 60px;
-    
-    
-}
-
-.trilha_de_conteudo .modulo_1 .caixa{
-    
-    background-color:#D9D9D9;
-    display: flex;
-    height: 95px;  
-    margin-right: 11px;
-    width: 233px;
-    font-family: var(--font-2);
-    font-size: 16px;
-    font-weight: 400;
-} 
-
-.trilha_de_conteudo .modulo_1 #c1{
-    border-left: 19px solid #5ABF4B;
-    align-items: flex-start;
-    justify-content: space-between;   
-    flex-direction: column;
-}
-.trilha_de_conteudo .modulo_1 #c2{
-    border-left: 19px solid #025E73;
-}
-.trilha_de_conteudo .modulo_1 #c3{
-    border-left: 19px solid #FEBE15;
-    align-items: flex-start;
-    justify-content: space-between;   
-    flex-direction: column;
-}
-.trilha_de_conteudo .modulo_1 #c4{
-    border-left: 19px solid #737373;
-}
-
-.trilha_de_conteudo .modulo_1 img{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    
-}
-
-
-.trilha_de_conteudo .modulo_2 {
-    margin-top: 34px;
-}
-
-.trilha_de_conteudo .modulo_2 .titulo_3{
-    color: #000;
-    font-family: var(--font-2);
-    font-size: 27px;
-    margin-bottom: 23px;  
-}
-
-.trilha_de_conteudo .modulo_2 .caixas_modulo_2{
-    display: flex;
-    margin-bottom: 60px;
-    
-    
-}
-.trilha_de_conteudo .modulo_2 .caixa{
-    
-    background-color:#D9D9D9;
-    display: flex;
-    height: 95px;  
-    margin-right: 11px;
-    width: 233px;
-    font-family: var(--font-2);
-    font-size: 16px;
-    font-weight: 400;
-    
-} 
-.trilha_de_conteudo .modulo_2 #c1{
-    border-left: 19px solid #BC1C2B;
-}
-.trilha_de_conteudo .modulo_2 #c2{
-    border-left: 19px solid #BC1C2B;
-    align-items: flex-start;
-    justify-content: space-between;   
-    flex-direction: column;
-}
-.trilha_de_conteudo .modulo_2 #c3{
-    border-left: 19px solid #FEBE15;
-}
-.trilha_de_conteudo .modulo_2 #c4{
-    border-left: 19px solid #737373;
-}
-
-.trilha_de_conteudo .botoes{
-    display: flex;
-    width: 932px;
-    height: 98px;
-    align-items: end;
-    justify-content: space-between;
-}
-
-.trilha_de_conteudo button{
-    
-    width: 250px;
-    height: 42.857px;
-    border-radius: 40px;
-    background: #A6A6A6;
-    font-family: var(--font-2);
-    font-size: 27px;
-    font-weight: 400;
-    
-    color: #F2F2F2;
-    
-}
-
-
-/* **** MEDEIAS **** */
-
-.main .section .gestao_colaborador{
-    width: 80vw;
-    display: flex;
-}
-
-.gestao_colaborador .titulo_gestao{
-    font-family: var(--font-2);
-    font-weight: 400;
-    color: #737373;
-    
-}
-
-.gestao_colaborador .primeiro_bloco{
-    justify-content: space-between;
-    display: flex;
-    width: 80vw;
-   flex-direction: column;
-}
-
-.container_dashboard {
-    height: 100vh;
-    width: calc(100vw - 20vw);
-  
-    
-}
-
-h1{
-    font-family: var(--font-2);
-    font-size: 60px;
-    font-weight: 700;
-    margin-top: 80px;
-    margin-left: 70px;
-    margin-bottom: 50px;
-
-}
-
-.dashboard_man{
-    height: 55%;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-
-}
-
-.dashboard_one{
-    /* background-color: pink; */
-    display: flex;
-    justify-content: space-between;
-    margin-left: 70px;
-    width: 100%;
-}
-
-
-.dashboard_one_a span{
-    font-family: var(--font-2);
-    font-size: 40px;
-    font-weight: 500;
-}
-.dashboard_one_a{
-    font-family: var(--font-2);
-    font-size: 40px;
-}
-.dashboard_one_b{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.dashboard_one_b p{
-    font-family: var(--font-2);
-    font-size: 40px;
-}
-
-.dashboard_two {
-    /* background-color: purple; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 70px;
-    width: 100%;
-    
-
-}
-.dashboard_two_a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.dashboard_two_aa{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.dashboard_two_b{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column; 
-    margin-right: 40px;
-}
-
-
-.dashboard_two_aa progress{
-    height: 100px;
-    width: 250px;
-
-}
-.dashboard_two_a span{
-    display: flex;
-    justify-content: flex-start;
-    text-align: initial;
-    margin-right: 40px; 
-}
-.dashboard_two_b span{
-    display: flex;
-    justify-content: flex-start;
-    text-align: initial;
-    margin-right: 40px; 
-
-}
-
-.dashboard_two_b span{
-    margin-bottom: 15px;
-}
-.dashboard_two_bb{
-    margin-bottom: 65px;
-}
-
-.dashboard_two_a,.dashboard_two_b span{
-    font-family: var(--font-2);
-    font-size: 40px;
-    font-weight: 500;
-    padding: 10px;
-}
-
-.dashboard_two_bb img{
-    height: 50px;
-    width: 50px;
-
-}
-
 @media screen and (max-width:768px) {
     .imagem_volks img{
         width: 70px;
@@ -476,8 +310,8 @@ h1{
 
 
     .menu_conteudo img{
-        width: 20px;
-        
+        width: 30px;
+        height: 30px;
     }
 
     .menu_conteudo span{
@@ -502,40 +336,13 @@ h1{
     }
 
     aside{
-
         position: relative;
     }
-
-    /*     position: absolute;
-        width: 150px;
-    } */
-
-    .posicionamento_elementos{
-        width: 100%;
-    }
-
-    body{
-        height: 100vh;
-    }
-
-    #sombra{
-        height: 100vh;
-        width: 100vw;
-        background-color: #0000004f;
-        position: fixed;
-        top: 0;
-        right: 110vw;
-        overflow: hidden;
-        transition: .5s;
-        backdrop-filter: blur(10px);
-    }
-
-
     
 }
 
 @media screen and (max-width: 500px) {
-    /* .imagem_volks img{
+    .imagem_volks img{
         width: 50px;
     }
 
@@ -578,8 +385,8 @@ h1{
 
     .div_logofirst a .saida{
         width: 20px;
-    } */
- /* */ 
+    }
+
 
 
 
@@ -587,56 +394,6 @@ h1{
         
     
 
-
-    
-}
-
-@media screen and (max-width: 400px) {
-
-    /* .imagem_volks img{
-        width: 40px;
-    }
-
-    .posicionamento_elementos2{
-        margin-bottom: 150px;
-       
-    }
-
-   
-    .moldura_config{
-        width: 35px;
-       
-        
-    }
-
-    .config{
-        width: 10px;
-    }
-
-
-    .menu_conteudo img{
-        width: 20px;
-        height: 20px;
-    }
-
-    .menu_conteudo span{
-        font-size: 6px;
-
-    }
-
-    .menu_conteudo a {
-        gap: 0;
-
-
-    }
-
-    .div_logofirst img{
-        width: 60px;
-    }
-
-    .div_logofirst a .saida{
-        width: 20px;
-    } */
 
     
 }
