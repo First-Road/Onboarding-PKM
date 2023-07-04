@@ -329,6 +329,12 @@ aside{
 
 }
 
+button:hover{
+    background-color: var(--principal-cor-4);
+    transform: scale(1.1);
+    transition: 0.6ms;
+}
+
 
 
 @media screen and (max-width:768px) {
