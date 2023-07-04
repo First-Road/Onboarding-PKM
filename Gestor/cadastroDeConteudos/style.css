@@ -268,7 +268,9 @@ aside{
 
 .cadastro_editar_conteudo .elementos_cadastro .botoes{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    gap: 200px;
+    margin-left: 150px;
 
 }
 
@@ -386,8 +388,8 @@ aside{
 
 h1{
     font-family: var(--font-2);
-    color: var(--principal-cor-3);
-    font-size: 30px;
+    color: #737373;
+    font-size: 50px;
     
 }
 
