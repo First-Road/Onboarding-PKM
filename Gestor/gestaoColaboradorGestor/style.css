@@ -287,6 +287,24 @@ button{
     justify-content: flex-end;
    
 }
+
+.cadastrar a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background-color: var(--principal-cor-3);
+    border-radius: 25px;
+    font-family: var(--font-2);
+    font-size: 15px;
+    text-transform: uppercase;
+    color: var(--grayscale-cor-4);
+    text-decoration: none;
+
+}
+
+
 @media screen and (max-width:768px) {
     .imagem_volks img{
         width: 70px;

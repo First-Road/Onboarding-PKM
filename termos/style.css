@@ -167,18 +167,24 @@ main {
 
 }
 
+.tipo_login{
+    margin-bottom: 10px;
+}
 
-.termos_comandos button {
+
+.tipo_login a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
     height: 30px;
-    width: 200px;
-    color: var(--grayscale-cor-4);
-    border-radius: 25px;
-    border: none;
-    font-family: var(--font-2);
-    font-size: 16px;
-    text-transform: uppercase;
     background-color: var(--principal-cor-3);
-    margin-bottom: 30px;
+    border-radius: 25px;
+    font-family: var(--font-2);
+    font-size: 15px;
+    text-transform: uppercase;
+    color: var(--grayscale-cor-4);
+    text-decoration: none;
 
 }
 
