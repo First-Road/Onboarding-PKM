@@ -165,7 +165,7 @@ aside{
 }
 
 .imagem_botoes {
-    background-image: url(../img/painel_volks.png);
+    background-image: url(assets/img/painel_volks.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -219,9 +219,9 @@ aside{
 }
 
 .posicao_icone a:hover {
-    background-color: #5ABF4B;
-    transition: 0.8s;
-    transform: scale(1.3);
+    background-color: var(--principal-cor-4);
+    transition: 0.6ms;
+    transform: scale(1.1);
 
 }
 
