@@ -44,8 +44,7 @@ aside{
     display: flex;
     height: 100vh;
     width: 20vw;
-    background-color: #42816C;
-    background-color: var(--auxiliar-cor-7);
+    background-color: var(--principal-cor-2);
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
