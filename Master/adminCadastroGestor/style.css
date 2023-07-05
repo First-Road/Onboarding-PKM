@@ -164,11 +164,11 @@ aside{
 }
 
 .adminCadastroGestor{
-    background-image:
+   /*  background-image:
     linear-gradient(#171717cf, #8482828e),
      url(./assets/images/func_vw_gestor.jfif) ;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     display: flex;
     justify-content: center;
     align-items: center;
