@@ -29,18 +29,18 @@
     --title-h1-margin-page: 50px 0;
 
 }
+
 body{
     overflow: hidden;
 }
 
-main{
+main {
     display: flex;
-    
-    height: 100%;
+    height: 100vh;
 
 }
 
-aside{
+aside {
     display: flex;
     height: 100vh;
     width: 20vw;
@@ -48,52 +48,50 @@ aside{
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
-    min-width: 80px;
-    
+
 }
 
-.posicionamento_elementos{
+.posicionamento_elementos {
     width: 100%;
-    min-width: 80px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
 }
 
-.imagem_volks img{
+.imagem_volks img {
     width: 100px;
 }
 
-.menu_barras{
-       display: none; 
+.menu_barras {
+    display: none;
 }
 
-.imagemfoto{
+.imagemfoto {
     width: 100%;
 }
 
-.config{
+.config {
     width: 25px;
 }
 
-.menu_conteudo img{
+.menu_conteudo img {
     height: 35px;
 }
 
-.menu_conteudo li{
+.menu_conteudo li {
     list-style: none;
-    
+
 }
 
-.menu_conteudo{
+.menu_conteudo {
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
 
 
-.menu_conteudo a{
+.menu_conteudo a {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -104,13 +102,14 @@ aside{
     cursor: pointer;
 }
 
-.menu_conteudo li :hover{
+.menu_conteudo li :hover {
     color: #090C40;
     transition: 0.6s;
     transform: scale(1.1);
 
 }
-.icon:hover{
+
+.icon:hover {
     fill: #090C40;
     transition: 0.6s;
     transform: scale(1.1);
@@ -118,34 +117,34 @@ aside{
 
 
 
-.menu_conteudo div{
-  display: flex;
-  width: 35px;
-  justify-content: center;
-  align-items: center;
+.menu_conteudo div {
+    display: flex;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
 }
 
-.listameio{
-   margin-top: 5px;
-   margin-bottom: 5px;
+.listameio {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.div_logofirst{
+.div_logofirst {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
 
-.saida{
+.saida {
     width: 35px;
 }
 
-.logo_first img{
+.logo_first img {
     width: 125px;
 }
 
-.posicionamento_elementos2{
+.posicionamento_elementos2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -154,28 +153,24 @@ aside{
     gap: 10px;
 }
 
-.moldura_config{
+.moldura_config {
     position: relative;
 }
 
-.moldura_config a{
+.moldura_config a {
     position: absolute;
     right: -10px;
     bottom: 0;
 }
 
 
-.grid {
-   
-    width: 100%;
-    margin: 0 auto;
-}
+
 
 .pesquisa_satisfacao {
     background-color: var(--grayscale-cor-2);
     display: flex;
     align-items: center;
-    width: 100vw;
+    width: 80vw;
     justify-content: center;
     flex-direction: column;
     gap: 50px;

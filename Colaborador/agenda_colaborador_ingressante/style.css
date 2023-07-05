@@ -30,8 +30,13 @@
 
 }
 
+body{
+    overflow: hidden;
+}
+
 main {
     display: flex;
+    height: 100vh;
 
 }
 
@@ -47,7 +52,7 @@ aside {
 }
 
 .posicionamento_elementos {
-    width: 20vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
