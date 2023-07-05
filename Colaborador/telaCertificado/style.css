@@ -168,6 +168,7 @@ aside{
 
 .certificado {
     display: flex;
+    width: 80vw;
     align-items: center;
     justify-content: center;
     background-color: var(--grayscale-cor-2);
@@ -186,10 +187,6 @@ aside{
 
 }
 
-.grid {
-    width: 100%;
-    margin: 0 auto;
-}
 
 .icones_certificado {
     padding: 20px;
@@ -307,6 +304,10 @@ aside{
 
 
 
+    }
+
+    .certificado{
+        width: 100vw;
     }
 
 }

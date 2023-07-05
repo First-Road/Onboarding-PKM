@@ -33,14 +33,13 @@ body{
     overflow: hidden;
 }
 
-main{
+main {
     display: flex;
-    
-    height: 100%;
+    height: 100vh;
 
 }
 
-aside{
+aside {
     display: flex;
     height: 100vh;
     width: 20vw;
@@ -48,262 +47,127 @@ aside{
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
-    min-width: 80px;
-    
+
 }
 
-.posicionamento_elementos{
+.posicionamento_elementos {
     width: 100%;
-    min-width: 80px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
 }
 
-.imagem_volks img{
+.imagem_volks img {
     width: 100px;
 }
 
-.menu_barras{
-       display: none; 
+.menu_barras {
+    display: none;
 }
 
-.imagemfoto{
+.imagemfoto {
     width: 100%;
 }
 
-.config{
+.config {
     width: 25px;
 }
 
-.menu_conteudo img{
+.menu_conteudo img {
     height: 35px;
 }
 
-.menu_conteudo li{
+.menu_conteudo li {
     list-style: none;
-    
+
 }
 
-.menu_conteudo{
+.menu_conteudo {
     display: flex;
     flex-direction: column;
-    gap: 50px; 
+    gap: 50px;
 }
 
 
-.menu_conteudo a{
+.menu_conteudo a {
     display: flex;
-    gap: 5px;
+    gap: 10px;
     align-items: center;
     text-decoration: none;
     color: white;
     font-family: var(--font-2);
     font-size: 16px;
     cursor: pointer;
-   
 }
 
-.menu_conteudo li :hover{
+.menu_conteudo li :hover {
     color: #090C40;
     transition: 0.6s;
     transform: scale(1.1);
 
 }
-.icon:hover{
+
+.icon:hover {
     fill: #090C40;
     transition: 0.6s;
     transform: scale(1.1);
 }
 
-.menu_conteudo div{
-  display: flex;
-  width: 35px;
-  justify-content: center;
-  align-items: center;
+
+
+.menu_conteudo div {
+    display: flex;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
 }
 
-
-.listameio{
+.listameio {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.div_logofirst{
+.div_logofirst {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
 
-.saida{
+.saida {
     width: 35px;
 }
 
-.logo_first img{
+.logo_first img {
     width: 125px;
 }
 
-.posicionamento_elementos2{
+.posicionamento_elementos2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-bottom: 60px;
     align-items: center;
     gap: 10px;
 }
 
-.moldura_config{
+.moldura_config {
     position: relative;
 }
 
-.moldura_config a{
+.moldura_config a {
     position: absolute;
     right: -10px;
     bottom: 0;
 }
 
-.conteudos {
-    width: calc(100vw - 20vw);
-    /* border: 2px solid red; */
-    margin-left: 60px;
-}
 
-.conteudos h1{
-    font-family: var(--font-2);
-    font-size: 60px;
-    color: #A6A6A6;
-    /* border: 2px solid pink; */
-    margin-top: 60px;
-    
-}
-.lista_itens .checkbox{
-
-    display: flex;
-    align-items: center;
-    margin-bottom: 38px;
-    gap: 30px;
-}
-
-.lista_itens input[type="checkbox"]{
-    width: 52px;
-    height: 48px;
-
-    border: 4px solid black;
-    border-radius: 8px;
-    appearance: none;
-
-
-    
-}
-
-.lista_itens input[type="checkbox"]:checked {
-
-    cursor: pointer;
-    background-image: url("./assets/images/check_FILL0_wght700_GRAD0_opsz40.png");
-   
-}
-
-
-.conteudos .lista_itens{
-    font-family: var(--font-2);
-    font-size: 40px;
-    color: #000;
-
-    margin-top: 60px;
-}
-
-.check_manual{
-    gap: 10px;
-    margin-left: 60px;
-}
-
-.cadastro_editar_conteudo .titulo_pagina{
-    
-    color: #737373;
-    font-family: var(--font-2);
-    font-size: var(--title-h1-margin-page);
-    margin-bottom: 60px;
-    margin-top: 60px;
-    width: calc(100vw - 20vw);
-    
-}
-
-.titulo_pagina{
-    /* background-color: #46D3F3; */
-   
-    
-}
-
-.cadastro_editar_conteudo .elementos_cadastro{
-   
-    /* background-color: #5ABF4B; */
-    display: flex;
-    font-family: var(--font-2);
-    font-size: 40px;
-    color: #000;
-    
-    flex-direction: column;
-    gap: 30px;
-}
-
-.cadastro_editar_conteudo .elementos_cadastro .caixa{
-    width: 198px;
-    height: 69px;
-    
-}
-
-.cadastro_editar_conteudo .elementos_cadastro .input{
-    
-    border-radius: 10px;
-    border: 1px solid var(--azul-esmeralda, #025E73);
-    margin-left: 50px;
-    width: 550px;
-    height: 50px;
-    
-    
-}
-.cadastro_editar_conteudo .elementos_cadastro .meio{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.cadastro_editar_conteudo .elementos_cadastro .botoes{
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
-.cadastro_editar_conteudo .elementos_cadastro .editar{
-    border: none;
-    border-radius: 40px;
-    background: #025E73;
-    font-family: var(--font-2);
-    color: #F2F2F2;
-    height: 43px;
-    text-align: center;
-    width: 250px;
-    
-}
-
-.cadastro_editar_conteudo .elementos_cadastro .cadastrar{
-    border: none;
-    border-radius: 40px;
-    background: #025E73;
-    font-family: var(--font-2);
-    color: #F2F2F2;
-    height: 43px;
-    margin-left: -30px;
-    text-align: center;
-    width: 250px;
-    
-}
 .imagem_botoes {
     background-image: url(assets/img/painel_volks.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 80vw;
     display: block;
 
 }
@@ -374,28 +238,7 @@ aside{
 }
 
 
-/********MEDIAS*********/
 
-#section_principal{
-
-    width: 80vw;
-}
-
-#section_principa #titulo{
-
-    font-family: var(--font-2);
-    color: #737373;
-    font-weight: 400;
-    
-}
-
-
-.section .primeiro_blobo{
-    width: 786px;
-    height: 179px;
-    
-    
-}
 
 @media screen and (max-width:768px) {
    .imagem_volks img{
@@ -487,7 +330,9 @@ aside{
 
 
 
-
+    .imagem_botoes{
+        width: 100vw;
+    }
 
 
 }

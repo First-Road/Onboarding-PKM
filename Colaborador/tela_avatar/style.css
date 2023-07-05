@@ -286,19 +286,24 @@ aside{
     line-height: 21px;
 }
 
-.botao_selecionar button {
+.botao_selecionar a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: var(--font-2);
+    font-size: 13px;
+    text-decoration: none;
+    padding-top: 6px;
+}
+
+.botao_selecionar {
     width: 150px;
     height: 30px;
     border-radius: 25px;
     border: 0 solid;
     background-color: #025E73;
-    color: #FFFFFF;
-    font-family: var(--font-2);
-    font-size: 15px;
-}
-
-.botao_selecionar {
-    margin-bottom: 20px;
+  
 }
 
 .swiper-wrapper {
@@ -329,7 +334,7 @@ aside{
 
 }
 
-button:hover{
+.botao_selecionar:hover{
     background-color: var(--principal-cor-4);
     transform: scale(1.1);
     transition: 0.6ms;

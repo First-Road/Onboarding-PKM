@@ -63,7 +63,7 @@
                             </li>
 
                             <li>
-                                <a href="../cadastroDeConteudos/index.html">
+                                <a href="../_gestaoDeConteudo/index.html">
                                     <div>
                                         <img class="icon" src="./assets/icons/livro_aside.svg" alt="icone agenda">
                                     </div>
@@ -74,7 +74,7 @@
                             </li>
 
                             <li>
-                                <a href="../_gestaoDeConteudo/index.html">
+                                <a href="../cadastro_colaborador_gestor/index.html">
                                     <div>
                                         <img class="icon" src="./assets/icons/icon_3users_seting.svg"
                                             alt="icone agenda">
@@ -86,7 +86,7 @@
                             </li>
 
                             <li>
-                                <a href="../cadastro_colaborador_gestor/index.html">
+                                <a href="../cadastroDeConteudos/index.html">
                                     <div>
                                         <img class="icon" src="./assets/icons/cadastro_conteudo_aside.svg"
                                             alt="icone agenda">
@@ -137,7 +137,8 @@
 
 
                 <div class="div_logofirst">
-                    <a href="/login/login.html"><img class="saida" src="./assets/icons/icon_voltar_aside.svg" alt="icone saida"></a>
+                    <a href="/login/login.html"><img class="saida" src="./assets/icons/icon_voltar_aside.svg"
+                            alt="icone saida"></a>
                     <div class="logo_first">
                         <img src="./assets/icons/Logo_FirstRoad_aside.svg" alt="logo">
                     </div>
@@ -148,73 +149,33 @@
 
 
         </aside>
-        <section class="calendario">
-            <div class="container">
-                <div class="cabecalho">
-                    <div class="titulo">
-                        <h1>Editar Agenda Colaborador</h1>
-                    </div>
-                    <div id="monthDisplay"></div>
+        <section class="container_conteudos">
+            <div class="titulo">
+                <h1>Gestão Conteúdos</h1>
+            </div>
 
-                    <div>
-                        <button id="backButton">Voltar</button>
-                        <button id="nextButton">Próximo</button>
-                    </div>
-
+            <div class="conteudo_check">
+                <div class="checkbox">
+                    <input id="box" type="checkbox">
+                    <label for="">Manual de boas vindas</label>
                 </div>
-
-                <div id="weekdays">
-                    <div class="domingo"><span>Domingo</span></div>
-                    <div class="segunda"><span>Segunda-feira</span></div>
-                    <div class="terca"><span>Terça-feira</span> </div>
-                    <div class="quarta"><span>Quarta-feira</span> </div>
-                    <div class="quinta"><span>Quinta-feira</span> </div>
-                    <div class="sexta"><span>Sexta-feira</span></div>
-                    <div class="sabado"> <span>Sábado</span></div>
+                <div class="checkbox">
+                    <input id="box" type="checkbox">
+                    <label for="">Configurar o banco de dados</label>
                 </div>
-
-                <div id="calendar"></div>
-
-
+                <div class="checkbox">
+                    <input id="box" type="checkbox">
+                    <label for="">Baixar VS Code</label>
+                </div>
+                <div class="checkbox">
+                    <input id="box" type="checkbox">
+                    <label for="">Configurar o Doker</label>
+                </div>
+                <div class="checkbox">
+                    <input id="box" type="checkbox">
+                    <label for="">Conhecer as APIs</label>
+                </div>
             </div>
-
-
-
-
-
-
-
-            <div id="newEventModal">
-                <h2>Adicionar Evento</h2>
-
-                <input id="eventTitleInput" placeholder="Digite o novo evento" />
-
-                <button id="saveButton"> Salvar</button>
-                <button id="cancelButton">Cancelar</button>
-            </div>
-
-            <div id="deleteEventModal">
-                <h2>Evento</h2>
-
-                <div id="eventText"></div><br>
-
-
-                <button id="deleteButton">Deletar</button>
-                <button id="closeButton">Fechar</button>
-            </div>
-
-            <div id="modalBackDrop"></div>
-
-
-
-
-
-
-
-
-
-
-
 
         </section>
     </main>
