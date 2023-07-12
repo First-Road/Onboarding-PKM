@@ -31,29 +31,29 @@ botaoAnimar.addEventListener("click", ()=> {
   carro.style.animation = "";
   setTimeout(() => carro.style.animation = "veic1 3s ease-in-out");
   carro.style.top = "0px";
-  carro.style.right = "90px";
+  carro.style.right = "60px";
 });
 
 botaoAnimar1.addEventListener("click", ()=> {
   carro.style.animation = "";
   setTimeout(() => carro.style.animation = "veic2 3s ease-in-out");
-  carro.style.top = "0px";
-  carro.style.right = "300px";
+  carro.style.top = "-65px";
+  carro.style.right = "200px";
 });
 
 botaoAnimar2.addEventListener("click", ()=> {
   carro.style.animation = "";
   setTimeout(() => carro.style.animation = "veic3 3s ease-in-out");
-  carro.style.top = "-120px";
-  carro.style.right = "400px";
+  carro.style.top = "-170px";
+  carro.style.right = "80px";
   // carro.style.transform = scaleX(-1)
 });
 
 botaoAnimar3.addEventListener("click", ()=> {
   carro.style.animation = "";
   setTimeout(() => carro.style.animation = "veic4 3s ease-in-out");
-  carro.style.top = "-130px";
-  carro.style.right = "155px";
+  carro.style.top = "-160px";
+  carro.style.right = "-90px";
   // carro.style.transform = scaleX(-1)
 
 });
@@ -61,38 +61,38 @@ botaoAnimar3.addEventListener("click", ()=> {
 botaoAnimar4.addEventListener("click", ()=> {
   carro.style.animation = "";
   setTimeout(() => carro.style.animation = "veic5 3s ease-in-out");
-  carro.style.top = "-130px";
-  carro.style.right = "-5px";
+  carro.style.top = "-300px";
+  carro.style.right = "-150px";
 });
 
 botaoAnimar5.addEventListener("click", ()=> {
   carro.style.animation = "";
   setTimeout(() => carro.style.animation = "veic6 3s ease-in-out");
-  carro.style.top = "-265px";
-  carro.style.right = "-150px";
-});
-
-botaoAnimar6.addEventListener("click", ()=> {
-  carro.style.animation = "";
-  setTimeout(() => carro.style.animation = "veic7 3s ease-in-out");
   carro.style.top = "-300px";
-  carro.style.right = "80px";
+  carro.style.right = "65px";
 });
 
-botaoAnimar7.addEventListener("click", ()=> {
-  carro.style.animation = "";
-  setTimeout(() => carro.style.animation = "veic8 3s ease-in-out");
-  carro.style.top = "-300px";
-  carro.style.right = "250px";
+// botaoAnimar6.addEventListener("click", ()=> {
+//   carro.style.animation = "";
+//   setTimeout(() => carro.style.animation = "veic7 3s ease-in-out");
+//   carro.style.top = "-300px";
+//   carro.style.right = "80px";
+// });
 
-});
+// botaoAnimar7.addEventListener("click", ()=> {
+//   carro.style.animation = "";
+//   setTimeout(() => carro.style.animation = "veic8 3s ease-in-out");
+//   carro.style.top = "-300px";
+//   carro.style.right = "250px";
 
-botaoAnimar8.addEventListener("click", ()=> {
-  carro.style.animation = "";
-  setTimeout(() => carro.style.animation = "veic9 3s ease-in-out");
-  carro.style.top = "-250px";
-  carro.style.right = "413px";
-});
+// });
+
+// botaoAnimar8.addEventListener("click", ()=> {
+//   carro.style.animation = "";
+//   setTimeout(() => carro.style.animation = "veic9 3s ease-in-out");
+//   carro.style.top = "-250px";
+//   carro.style.right = "413px";
+// });
 
 // botaoAnimar8.addEventListener("click", ()=> {
 //   carro.style.animation = "";

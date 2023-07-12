@@ -168,7 +168,7 @@ aside{
 }
 
 section {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -176,7 +176,8 @@ section {
 
 .tela img {
     display: flex;
-    width: 750px;
+    width: 700px;
+    height: 500px;
     /* background-image: url(/assets/images/Group\ 30.png); */
     /* background-size: 795px 529px; */
     background-repeat: no-repeat;
@@ -194,7 +195,7 @@ section {
 .car {
     position: absolute;
     top: 381px;
-    right: 430px;
+    right: 660px;
 }
 
 .carrinho img {
@@ -224,7 +225,7 @@ section {
     100% {
         position: absolute;
         top: 0px;
-        right: 90px;
+        right: 60px;
     }
 }
 
@@ -235,30 +236,36 @@ section {
         right: 90px;
     }
 
+    50%{
+        position: absolute;
+        top: -40px;
+        right: 180px;
+    }
+
     100% {
         position: absolute;
-        top: 0px;
-        right: 300px;
+        top: -65px;
+        right: 200px;
     }
 }
 
 @keyframes veic3 {
     0% {
         position: absolute;
-        top: 0px;
-        right: 350px;
+        top: -65px;
+        right: 200px;
     }
 
     26% {
         position: absolute;
-        top: -50px;
-        right: 400px;
+        top: -105px;
+        right: 200px;
     }
 
     100% {
         position: absolute;
-        top: -120px;
-        right: 400px;
+        top: -170px;
+        right: 80px;
         /* transform: scaleX(-1); */
     }
 }
@@ -266,8 +273,8 @@ section {
 @keyframes veic4 {
     0% {
         position: absolute;
-        top: -120px;
-        right: 400px;
+        top: -170px;
+        right: 80px;
         /* transform: scaleX(-1); */
     }
 
@@ -276,8 +283,8 @@ section {
     100% {
 
         position: absolute;
-        top: -130px;
-        right: 155px;
+        top: -160px;
+        right: -90px;
     }
 
 }
@@ -285,17 +292,22 @@ section {
 @keyframes veic5 {
     0% {
         position: absolute;
-        top: -130px;
-        right: 155px;
+        top: -160px;
+        right: -90px;
     }
 
+50%{
+    position: absolute;
+    top: -215px;
+    right: -150px;
 
+}
 
     100% {
 
         position: absolute;
-        top: -130px;
-        right: -5px;
+        top: -300px;
+        right: -150px;
     }
 }
 
@@ -303,14 +315,14 @@ section {
     0% {
 
         position: absolute;
-        top: -130px;
-        right: -5px;
+        top: -300px;
+        right: -150px;
     }
 
     50% {
         position: absolute;
-        top: -200px;
-        right: -150px;
+        top: -320px;
+        right: -85px;
 
 
     }
@@ -319,13 +331,13 @@ section {
 
     100% {
         position: absolute;
-        top: -265px;
-        right: -150px;
+        top: -300px;
+        right: 65px;
 
 
     }
 
-
+/* 
 
 }
 
@@ -401,7 +413,7 @@ section {
 
 }
 
-
+ */
 
 
 
@@ -544,7 +556,7 @@ section {
         top: -265px;
         right: 413px;
         /* transform: scaleX(-1); }*/
-
+    }
 .botoes {
     display: flex;
     margin: 3px 0;
@@ -556,10 +568,9 @@ section {
 .botao3,
 .botao4,
 .botao5,
-.botao6,
-.botao7,
-.botao8,
-.final {
+.final
+
+ {
     box-sizing: border-box;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -624,7 +635,7 @@ section {
     display: flex;
     flex-direction: column;
 
-    width: 900px;
+    width: 500px;
     height: 120px;
     background-color: #FEBE15;
     border-radius: 10px;
