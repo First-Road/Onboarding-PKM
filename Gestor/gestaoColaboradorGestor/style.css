@@ -29,9 +29,14 @@
     --title-h1-margin-page: 60px 0;
 
 }
+body{
+    overflow: hidden;
+}
 
 main{
     display: flex;
+    
+    height: 100%;
 
 }
 
@@ -39,15 +44,18 @@ aside{
     display: flex;
     height: 100vh;
     width: 20vw;
+    background-color: #42816C;
     background-color: var(--auxiliar-cor-7);
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
+    min-width: 80px;
     
 }
 
 .posicionamento_elementos{
-    width: 20vw;
+    width: 100%;
+    min-width: 80px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -82,13 +90,13 @@ aside{
 .menu_conteudo{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    /* gap: 50px; */
 }
 
 
 .menu_conteudo a{
     display: flex;
-   /*  gap: 5px; */
+    gap: 10px;
     align-items: center;
     text-decoration: none;
     color: white;
@@ -110,8 +118,6 @@ aside{
     transform: scale(1.1);
 }
 
-
-
 .menu_conteudo div{
   display: flex;
   width: 35px;
@@ -119,9 +125,10 @@ aside{
   align-items: center;
 }
 
-.listameio{
-   margin-top: 5px;
-   margin-bottom: 5px;
+
+
+.listameio .icon1{
+    font-size: 10px;
 }
 
 .div_logofirst{
@@ -143,7 +150,6 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-bottom: 60px;
     align-items: center;
     gap: 10px;
 }

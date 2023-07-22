@@ -44,6 +44,7 @@ aside{
     display: flex;
     height: 100vh;
     width: 20vw;
+    background-color: #42816C;
     background-color: var(--auxiliar-cor-7);
     left: 0px;
     position: relative;
@@ -89,7 +90,7 @@ aside{
 .menu_conteudo{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    /* gap: 50px; */
 }
 
 
@@ -117,8 +118,6 @@ aside{
     transform: scale(1.1);
 }
 
-
-
 .menu_conteudo div{
   display: flex;
   width: 35px;
@@ -126,9 +125,10 @@ aside{
   align-items: center;
 }
 
-.listameio{
-   margin-top: 5px;
-   margin-bottom: 5px;
+
+
+.listameio .icon1{
+    font-size: 10px;
 }
 
 .div_logofirst{
@@ -145,15 +145,11 @@ aside{
 .logo_first img{
     width: 125px;
 }
-.icon{
-    width: 30px;
-}
 
 .posicionamento_elementos2{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-bottom: 60px;
     align-items: center;
     gap: 10px;
 }

@@ -30,13 +30,14 @@
 
 
 }
-
+body{
+    overflow: hidden;
+}
 
 main{
-
-    display: flex;    
+    display: flex;
+    
     height: 100%;
-    background-color: var(--grayscale-cor-3);
 
 }
 
@@ -44,15 +45,18 @@ aside{
     display: flex;
     height: 100vh;
     width: 20vw;
+    background-color: #42816C;
     background-color: var(--auxiliar-cor-7);
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
+    min-width: 80px;
     
 }
 
 .posicionamento_elementos{
-    width: 20vw;
+    width: 100%;
+    min-width: 80px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -87,13 +91,13 @@ aside{
 .menu_conteudo{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    /* gap: 50px; */
 }
 
 
 .menu_conteudo a{
     display: flex;
-   /*  gap: 5px; */
+    gap: 10px;
     align-items: center;
     text-decoration: none;
     color: white;
@@ -122,8 +126,10 @@ aside{
   align-items: center;
 }
 
-.menu_conteudo ul li {
-    margin-bottom: 10px;
+
+
+.listameio .icon1{
+    font-size: 10px;
 }
 
 .div_logofirst{
