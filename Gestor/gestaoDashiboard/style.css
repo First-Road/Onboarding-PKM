@@ -165,10 +165,11 @@ aside{
     bottom: 0;
 }
 
-.conteudos {
-    width: calc(100vw - 20vw);
+.section1 {
+    width: 80vw;
+    height: 100vh;
     /* border: 2px solid red; */
-    margin-left: 60px;
+    
 }
 
 .conteudos h1{

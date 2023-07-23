@@ -163,20 +163,7 @@ aside{
     right: -10px;
     bottom: 0;
 }
-.conteudos {
-    width: calc(100vw - 20vw);
-    /* border: 2px solid red; */
-    margin-left: 60px;
-}
 
-.conteudos h1{
-    font-family: var(--font-2);
-    font-size: 60px;
-    color: #A6A6A6;
-    /* border: 2px solid pink; */
-    margin-top: 60px;
-    
-}
 .lista_itens .checkbox{
 
     display: flex;
@@ -217,8 +204,9 @@ aside{
     gap: 10px;
 }
 .cadastro_editar_conteudo{
+  
     margin-left: 60px;
-}
+} 
 
 .cadastro_editar_conteudo .titulo_pagina{
     
@@ -227,7 +215,7 @@ aside{
     font-size: var(--title-h1-margin-page);
     margin-bottom: 60px;
     margin-top: 60px;
-    width: calc(100vw - 20vw);
+    /* width: calc(100vw - 20vw); */
     
 }
 
