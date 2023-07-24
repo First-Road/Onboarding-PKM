@@ -69,7 +69,7 @@ aside{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 450px;
+    height: 550px;
     justify-content: space-between;
 }
 
@@ -78,7 +78,7 @@ aside{
 }
 
 .menu_barras{
-       display: none; 
+   display: none; 
 }
 
 .imagemfoto{
@@ -148,6 +148,18 @@ aside{
    margin-bottom: 5px;
 }
 
+.icon_certi{
+    width: 30px;
+}
+
+.certi{
+    padding-top: 6px;
+}
+
+.suporte{
+    padding-top: 6px;
+}
+
 .div_logofirst{
     display: flex;
     flex-direction: column;
@@ -211,6 +223,31 @@ aside{
     background-color: var(--principal-cor-4);
     transition: .6s;
 
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.input label{
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.input input{
+    height: 30px;
+    width: 30vw;
+    border-radius: 8px;
+    border: 1px solid var(--principal-cor-3);
+}
+
+input::placeholder{
+    font-family: var(--font-2);
+    font-size: 8px;
+    color: var(--principal-cor-3);
 }
 
 
