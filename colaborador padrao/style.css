@@ -198,7 +198,7 @@ aside{
 .botao1{
     width: 130px;
     height: 25px;
-    border-radius: 15px;
+    border-radius: 8px;
     font-family: var(--font-2);
     background-color: var(--principal-cor-3);
     color: #fbfbfb;
