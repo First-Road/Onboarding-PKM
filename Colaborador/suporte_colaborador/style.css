@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+*:focus {
+    outline: none;
+}
+
 :root{
     --principal-cor-1:#090C40;
     --principal-cor-2:#048ABF;
@@ -216,7 +220,7 @@ aside{
     display: flex;
     justify-content: center;
     align-items: end;
-    font-family: var(--font-2);
+    font-family: var(--font-1);
     font-size: 30px;
 }
 
@@ -228,7 +232,8 @@ aside{
     align-items: flex-end;
     font-family: var(--font-2);
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 600;
+    color: #F3F3F3;
 }
 
 .conteudo{
@@ -256,8 +261,16 @@ label input{
     width: 30vw;
     height: 30px;
     border-radius: 8px;
-   
-    
+    border: 1px solid var(--auxiliar-cor-3);
+    padding: 10px 15px;
+}
+
+input::placeholder{
+    font-family: var(--font-2);
+    font-size: 11px;
+    color: var(--principal-cor-2);
+    display: flex;
+    align-items: center;
 }
 
 label img{
@@ -277,22 +290,68 @@ label img{
 .navegacao3 ul{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 25px; 
+    list-style: none;
 }
 
 .navegacao3 a{
     display: flex;
     align-items: center;
     gap: 15px;
+    text-decoration: none;
+    color: var(--principal-cor-2);
+    font-family: var(--font-2);
+    font-weight: 600;
 }
 
+    .navegacao4 a img{
+        width: 30px;
+    }
+
+    .navegacao4 a{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: var(--principal-cor-2);
+        font-family: var(--font-2);
+        font-size: 14px;
+    }
+
 h3{
+    font-family: var(--font-2);
+    font-size: 14px;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
 .navegacao3 img{
     width: 25px;
 
+}
+
+.navegacao2{
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+
+}
+
+.card1, .card2{
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px 2px 4px #0000004f;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegacao4{
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 @media screen and (max-width:768px) {
