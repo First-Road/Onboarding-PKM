@@ -228,7 +228,7 @@ aside{
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 140px;
+    height: 240px;
     align-items: flex-end;
     font-family: var(--font-2);
     font-size: 25px;
@@ -276,7 +276,7 @@ input::placeholder{
 label img{
     width: 20px;
     position: absolute;
-    right: 10px;
+    right: 45px;
     z-index: 1;
 }
 
@@ -353,6 +353,38 @@ h3{
     justify-content: space-around;
     gap: 20px;
 }
+
+
+@media screen and (max-width: 1700px) {
+    .navegacao3 a{
+        font-size: 12px;
+    }
+
+
+    .navegacao2{
+        width: 500px;
+    }
+
+    .card1, .card2{
+    width: 200px;
+    height: 200px;
+    }
+    .navegacao4 a{
+        width: 100%;
+        font-size: 14px;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navegacao4 a img{
+        width: 25px;
+    }
+   
+}
+
+
+
 
 @media screen and (max-width:768px) {
     .imagem_volks img{
