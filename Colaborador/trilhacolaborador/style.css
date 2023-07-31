@@ -36,8 +36,8 @@ body{
 
 main{
     display: flex;
+    
     height: 100%;
-    background-color: #F3F3F3;
 
 }
 
@@ -49,19 +49,26 @@ aside{
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
-    z-index: 1;
-
+    
     
 }
 
 .posicionamento_elementos{
     width: 100%;
-    min-width: 80px;
+    height: 90vh;
+    margin:  auto 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
-   
+}
+
+.posicao_grupo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    justify-content: space-between;
 }
 
 .imagem_volks img{
@@ -69,7 +76,7 @@ aside{
 }
 
 .menu_barras{
-       display: none; 
+   display: none; 
 }
 
 .imagemfoto{
@@ -86,6 +93,7 @@ aside{
 
 .menu_conteudo li{
     list-style: none;
+    position: relative;
     
 }
 
@@ -107,25 +115,23 @@ aside{
     cursor: pointer;
 }
 
-.menu_conteudo li :hover{
+.menu_conteudo span:hover{
     color: #090C40;
     transition: 0.6s;
-    transform: scale(1.1);
+    transform: scale(1.2);
+   
 
 }
-.icon:hover{
-    fill: #090C40;
-    transition: 0.6s;
-    transform: scale(1.1);
+
+
+.icon{
+    width: 40px;
 }
 
-.suporte img{
-    margin-top: 5px;
+.icon_trilha{
+    width: 30px;
 }
 
-.Acertificado{
-    margin-top: 5px;
-}
 
 
 .menu_conteudo div{
@@ -140,6 +146,18 @@ aside{
    margin-bottom: 5px;
 }
 
+.icon_certi{
+    width: 30px;
+}
+
+.certi{
+    padding-top: 6px;
+}
+
+.suporte{
+    padding-top: 6px;
+}
+
 .div_logofirst{
     display: flex;
     flex-direction: column;
@@ -148,7 +166,7 @@ aside{
 }
 
 .saida{
-    width: 35px;
+    width: 25px;
 }
 
 .logo_first img{
@@ -175,6 +193,7 @@ aside{
 }
 
 section {
+    width: 80vw;
     margin-top: 10px;
     display: flex;
     align-items: center;
@@ -709,116 +728,74 @@ p {
 }
 
 @media screen and (max-width:768px) {
-    .imagem_volks img {
+    .imagem_volks img{
         width: 70px;
     }
 
-    .posicionamento_elementos2 {
-        margin-bottom: 100px;
-
+    .posicao_grupo1{
+        height: 450px;
     }
 
-
-    .moldura_config {
+   
+    .moldura_config{
         width: 70px;
-
-
+       
+        
     }
 
-    .config {
+    .config{
         width: 20px;
     }
 
 
-    .menu_conteudo img {
-        width: 30px;
-        height: 30px;
-    }
-
-    .menu_conteudo span {
+    .menu_conteudo span{
         font-size: 13px;
 
     }
 
-    .menu_barras {
+    .menu_barras{
         display: flex;
-        background-color: var(--principal-cor-2);
+        background-color:  var(--principal-cor-2);
         padding: 7px;
-        border-radius: 0 15px 15px 0;
+        border-radius: 0 15px 15px 0 ;
         position: absolute;
         top: 20px;
         right: -40px;
 
     }
 
-    .menu_barras img {
+    .menu_barras img{
         width: 30px;
         height: 30px;
     }
 
-    aside {
+    aside{
         position: absolute;
+        width: 150px;
+        z-index: 2;
     }
 
-    body {
+    .posicionamento_elementos{
+        width: 100%;
+    }
+
+    body{
         height: 100vh;
     }
 
-
-}
-
-@media screen and (max-width: 500px) {
-    .imagem_volks img {
-        width: 50px;
+    #sombra{
+        height: 100vh;
+        width: 100vw;
+        background-color: #0000004f;
+        position: fixed;
+        top: 0;
+        right: 110vw;
+        overflow: hidden;
+        transition: .5s;
+        backdrop-filter: blur(10px);
+        z-index: 2;
+       
     }
-
-    .posicionamento_elementos2 {
-        margin-bottom: 150px;
-
-    }
-
-
-    .moldura_config {
-        width: 45px;
-
-
-    }
-
-    .config {
-        width: 13px;
-    }
-
-
-    .menu_conteudo img {
-        width: 25px;
-        height: 25px;
-    }
-
-    .menu_conteudo span {
-        font-size: 10px;
-
-    }
-
-    .menu_conteudo a {
-        gap: 3px;
-
-
-    }
-
-    .div_logofirst img {
-        width: 80px;
-    }
-
-    .div_logofirst a .saida {
-        width: 20px;
-    }
-
-
-
-
-
-
-
 
 
 

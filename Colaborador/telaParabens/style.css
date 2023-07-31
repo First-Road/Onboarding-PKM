@@ -48,17 +48,26 @@ aside{
     left: 0px;
     position: relative;
     transition: all 0.5s ease;
-    min-width: 80px;
+    
     
 }
 
 .posicionamento_elementos{
     width: 100%;
-    min-width: 80px;
+    height: 90vh;
+    margin:  auto 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
+}
+
+.posicao_grupo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    justify-content: space-between;
 }
 
 .imagem_volks img{
@@ -66,7 +75,7 @@ aside{
 }
 
 .menu_barras{
-       display: none; 
+   display: none; 
 }
 
 .imagemfoto{
@@ -83,6 +92,7 @@ aside{
 
 .menu_conteudo li{
     list-style: none;
+    position: relative;
     
 }
 
@@ -104,23 +114,23 @@ aside{
     cursor: pointer;
 }
 
-.menu_conteudo li :hover{
+.menu_conteudo span:hover{
     color: #090C40;
     transition: 0.6s;
-    transform: scale(1.1);
+    transform: scale(1.2);
+   
 
 }
-.icon:hover{
-    fill: #090C40;
-    transition: 0.6s;
-    transform: scale(1.1);
+
+
+.icon{
+    width: 40px;
 }
-.suporte img{
-    margin-top: 5px;
+
+.icon_trilha{
+    width: 30px;
 }
-.Acertificado{
-    margin-top: 5px;
-}
+
 
 
 .menu_conteudo div{
@@ -135,6 +145,18 @@ aside{
    margin-bottom: 5px;
 }
 
+.icon_certi{
+    width: 30px;
+}
+
+.certi{
+    padding-top: 6px;
+}
+
+.suporte{
+    padding-top: 6px;
+}
+
 .div_logofirst{
     display: flex;
     flex-direction: column;
@@ -143,7 +165,7 @@ aside{
 }
 
 .saida{
-    width: 35px;
+    width: 25px;
 }
 
 .logo_first img{
@@ -388,9 +410,8 @@ visibility: hidden;
         width: 70px;
     }
 
-    .posicionamento_elementos2{
-        margin-bottom: 100px;
-       
+    .posicao_grupo1{
+        height: 450px;
     }
 
    
@@ -404,11 +425,6 @@ visibility: hidden;
         width: 20px;
     }
 
-
-    .menu_conteudo img{
-        width: 30px;
-        height: 30px;
-    }
 
     .menu_conteudo span{
         font-size: 13px;
@@ -434,6 +450,7 @@ visibility: hidden;
     aside{
         position: absolute;
         width: 150px;
+        z-index: 2;
     }
 
     .posicionamento_elementos{
@@ -442,10 +459,6 @@ visibility: hidden;
 
     body{
         height: 100vh;
-    }
-
-    section{
-        width: 100vw;
     }
 
     #sombra{
@@ -458,6 +471,12 @@ visibility: hidden;
         overflow: hidden;
         transition: .5s;
         backdrop-filter: blur(10px);
+        z-index: 2;
+       
+    }
+
+    section{
+        width: 100vw;
     }
 
 }
