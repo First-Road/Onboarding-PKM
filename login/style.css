@@ -42,20 +42,21 @@ main{
 .login_login{
     height: 100%;
     width: 60%;
-    background-image: url(../login/assets/img/camron\ gelisia\ \ fashion\ brand\ art\ design\ logo\ 1.png);
+    background-image: url(../login/assets/img/pexels-gordon-plant-14744195.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .login_login h1{
     font-family: var(--font-1);
     font-size: 60px;
     color: var(--principal-cor-1);
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
 
 }
@@ -63,7 +64,7 @@ main{
 .login_tree{
     font-size: 25px;
     font-family: var(--font-2);
-    color: var(--principal-cor-1);
+    color: var(--grayscale-cor-3);
     display: flex;
     align-items: center;
     flex-direction: column;
