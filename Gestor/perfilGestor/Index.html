@@ -5,15 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro Colaborador</title>
+    <title>Perfil Gestor</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <link rel="shortcut icon" href="assets/icons/favicon.svg" type="image/x-icon">
 </head>
 
-<body id="body">
+<body>
     <main>
-        <div id="sombra"></div>
         <aside id="aside">
             <div class="posicionamento_elementos" id="posicao">
 
@@ -153,103 +152,150 @@
 
         </aside>
 
+        <section class="gestorPerfil">
 
 
-        <section class="secao_perfil">
 
 
-            <div class="elementos_texto_imagem">
+
+
+            <div class="gestorPerfil_Secao">
+
+                <h1>Perfil Gestor</h1>
+
+
                 <div class="user_config">
-                    <img class="foto_padrao" src="../cadastro_colaborador_gestor/assets/icons/Group 41.png" alt="">
-                    <img class="config config1" src="../cadastro_colaborador_gestor/assets/icons/icon_lapis_main.svg" alt="">
+                    <img class="gestor_FotoPadrao" src="./assets/icons/fotopadrao_user_aside.svg" alt="">
+                    <!-- <img class="gestor_engrenagem" src="./assets/icons/engrenagem_aside.svg" alt=""> -->
+                    <svg class="gestor_engrenagem" xmlns="http://www.w3.org/2000/svg" height="1em"
+                        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M410.3 231l11.3-11.3-33.9-33.9-62.1-62.1L291.7 89.8l-11.3 11.3-22.6 22.6L58.6 322.9c-10.4 10.4-18 23.3-22.2 37.4L1 480.7c-2.5 8.4-.2 17.5 6.1 23.7s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L387.7 253.7 410.3 231zM160 399.4l-9.1 22.7c-4 3.1-8.5 5.4-13.3 6.9L59.4 452l23-78.1c1.4-4.9 3.8-9.4 6.9-13.3l22.7-9.1v32c0 8.8 7.2 16 16 16h32zM362.7 18.7L348.3 33.2 325.7 55.8 314.3 67.1l33.9 33.9 62.1 62.1 33.9 33.9 11.3-11.3 22.6-22.6 14.5-14.5c25-25 25-65.5 0-90.5L453.3 18.7c-25-25-65.5-25-90.5 0zm-47.4 168l-144 144c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l144-144c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z" />
+                    </svg>
+                </div>
+                <div class="texto_perfil">
+                    <p>O tamanho da imagem deve ter pelo menos 500px de tamanho e menos de 300kb. Arquivos
+                        permitidos
+                        são .png e .jpg</p>
                 </div>
 
+                <div class="gestorPerfil_texto_imagem">
 
-                <form class="centralizar">
+
+                    <div class="centralizar">
 
 
-                    <div class="texto_perfil">
-                        <h1>CADASTRO DE COLABORADOR INGRESSANTE</h1>
-                        <p>O tamanho da imagem deve ter pelo menos 500px de tamanho e menos de 300kb. Arquivos
-                            permitidos
-                            são .png e .jpg</p>
-                    </div>
+                        <div class="posicao_linha">
+                            <div class="primeira_linha">
+                                <div class="input input1">
+                                    <label for="Nome completo">Nome Completo</label>
+                                    <input class="input_caixa" type="text" placeholder="Nome do Usuário">
+                                </div>
 
-                    <div class="posicao_linha">
-                        <div class="primeira_linha">
-                            <div class="input input1">
-                                <label for="Nome completo">Nome Completo</label>
-                                <input class="input_caixa" type="text">
+                                <div class="input input2">
+                                    <label for="Cpf">Cpf</label>
+                                    <input class="input_caixa" type="text" placeholder="000.000.000-00">
+                                </div>
                             </div>
 
-                            <div class="input input2">
-                                <label for="Cpf">Cpf</label>
-                                <input class="input_caixa" type="number">
-                            </div>
-                        </div>
+                            <div class="segunda_linha">
+                                <div class="input input3">
+                                    <label for="NIF">NIF</label>
+                                    <input class="input_caixa" type="number" placeholder="000000000">
+                                </div>
 
-                        <div class="segunda_linha">
-                            <div class="input input3">
-                                <label for="NIF">NIF</label>
-                                <input class="input_caixa" type="number">
-                            </div>
+                                <div class="input input4">
+                                    <label for="Data de Nascimento">Data de Nascimento</label>
+                                    <input class="input_caixa" type="date">
+                                </div>
 
-                            <div class="input input4">
-                                <label class="data" for="Data de Nascimento">Data de Nascimento</label>
-                                <input class="input_caixa" type="date">
-                            </div>
+                                <div class="input input5">
+                                    <label for="Unidade">Unidade</label>
+                                    <select class="input_caixa" name="selecionar" id="" placeholder="Selecione">
+                                        <option value="">Selecione</option>
+                                        <option value="" aria-placeholder="Gol">Gol</option>
+                                        <option value="" aria-placeholder="Fusca">Fusca</option>
+                                        <option value="" aria-placeholder="Paraty">ParaTy</option>
+                                        <option value="" aria-placeholder="Polo">Polo</option>
+                                        <option value="" aria-placeholder="Voyage">Voyage</option>
+                                    </select>
 
-                            <div class="input input5">
-                                <label for="Unidade">Unidade</label>
-                                <select class="input_caixa" name="selecionar" id="">selecionar</select>
-                            </div>
-                        </div>
-
-                        <div class="terceira_linha">
-                            <div class="input input6">
-                                <label for="Perfil">Perfil</label>
-                                <input class="input_caixa" type="text">
+                                </div>
                             </div>
 
-                            <div class="input input7">
-                                <label for="Cargo">Cargo</label>
-                                <input class="input_caixa" type="text">
-                            </div>
-                        </div>
-
-                        <div class="quarta_linha">
-                            <div class="input input8">
-                                <label for="email">E-mail</label>
-                                <input class="input_caixa" type="email">
-                            </div>
-
-                            <div class="button_salvar">
-                                <a class="btn_cadastrar" href="../gestaoCadastro/gestaoCadastro.html">Salvar</a>
-                                    
-                            </div>
-                        </div>
-
-                        <div class="alterar_gestor">
-                            <div class="terceira_linha terceira">
-                                <h2>Adicionar ou Alterar Gestor</h2>
+                            <div class="terceira_linha">
                                 <div class="input input6">
-                                    <label for="Gestor">Gestor</label>
-                                    <input class="input_caixa" type="text">
+                                    <label for="Perfil">Perfil</label>
+                                    <input class="input_caixa" type="text" placeholder="gestoristrativo">
                                 </div>
 
                                 <div class="input input7">
-                                    <label for="Gestor">Gestor</label>
-                                    <input class="input_caixa" type="text">
+                                    <label for="Cargo">Cargo</label>
+                                    <input class="input_caixa" type="text" placeholder="Gerente">
                                 </div>
                             </div>
-                            <div class="button_salvar">
-                                <a class="btn_cadastrar" href="../gestaoCadastro/gestaoCadastro.html">Salvar</a>
+
+                            <div class="quarta_linha">
+                                <div class="input input8">
+                                    <label for="email">E-mail</label>
+                                    <input class="input_caixa" type="email" placeholder="email@email.vw.com.br">
+                                </div>
+
+                                <div class="button_salvar">
+                                    <button>
+                                        Salvar
+                                    </button>
+                                </div>
                             </div>
                         </div>
 
                     </div>
 
+                    <hr>
 
+                    <div class="posicionamento_alterar">
+                        <h2>Alterar senha</h2>
+
+                        <div class="senha">
+                            <div class="senha_antiga">
+                                <label for="">Senha antiga</label>
+                                <input class="input_senha" type="password" name="senha antiga" id=""
+                                    placeholder="********">
+                            </div>
+
+                            <div class="senha_nova">
+                                <label for="">Senha nova</label>
+                                <input class="input_senha2" type="password" name="senha nova" id=""
+                                    placeholder="********">
+
+                                <div class="texto_senha">
+                                    <p>Mínimo de 8 carácteres com letras minúsculas, maiúsculas, números e símbolos</p>
+                                </div>
+
+                            </div>
+
+                            <div class="senha_nova">
+                                <label for="">Confirmar senha nova</label>
+                                <input class="input_senha2" type="password" name="senha nova" id=""
+                                    placeholder="********">
+
+
+
+                            </div>
+                        </div>
+
+                        <div class="button_alterar">
+                            <button>Alterar</button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </section>
 
 
 

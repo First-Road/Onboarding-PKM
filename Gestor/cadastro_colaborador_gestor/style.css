@@ -319,7 +319,7 @@ aside{
     
 }
 
-.button_salvar button{
+.button_salvar a{
     width: 100%;
     display: flex;
     align-items: center;
