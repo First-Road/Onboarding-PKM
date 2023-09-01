@@ -229,9 +229,31 @@ aside{
     font-family: var(--font-2);
     font-size: var(--title-h1-margin-page);
     margin-bottom: 60px;
-    margin-top: 60px;
+    margin-top: 50px;
     width: calc(100vw - 20vw);
     
+}
+
+.container_conteudos .titulo{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.container_conteudos .titulo .dados_colaborador{
+    font-family: var(--font-2);
+    font-size: 18px;
+    color: black;
+   /*  margin-bottom: 100px;
+    margin-top: 80px; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+
 }
 
 .titulo_pagina{
@@ -379,7 +401,7 @@ aside{
 .titulo h1{
     text-align: center;
     font-family: var(--font-2);
-    font-size: 50px;
+    font-size: 60px;
     color: #A6A6A6;
     margin-bottom: 100px;
     margin-top: 80px;
@@ -394,7 +416,6 @@ aside{
     font-size: 30px;
     font-weight: 400;
     margin-left: 85px;
-
 
 }
 
